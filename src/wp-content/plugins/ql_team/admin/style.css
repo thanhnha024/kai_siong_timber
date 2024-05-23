@@ -1,0 +1,49 @@
+.ql_team-config-form
+{
+	margin: 0;
+}
+.ql_team-config-form .form-table
+{
+	margin: 0;
+}
+.ql_team-config-form .ql_team-form-table-container
+{
+	width: 370px;
+	padding: 20px 30px;
+	background: #FFF;
+	margin-top: 30px;
+}
+.ql_team-config-form .form-table tr:first-child th, 
+.ql_team-config-form .form-table tr:first-child td 
+{
+    padding-top: 0;
+}
+.ql_team-config-form tr
+{
+	border-bottom: 1px solid #EFEFEF;
+}
+.ql_team-config-form tr.no-border
+{
+	border-bottom: none;
+}
+.ql_team-config-form tr.no-border th
+{
+	padding-bottom: 0;
+}
+.ql_team-config-form th,
+.ql_team-config-form td
+{
+	vertical-align: middle;
+	padding-left: 0;
+	padding-right: 0;
+}
+.ql_team-config-form .regular-text.input-full-width
+{
+	float: right;
+	width: 155px;
+}
+.ql_team-settings-section div.settings-error
+{
+	margin-top: 15px;
+	max-width: 1160px;
+}

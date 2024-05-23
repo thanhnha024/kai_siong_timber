@@ -1,0 +1,294 @@
+@media screen and (max-width:1189px)
+{
+	.page-margin-top
+	{
+		margin-top: 35px;
+	}
+	.page-margin-top-section
+	{
+		margin-top: 70px;
+	}
+	.margin-top-60
+	{
+		margin-top: 40px;
+	}
+	.cost-calculator-summary-price
+	{
+		font-size: 36px;
+	}
+	div.cost-calculator-summary-box::before
+	{
+		font-size: 36px;
+		height: 36px;
+	}
+	div.cost-calculator-summary-box.cc-template-wallet::before
+	{
+		line-height: 40px;
+	}
+	.cost-calculator-form .cost-calculator-box input,
+	.cost-calculator-form .cost-calculator-box input[type='text'],
+	.cost-calculator-form .cost-calculator-box input[type='email'],
+	.cost-calculator-form .cost-calculator-box input[type='number']
+	{
+		padding: 12px 10px;
+	}
+	.cost-calculator-summary-price.cost-calculator-small-currency .cost-calculator-currency,
+	.cost-calculator-summary-price.cost-calculator-small-currency .currency
+	{
+		font-size: 26px;
+	}
+	.cost-calculator-price-description
+	{
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.cost-calculator-summary-box.cost-calculator-after-border::after
+	{
+		width: 120px;
+		margin-top: 29px;
+	}
+	body .cost-calculator-sum,
+	body .vc_row .wpb_column .cost-calculator-sum,
+	body .vc_row .wpb_column.cost-calculator-sum
+	{
+		padding-top: 33px;
+		padding-bottom: 115px;
+	}
+	div.cost-calculator-submit-container
+	{
+		width: calc(100% - 40px);
+		bottom: 30px;
+	}
+	.cost-calculator-datepicker.ui-datepicker
+	{
+		width: 288px;
+	}
+	.cost-calculator-column-with-recaptcha
+	{
+		display: -ms-flexbox;
+		display: -webkit-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-ms-flex-direction: column-reverse;
+		-webkit-flex-direction: column-reverse;
+		-moz-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+	}
+	.cost-calculator-container .cost-calculator-column-with-recaptcha .g-recaptcha-wrapper
+	{
+		float: none;
+		margin: 0;
+		-ms-flex-item-align: flex-end;
+		-webkit-align-self: flex-end;
+		-moz-align-self: flex-end;
+		align-self: flex-end;
+	}
+	.cost-calculator-form.cost-calculator-container .cost-calculator-contact-box-submit-container .cost-calculator-column-with-recaptcha .vc_row.wpb_row.cost-calculator-button-with-recaptcha
+	{
+		float: none;
+		margin-top: 45px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.cost-calculator-fieldset-with-recaptcha .cost-calculator-terms-container
+	{
+		max-width: 418px;
+	}
+	.cost-calculator-fieldset-with-recaptcha .cost-calculator-recaptcha-container
+	{
+		display: -ms-flexbox;
+		display: -webkit-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-ms-flex-direction: column-reverse;
+		-webkit-flex-direction: column-reverse;
+		-moz-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+	}
+	.cost-calculator-fieldset-with-recaptcha .cost-calculator-recaptcha-container .g-recaptcha-wrapper
+	{
+		margin-right: 0;
+	}
+	.cost-calculator-form.cost-calculator-container .cost-calculator-contact-box-submit-container.cost-calculator-fieldset-with-recaptcha .cost-calculator-recaptcha-container .vc_row.wpb_row.cost-calculator-button-with-recaptcha
+	{
+		float: none;
+		margin-top: 45px;
+		margin-left: auto;
+		margin-right: 0;
+	}
+	.cost-calculator-contact-box-submit-container .cost-calculator-column-with-recaptcha .cost-calculator-terms-container
+	{
+		-ms-flex-order: 1;
+		-webkit-order: 1;
+		-moz-order: 1;
+		order: 1;
+		-ms-flex-item-align: flex-end;
+		-webkit-align-self: flex-end;
+		-moz-align-self: flex-end;
+		align-self: flex-end;
+	}
+}
+@media screen and (max-width:767px)
+{
+	.cost-calculator-form .cost-calculator-flex-box
+	{
+		display: block;
+	}
+	.cost-calculator-form .cost-calculator-flex-box fieldset.vc_col-sm-6
+	{
+		width: 100%;
+	}
+	body .cost-calculator-form .cost-calculator-flex-box.cost-calculator-gray fieldset.wpb_column
+	{
+		margin-top: 1px;
+	}
+	.cost-calculator-form .cost-calculator-flex-box .cost-calculator-textarea-block .blockOverlay
+	{
+		height: 100% !important;
+	}
+	.cost-calculator-container .vc_column_container,
+	.cost-calculator-column.vc_column_container,
+	.vc_row .vc_column_container.cost-calculator-centered-column
+	{
+		width: 100%;
+	}
+	.cost-calculator-container .vc_row.wpb_row .wpb_column
+	{
+		margin-top: 30px;
+	}
+	.cost-calculator-container .vc_row.wpb_row .wpb_column:first-child
+	{
+		margin-top: 0;
+	}
+	.cost-calculator-container .vc_row.cost-calculator-border-columns div.wpb_column,
+	.cost-calculator-container .vc_row.cost-calculator-border-columns div.wpb_column:first-child
+	{
+		margin-top: 10px;
+	}
+	.cost-calculator-datepicker.ui-datepicker
+	{
+		width: 390px;
+	}
+	.cost-calculator-form p
+	{
+		padding: 0;
+	}
+	.cost-calculator-form .cost-calculator-contact-box-submit-container .vc_col-sm-6>.vc_row
+	{
+		text-align: center;
+	}
+	.cost-calculator-fieldset-with-recaptcha
+	{
+		display: -ms-flexbox;
+		display: -webkit-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-ms-flex-direction: column-reverse;
+		-webkit-flex-direction: column-reverse;
+		-moz-flex-direction: column-reverse;
+		flex-direction: column-reverse;
+	}
+	.cost-calculator-fieldset-with-recaptcha .cost-calculator-terms-container
+	{
+		max-width: 100%;
+	}
+	.cost-calculator-container .g-recaptcha-wrapper
+	{
+		float: none;
+		margin: 0;
+	}
+	.cost-calculator-container .cost-calculator-column-with-recaptcha .g-recaptcha-wrapper
+	{
+		-ms-flex-item-align: start;
+		-webkit-align-self: start;
+		-moz-align-self: start;
+		align-self: start;
+	}
+	body .cost-calculator-form.cost-calculator-container .cost-calculator-contact-box-submit-container .vc_row.wpb_row.cost-calculator-button-with-recaptcha
+	{
+		float: none;
+		margin-top: 45px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	div.cost-calculator-contact-box-submit-container .vc_col-sm-6 .cost-calculator-terms-container,
+	div.cost-calculator-contact-box-submit-container .vc_col-sm-6 .cost-calculator-terms-container + .vc_row
+	{
+		float: none;
+	}
+	.cost-calculator-contact-box-submit-container .cost-calculator-column-with-recaptcha .cost-calculator-terms-container
+	{
+		-ms-flex-item-align: start;
+		-webkit-align-self: start;
+		-moz-align-self: start;
+		align-self: start;
+	}
+	.cost-calculator-fieldset-with-recaptcha .cost-calculator-terms-container
+	{
+		height: auto;
+		-ms-flex-order: 1;
+		-webkit-order: 1;
+		-moz-order: 1;
+		order: 1;
+		padding-bottom: 30px;
+	}
+	.cost-calculator-form.cost-calculator-container .cost-calculator-contact-box-submit-container.cost-calculator-fieldset-with-recaptcha .cost-calculator-recaptcha-container .vc_row.wpb_row.cost-calculator-button-with-recaptcha,
+	.cost-calculator-form.cost-calculator-container .cost-calculator-contact-box-submit-container .cost-calculator-column-with-recaptcha .cost-calculator-recaptcha-container .vc_row.wpb_row.cost-calculator-button-with-recaptcha
+	{
+		margin-right: auto;
+	}
+}
+@media screen and (max-width:479px)
+{
+	.cost-calculator-form .cost-calculator-box input,
+	.cost-calculator-form .cost-calculator-box input[type='text'],
+	.cost-calculator-form .cost-calculator-box input[type='email'],
+	.cost-calculator-form .cost-calculator-box input[type='number']
+	{
+		width: 21%;
+	}
+	.cost-calculator-box .ui-slider
+	{
+		width: 72%;
+	}
+	.cost-calculator-datepicker.ui-datepicker
+	{
+		width: 238px;
+	}
+	body .cost-calculator-sum,
+	body .vc_row .wpb_column .cost-calculator-sum,
+	body .vc_row .wpb_column.cost-calculator-sum
+	{
+		padding-bottom: 110px;
+		padding-top: 28px;
+	}
+	div.cost-calculator-submit-container 
+	{
+		bottom: 25px;
+		width: calc(100% - 30px);
+	}
+	.cost-calculator-datepicker .ui-datepicker-calendar th,
+	.cost-calculator-datepicker .ui-datepicker-calendar td
+	{
+		padding: 9px;
+	}
+	.cost-calculator-container .g-recaptcha-wrapper
+	{
+		width: 298px;
+	}
+	/* --- border columns --- */
+	.vc_row.cost-calculator-border-columns
+	{
+		display: block;
+	}
+	.cost-calculator-container .vc_row.cost-calculator-border-columns div.wpb_column
+	{
+		width: 100%;
+		margin-top: 0;
+		border-right: 1px solid #EBEBEB;
+	}
+	.cost-calculator-container .vc_row.cost-calculator-border-columns div.wpb_column:first-child
+	{
+		margin-top: 10px;
+	}
+}

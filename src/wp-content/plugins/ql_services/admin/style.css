@@ -1,0 +1,49 @@
+.ql_services-config-form
+{
+	margin: 0;
+}
+.ql_services-config-form .form-table
+{
+	margin: 0;
+}
+.ql_services-config-form .ql_services-form-table-container
+{
+	width: 370px;
+	padding: 20px 30px;
+	background: #FFF;
+	margin-top: 30px;
+}
+.ql_services-config-form .form-table tr:first-child th, 
+.ql_services-config-form .form-table tr:first-child td 
+{
+    padding-top: 0;
+}
+.ql_services-config-form tr
+{
+	border-bottom: 1px solid #EFEFEF;
+}
+.ql_services-config-form tr.no-border
+{
+	border-bottom: none;
+}
+.ql_services-config-form tr.no-border th
+{
+	padding-bottom: 0;
+}
+.ql_services-config-form th,
+.ql_services-config-form td
+{
+	vertical-align: middle;
+	padding-left: 0;
+	padding-right: 0;
+}
+.ql_services-config-form .regular-text.input-full-width
+{
+	float: right;
+	width: 155px;
+}
+.ql_services-settings-section div.settings-error
+{
+	margin-top: 15px;
+	max-width: 1160px;
+}

@@ -1,0 +1,328 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Theme Services\n"
+"POT-Creation-Date: 2023-04-19 13:42+0100\n"
+"PO-Revision-Date: 2023-04-19 13:42+0100\n"
+"Last-Translator: \n"
+"Language-Team: QuanticaLabs\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin-page-permalink.php:2
+msgid "Permalink settings"
+msgstr ""
+
+#: admin/admin-page-permalink.php:23
+msgid "Slug (permalink)"
+msgstr ""
+
+#: admin/admin-page-permalink.php:33
+msgid "Service label singular"
+msgstr ""
+
+#: admin/admin-page-permalink.php:43
+msgid "Service label plural"
+msgstr ""
+
+#: admin/admin-page-permalink.php:58
+msgid "Service category slug (permalink)"
+msgstr ""
+
+#: admin/admin-page-permalink.php:70
+msgid "Save Options"
+msgstr ""
+
+#: ql_services.php:23
+msgid "Permalink"
+msgstr ""
+
+#: ql_services.php:32
+msgid "Options saved!"
+msgstr ""
+
+#: ql_services.php:35 ql_services.php:60 ql_services.php:77
+msgid "Service"
+msgstr ""
+
+#: ql_services.php:36 ql_services.php:61 ql_services.php:78
+msgid "Services"
+msgstr ""
+
+#: ql_services.php:94
+msgid "Add New"
+msgstr ""
+
+#: ql_services.php:95
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: ql_services.php:96
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: ql_services.php:97
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: ql_services.php:98
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: ql_services.php:99
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: ql_services.php:100
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: ql_services.php:101
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: ql_services.php:102
+#, php-format
+msgid "No %s found in Trash"
+msgstr ""
+
+#: ql_services.php:120 ql_services.php:157
+msgid "Categories"
+msgstr ""
+
+#: ql_services.php:120
+msgid "Category"
+msgstr ""
+
+#: ql_services.php:147 ql_services.php:156
+msgid "Title"
+msgstr ""
+
+#: ql_services.php:148 ql_services.php:158 ql_services.php:421
+msgid "Order"
+msgstr ""
+
+#: ql_services.php:149 ql_services.php:159 ql_services.php:416
+msgid "Date"
+msgstr ""
+
+#: ql_services.php:229 ql_services.php:542 ql_services.php:645
+msgid "Learn more"
+msgstr ""
+
+#: ql_services.php:366 ql_services.php:375
+msgid "All"
+msgstr ""
+
+#: ql_services.php:384
+msgid "Type"
+msgstr ""
+
+#: ql_services.php:386
+msgid "List with images"
+msgstr ""
+
+#: ql_services.php:386
+msgid "List with icons"
+msgstr ""
+
+#: ql_services.php:391
+msgid "Borders on list items"
+msgstr ""
+
+#: ql_services.php:393 ql_services.php:430 ql_services.php:437
+#: ql_services.php:444 ql_services.php:452 ql_services.php:459
+#: ql_services.php:467 ql_services.php:475 ql_services.php:483
+#: ql_services.php:516 ql_services.php:524 ql_services.php:535
+#: ql_services.php:572 ql_services.php:586 ql_services.php:607
+#: ql_services.php:628 ql_services.php:638
+msgid "No"
+msgstr ""
+
+#: ql_services.php:393 ql_services.php:430 ql_services.php:437
+#: ql_services.php:444 ql_services.php:452 ql_services.php:459
+#: ql_services.php:467 ql_services.php:475 ql_services.php:483
+#: ql_services.php:516 ql_services.php:524 ql_services.php:535
+#: ql_services.php:572 ql_services.php:586 ql_services.php:607
+#: ql_services.php:628 ql_services.php:638
+msgid "Yes"
+msgstr ""
+
+#: ql_services.php:399
+msgid "Items per page/Post count"
+msgstr ""
+
+#: ql_services.php:402
+msgid "Set -1 to display all."
+msgstr ""
+
+#: ql_services.php:407
+msgid "Display selected"
+msgstr ""
+
+#: ql_services.php:414
+msgid "Order by"
+msgstr ""
+
+#: ql_services.php:416
+msgid "Title, menu order"
+msgstr ""
+
+#: ql_services.php:416
+msgid "Menu order"
+msgstr ""
+
+#: ql_services.php:416
+msgid "Random"
+msgstr ""
+
+#: ql_services.php:423
+msgid "ascending"
+msgstr ""
+
+#: ql_services.php:423
+msgid "descending"
+msgstr ""
+
+#: ql_services.php:428
+msgid "Headers"
+msgstr ""
+
+#: ql_services.php:435
+msgid "Headers links"
+msgstr ""
+
+#: ql_services.php:442
+msgid "Headers border"
+msgstr ""
+
+#: ql_services.php:450
+msgid "Show excerpt"
+msgstr ""
+
+#: ql_services.php:457
+msgid "Show icon"
+msgstr ""
+
+#: ql_services.php:465
+msgid "Icons links"
+msgstr ""
+
+#: ql_services.php:473
+msgid "Show featured image"
+msgstr ""
+
+#: ql_services.php:481
+msgid "Featured image links"
+msgstr ""
+
+#: ql_services.php:489
+msgid "Extra class name"
+msgstr ""
+
+#: ql_services.php:496
+msgid "Top margin"
+msgstr ""
+
+#: ql_services.php:498
+msgid "None"
+msgstr ""
+
+#: ql_services.php:498
+msgid "Page (small)"
+msgstr ""
+
+#: ql_services.php:498
+msgid "Section (medium)"
+msgstr ""
+
+#: ql_services.php:498
+msgid "Section large (large)"
+msgstr ""
+
+#: ql_services.php:498
+msgid "Section (large)"
+msgstr ""
+
+#: ql_services.php:507 ql_services.php:598
+msgid "Display as"
+msgstr ""
+
+#: ql_services.php:509 ql_services.php:600
+msgid "List"
+msgstr ""
+
+#: ql_services.php:509 ql_services.php:600
+msgid "Carousel"
+msgstr ""
+
+#: ql_services.php:514 ql_services.php:605
+msgid "Scroll control (pagination)"
+msgstr ""
+
+#: ql_services.php:522
+msgid "Featured image as background"
+msgstr ""
+
+#: ql_services.php:533 ql_services.php:636
+msgid "Read more button"
+msgstr ""
+
+#: ql_services.php:540 ql_services.php:643
+msgid "Read more button label"
+msgstr ""
+
+#: ql_services.php:551
+msgid "Excerpt font size"
+msgstr ""
+
+#: ql_services.php:553 ql_services.php:564
+msgid "Small"
+msgstr ""
+
+#: ql_services.php:553 ql_services.php:564
+msgid "Big"
+msgstr ""
+
+#: ql_services.php:562
+msgid "Icon size"
+msgstr ""
+
+#: ql_services.php:570
+msgid "Icon tick"
+msgstr ""
+
+#: ql_services.php:584
+msgid "Items spacing"
+msgstr ""
+
+#: ql_services.php:616
+msgid "Display from Category"
+msgstr ""
+
+#: ql_services.php:626
+msgid "Show categories"
+msgstr ""
+
+#: ql_services.php:654
+msgid "Services list"
+msgstr ""
+
+#: ql_services.php:660
+msgid "Plugins"
+msgstr ""

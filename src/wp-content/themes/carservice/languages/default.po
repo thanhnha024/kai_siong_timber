@@ -1,0 +1,4142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Carservice\n"
+"POT-Creation-Date: 2024-02-02 12:10+0100\n"
+"PO-Revision-Date: 2024-02-02 12:10+0100\n"
+"Last-Translator: \n"
+"Language-Team: QuanticaLabs\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;_e;esc_attr_e;esc_html__;"
+"esc_html_e;esc_attr__;esc_attr_e;_x;_ex;_nx;esc_attr_x;esc_html_x;_n_noop;"
+"_nx_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:46
+msgid "OOPS."
+msgstr ""
+
+#: ../404.php:46
+msgid "404"
+msgstr ""
+
+#: ../404.php:49
+#, php-format
+msgid ""
+"We&#8217;re sorry but something went wrong. Return to the <a title='GO TO "
+"HOME' href='%s'>homepage</a> or use the search below."
+msgstr ""
+
+#: ../404.php:55 ../searchform.php:2
+msgid "Search"
+msgstr ""
+
+#: ../404.php:57 ../searchform.php:4
+msgid "Search..."
+msgstr ""
+
+#: ../admin/functions.php:31 ../admin/functions.php:41
+#: ../admin/functions.php:51 ../admin/functions.php:61
+#: ../admin/functions.php:71 ../admin/functions.php:81
+#: ../admin/functions.php:91 ../admin/functions.php:101
+#: ../admin/functions.php:111
+msgid "footer top"
+msgstr ""
+
+#: ../admin/functions.php:35 ../admin/functions.php:45
+#: ../admin/functions.php:55 ../admin/functions.php:65
+#: ../admin/functions.php:75 ../admin/functions.php:85
+#: ../admin/functions.php:95 ../admin/functions.php:105
+#: ../admin/functions.php:115
+msgid "footer bottom"
+msgstr ""
+
+#: ../admin/functions.php:130 ../contact_form.php:209
+#: ../shortcodes/announcement_box.php:79 ../shortcodes/blog.php:333
+#: ../shortcodes/blog_2_columns.php:373 ../shortcodes/blog_3_columns.php:376
+#: ../shortcodes/blog_small.php:269 ../shortcodes/call_to_action_box.php:175
+#: ../shortcodes/comments.php:94 ../shortcodes/featured_item.php:207
+#: ../shortcodes/items_list.php:72 ../shortcodes/map.php:228
+#: ../shortcodes/our_clients_carousel.php:117
+#: ../shortcodes/our_clients_carousel.php:170
+#: ../shortcodes/post_carousel.php:344 ../shortcodes/pricing_table.php:38
+#: ../shortcodes/shortcodes.php:93 ../shortcodes/shortcodes.php:139
+#: ../shortcodes/shortcodes.php:174 ../shortcodes/shortcodes.php:276
+#: ../shortcodes/shortcodes.php:291 ../shortcodes/shortcodes.php:401
+#: ../shortcodes/shortcodes.php:428 ../shortcodes/shortcodes.php:443
+#: ../shortcodes/shortcodes.php:557 ../shortcodes/shortcodes.php:751
+#: ../shortcodes/shortcodes.php:857 ../shortcodes/single-gallery.php:32
+#: ../shortcodes/single-service.php:32 ../shortcodes/single-team.php:32
+#: ../shortcodes/team_member_box.php:149 ../shortcodes/testimonials.php:339
+#: ../shortcodes/timeline_item.php:87 ../widgets/widget-recent.php:234
+msgid "None"
+msgstr ""
+
+#: ../admin/functions.php:140 ../shortcodes/shortcodes.php:542
+msgid "Sidebar"
+msgstr ""
+
+#: ../admin/functions.php:145
+msgid "Please confirm the dummy data import."
+msgstr ""
+
+#: ../admin/functions.php:146
+msgid "Please confirm the shop dummy data import."
+msgstr ""
+
+#: ../admin/functions.php:147
+msgid "Please wait and don't reload the page when import is in progress!"
+msgstr ""
+
+#: ../admin/functions.php:148
+msgid "Error during import:"
+msgstr ""
+
+#: ../admin/functions.php:230
+msgid "Add list item"
+msgstr ""
+
+#: ../admin/functions.php:239
+msgid "Close panel"
+msgstr ""
+
+#: ../admin/functions.php:240
+msgid "Add New List Item"
+msgstr ""
+
+#: ../admin/functions.php:244 ../shortcodes/call_to_action_box.php:42
+#: ../shortcodes/featured_item.php:163 ../shortcodes/testimonials.php:215
+#: ../shortcodes/timeline_item.php:71
+#: ../widgets/widget-contact-details-list.php:122
+msgid "Text"
+msgstr ""
+
+#: ../admin/functions.php:250 ../shortcodes/featured_item.php:170
+#: ../shortcodes/shortcodes.php:841
+#: ../widgets/widget-contact-details-list.php:125
+msgid "Url"
+msgstr ""
+
+#: ../admin/functions.php:256 ../widgets/widget-contact-details-list.php:127
+msgid "Url target"
+msgstr ""
+
+#: ../admin/functions.php:259 ../widgets/widget-cart-icon.php:62
+#: ../widgets/widget-contact-details-list.php:130
+#: ../widgets/widget-contact-details.php:149 ../widgets/widget-list.php:99
+#: ../widgets/widget-social-icons.php:135
+msgid "new window"
+msgstr ""
+
+#: ../admin/functions.php:260 ../widgets/widget-cart-icon.php:61
+#: ../widgets/widget-contact-details-list.php:129
+#: ../widgets/widget-contact-details.php:148 ../widgets/widget-list.php:98
+#: ../widgets/widget-social-icons.php:134
+msgid "same window"
+msgstr ""
+
+#: ../admin/functions.php:265 ../functions.php:543
+#: ../shortcodes/call_to_action_box.php:49 ../shortcodes/featured_item.php:44
+#: ../shortcodes/shortcodes.php:582 ../shortcodes/shortcodes.php:794
+#: ../shortcodes/testimonials.php:112
+#: ../widgets/widget-contact-details-list.php:111
+#: ../widgets/widget-contact-info.php:156
+msgid "Icon"
+msgstr ""
+
+#: ../admin/functions.php:268
+msgid "-"
+msgstr ""
+
+#: ../admin/functions.php:269
+msgid "Bullet"
+msgstr ""
+
+#: ../admin/functions.php:274
+msgid "Custom text color"
+msgstr ""
+
+#: ../admin/functions.php:287
+msgid "Add Item"
+msgstr ""
+
+#: ../admin/functions.php:287
+msgid "Cancel"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:339 ../plugins_activator.php:124
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:340 ../plugins_activator.php:125
+msgid "Install Plugins"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:342 ../plugins_activator.php:126
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:344
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:345 ../plugins_activator.php:127
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:348 ../plugins_activator.php:128
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:354 ../plugins_activator.php:129
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:360
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:366
+#, php-format
+msgid "There is an update available for: %1$s."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:372 ../plugins_activator.php:131
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:378 ../plugins_activator.php:132
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:383 ../plugins_activator.php:136
+msgid "Begin installing plugin"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:397 ../plugins_activator.php:138
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:398
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:399
+#: ../class-tgm-plugin-activation.php:3296 ../plugins_activator.php:139
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:400
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:402
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:404
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:406
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:407
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:408
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:409
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:615
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:616
+msgid "Update Required"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1030
+#: ../class-tgm-plugin-activation.php:1040
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1040
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:1229
+#: ../class-tgm-plugin-activation.php:3085
+msgid "and"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2098
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2407
+msgid "Required"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2410
+msgid "Recommended"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2426
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2429
+msgid "External Source"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2432
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2449
+msgid "Not Installed"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2453
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2455
+msgid "Active"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2461
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2464
+msgid "Requires Update"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2467
+msgid "Update recommended"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2476
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2522
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2616
+msgid "unknown"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2624
+msgid "Installed version:"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2632
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2644
+msgid "Available version:"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2667
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2681
+msgid "Plugin"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2682
+msgid "Source"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2683 ../shortcodes/featured_item.php:148
+#: ../shortcodes/our_clients_carousel.php:104 ../shortcodes/shortcodes.php:123
+#: ../shortcodes/shortcodes.php:158 ../shortcodes/shortcodes.php:727
+#: ../shortcodes/shortcodes.php:787 ../shortcodes/testimonials.php:87
+msgid "Type"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2687
+msgid "Version"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2688
+msgid "Status"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2737
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2742
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2748
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2820
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2853
+msgid "Install"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2859
+msgid "Update"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2862
+msgid "Activate"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2893
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2895
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2936
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:2938
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3045
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3071
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3295
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3639
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3642
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3644
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3648
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3650
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3651
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3653
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3656
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3658
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3659
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3661
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3666
+msgid "Show Details"
+msgstr ""
+
+#: ../class-tgm-plugin-activation.php:3666
+msgid "Hide Details"
+msgstr ""
+
+#: ../comments-form.php:11
+msgid "LEAVE A COMMENT"
+msgstr ""
+
+#: ../comments-form.php:17
+#, php-format
+msgid "You must be <a href='%s'>logged in</a> to post a comment."
+msgstr ""
+
+#: ../comments-form.php:27 ../comments-functions.php:11
+#: ../comments-functions.php:95 ../contact_form.php:9 ../contact_form.php:121
+msgid "Your Name *"
+msgstr ""
+
+#: ../comments-form.php:30 ../comments-functions.php:11
+#: ../comments-functions.php:97 ../contact_form.php:11 ../contact_form.php:135
+msgid "Your Email *"
+msgstr ""
+
+#: ../comments-form.php:33 ../comments-functions.php:42
+msgid "Your Website"
+msgstr ""
+
+#: ../comments-form.php:38 ../comments-functions.php:11
+#: ../comments-functions.php:99
+msgid "Comment *"
+msgstr ""
+
+#: ../comments-form.php:44
+msgid "Your comment will be published within 24 hours."
+msgstr ""
+
+#: ../comments-form.php:59
+msgid "Cancel reply"
+msgstr ""
+
+#: ../comments-form.php:60
+msgid "POST COMMENT"
+msgstr ""
+
+#: ../comments-form.php:75 ../contact_form.php:75
+msgid ""
+"Error while loading reCapcha. Please set the reCaptcha keys under Theme "
+"Options in admin area"
+msgstr ""
+
+#: ../comments-functions.php:52 ../functions.php:122
+msgid "Your comment has been added."
+msgstr ""
+
+#: ../comments-functions.php:83 ../functions.php:123
+msgid "Error while adding comment."
+msgstr ""
+
+#: ../comments-functions.php:89 ../comments-functions.php:102
+#: ../contact_form.php:284 ../contact_form.php:299 ../functions.php:113
+#: ../functions.php:120
+msgid "Please verify captcha."
+msgstr ""
+
+#: ../comments-functions.php:96 ../contact_form.php:291 ../functions.php:109
+#: ../functions.php:117
+msgid "Please enter your name."
+msgstr ""
+
+#: ../comments-functions.php:98 ../contact_form.php:293 ../functions.php:110
+#: ../functions.php:118
+msgid "Please enter valid e-mail."
+msgstr ""
+
+#: ../comments-functions.php:100 ../contact_form.php:297 ../functions.php:112
+#: ../functions.php:119
+msgid "Please enter your message."
+msgstr ""
+
+#: ../comments-functions.php:104 ../contact_form.php:301 ../functions.php:114
+#: ../functions.php:121
+msgid "Checkbox is required."
+msgstr ""
+
+#: ../comments.php:7
+msgid "COMMENTS"
+msgstr ""
+
+#: ../comments.php:7
+msgid "COMMENT"
+msgstr ""
+
+#: ../comments.php:50
+#, php-format
+msgid " %1$s, %2$s"
+msgstr ""
+
+#: ../comments.php:51
+msgid "Reply"
+msgstr ""
+
+#: ../comments.php:51
+msgid "REPLY"
+msgstr ""
+
+#: ../comments.php:55
+msgid "(Edit)"
+msgstr ""
+
+#: ../contact_form.php:8 ../contact_form.php:114
+msgid "SEND MESSAGE"
+msgstr ""
+
+#: ../contact_form.php:13 ../contact_form.php:149
+msgid "Your Phone"
+msgstr ""
+
+#: ../contact_form.php:15 ../contact_form.php:164
+msgid "Message *"
+msgstr ""
+
+#: ../contact_form.php:17 ../contact_form.php:178
+msgid "We will contact you within one business day."
+msgstr ""
+
+#: ../contact_form.php:93
+msgid "Contact form"
+msgstr ""
+
+#: ../contact_form.php:99 ../shortcodes/announcement_box.php:42
+#: ../shortcodes/blog.php:189 ../shortcodes/blog_2_columns.php:212
+#: ../shortcodes/blog_3_columns.php:215 ../shortcodes/blog_small.php:174
+#: ../shortcodes/call_to_action_box.php:186 ../shortcodes/comments.php:47
+#: ../shortcodes/featured_item.php:218 ../shortcodes/items_list.php:38
+#: ../shortcodes/map.php:83 ../shortcodes/our_clients_carousel.php:187
+#: ../shortcodes/post_carousel.php:354 ../shortcodes/pricing_table.php:24
+#: ../shortcodes/shortcodes.php:714 ../shortcodes/shortcodes.php:782
+#: ../shortcodes/single-gallery.php:43 ../shortcodes/single-post.php:242
+#: ../shortcodes/single-service.php:43 ../shortcodes/single-team.php:43
+#: ../shortcodes/team_member_box.php:160 ../shortcodes/testimonials.php:355
+#: ../shortcodes/timeline_item.php:104
+msgid "Carservice"
+msgstr ""
+
+#: ../contact_form.php:104 ../shortcodes/map.php:96
+#: ../shortcodes/pricing_table.php:29
+msgid "Id"
+msgstr ""
+
+#: ../contact_form.php:107
+msgid "Please provide unique id for each contact form on the same page/post"
+msgstr ""
+
+#: ../contact_form.php:112
+msgid "Submit label"
+msgstr ""
+
+#: ../contact_form.php:119
+msgid "Name label"
+msgstr ""
+
+#: ../contact_form.php:126
+msgid "Name field required"
+msgstr ""
+
+#: ../contact_form.php:128 ../contact_form.php:142 ../contact_form.php:156
+#: ../contact_form.php:171 ../contact_form.php:185 ../contact_form.php:201
+#: ../shortcodes/blog.php:196 ../shortcodes/blog.php:263
+#: ../shortcodes/blog.php:270 ../shortcodes/blog.php:277
+#: ../shortcodes/blog.php:284 ../shortcodes/blog.php:291
+#: ../shortcodes/blog.php:298 ../shortcodes/blog.php:305
+#: ../shortcodes/blog.php:312 ../shortcodes/blog.php:319
+#: ../shortcodes/blog.php:326 ../shortcodes/blog_2_columns.php:227
+#: ../shortcodes/blog_2_columns.php:294 ../shortcodes/blog_2_columns.php:301
+#: ../shortcodes/blog_2_columns.php:317 ../shortcodes/blog_2_columns.php:324
+#: ../shortcodes/blog_2_columns.php:331 ../shortcodes/blog_2_columns.php:338
+#: ../shortcodes/blog_2_columns.php:345 ../shortcodes/blog_2_columns.php:352
+#: ../shortcodes/blog_2_columns.php:359 ../shortcodes/blog_2_columns.php:366
+#: ../shortcodes/blog_3_columns.php:230 ../shortcodes/blog_3_columns.php:297
+#: ../shortcodes/blog_3_columns.php:304 ../shortcodes/blog_3_columns.php:320
+#: ../shortcodes/blog_3_columns.php:327 ../shortcodes/blog_3_columns.php:334
+#: ../shortcodes/blog_3_columns.php:341 ../shortcodes/blog_3_columns.php:348
+#: ../shortcodes/blog_3_columns.php:355 ../shortcodes/blog_3_columns.php:362
+#: ../shortcodes/blog_3_columns.php:369 ../shortcodes/blog_small.php:181
+#: ../shortcodes/blog_small.php:248 ../shortcodes/blog_small.php:255
+#: ../shortcodes/blog_small.php:262 ../shortcodes/comments.php:54
+#: ../shortcodes/comments.php:61 ../shortcodes/comments.php:78
+#: ../shortcodes/comments.php:87 ../shortcodes/featured_item.php:179
+#: ../shortcodes/featured_item.php:186
+#: ../shortcodes/our_clients_carousel.php:148
+#: ../shortcodes/our_clients_carousel.php:159
+#: ../shortcodes/post_carousel.php:242 ../shortcodes/post_carousel.php:249
+#: ../shortcodes/post_carousel.php:265 ../shortcodes/post_carousel.php:272
+#: ../shortcodes/post_carousel.php:279 ../shortcodes/post_carousel.php:286
+#: ../shortcodes/post_carousel.php:293 ../shortcodes/post_carousel.php:300
+#: ../shortcodes/post_carousel.php:307 ../shortcodes/post_carousel.php:314
+#: ../shortcodes/post_carousel.php:321 ../shortcodes/post_carousel.php:337
+#: ../shortcodes/shortcodes.php:215 ../shortcodes/shortcodes.php:238
+#: ../shortcodes/shortcodes.php:257 ../shortcodes/shortcodes.php:347
+#: ../shortcodes/shortcodes.php:409 ../shortcodes/single-post.php:169
+#: ../shortcodes/single-post.php:176 ../shortcodes/single-post.php:183
+#: ../shortcodes/single-post.php:190 ../shortcodes/single-post.php:197
+#: ../shortcodes/single-post.php:204 ../shortcodes/single-post.php:211
+#: ../shortcodes/single-post.php:218 ../shortcodes/single-post.php:225
+#: ../shortcodes/single-post.php:232 ../shortcodes/team_member_box.php:92
+#: ../shortcodes/team_member_box.php:99 ../shortcodes/team_member_box.php:106
+#: ../shortcodes/team_member_box.php:113 ../shortcodes/team_member_box.php:120
+#: ../shortcodes/team_member_box.php:127 ../shortcodes/team_member_box.php:134
+#: ../shortcodes/team_member_box.php:141 ../shortcodes/testimonials.php:96
+#: ../shortcodes/testimonials.php:240 ../shortcodes/testimonials.php:247
+#: ../shortcodes/timeline_item.php:80
+msgid "Yes"
+msgstr ""
+
+#: ../contact_form.php:128 ../contact_form.php:142 ../contact_form.php:156
+#: ../contact_form.php:171 ../contact_form.php:185 ../contact_form.php:201
+#: ../shortcodes/blog.php:196 ../shortcodes/blog.php:263
+#: ../shortcodes/blog.php:270 ../shortcodes/blog.php:277
+#: ../shortcodes/blog.php:284 ../shortcodes/blog.php:291
+#: ../shortcodes/blog.php:298 ../shortcodes/blog.php:305
+#: ../shortcodes/blog.php:312 ../shortcodes/blog.php:319
+#: ../shortcodes/blog.php:326 ../shortcodes/blog_2_columns.php:227
+#: ../shortcodes/blog_2_columns.php:294 ../shortcodes/blog_2_columns.php:301
+#: ../shortcodes/blog_2_columns.php:317 ../shortcodes/blog_2_columns.php:324
+#: ../shortcodes/blog_2_columns.php:331 ../shortcodes/blog_2_columns.php:338
+#: ../shortcodes/blog_2_columns.php:345 ../shortcodes/blog_2_columns.php:352
+#: ../shortcodes/blog_2_columns.php:359 ../shortcodes/blog_2_columns.php:366
+#: ../shortcodes/blog_3_columns.php:230 ../shortcodes/blog_3_columns.php:297
+#: ../shortcodes/blog_3_columns.php:304 ../shortcodes/blog_3_columns.php:320
+#: ../shortcodes/blog_3_columns.php:327 ../shortcodes/blog_3_columns.php:334
+#: ../shortcodes/blog_3_columns.php:341 ../shortcodes/blog_3_columns.php:348
+#: ../shortcodes/blog_3_columns.php:355 ../shortcodes/blog_3_columns.php:362
+#: ../shortcodes/blog_3_columns.php:369 ../shortcodes/blog_small.php:181
+#: ../shortcodes/blog_small.php:248 ../shortcodes/blog_small.php:255
+#: ../shortcodes/blog_small.php:262 ../shortcodes/comments.php:54
+#: ../shortcodes/comments.php:61 ../shortcodes/comments.php:78
+#: ../shortcodes/comments.php:87 ../shortcodes/featured_item.php:179
+#: ../shortcodes/featured_item.php:186 ../shortcodes/post_carousel.php:242
+#: ../shortcodes/post_carousel.php:249 ../shortcodes/post_carousel.php:265
+#: ../shortcodes/post_carousel.php:272 ../shortcodes/post_carousel.php:279
+#: ../shortcodes/post_carousel.php:286 ../shortcodes/post_carousel.php:293
+#: ../shortcodes/post_carousel.php:300 ../shortcodes/post_carousel.php:307
+#: ../shortcodes/post_carousel.php:314 ../shortcodes/post_carousel.php:321
+#: ../shortcodes/post_carousel.php:337 ../shortcodes/single-post.php:169
+#: ../shortcodes/single-post.php:176 ../shortcodes/single-post.php:183
+#: ../shortcodes/single-post.php:190 ../shortcodes/single-post.php:197
+#: ../shortcodes/single-post.php:204 ../shortcodes/single-post.php:211
+#: ../shortcodes/single-post.php:218 ../shortcodes/single-post.php:225
+#: ../shortcodes/single-post.php:232 ../shortcodes/team_member_box.php:92
+#: ../shortcodes/team_member_box.php:99 ../shortcodes/team_member_box.php:106
+#: ../shortcodes/team_member_box.php:113 ../shortcodes/team_member_box.php:120
+#: ../shortcodes/team_member_box.php:127 ../shortcodes/team_member_box.php:134
+#: ../shortcodes/team_member_box.php:141 ../shortcodes/testimonials.php:96
+#: ../shortcodes/testimonials.php:240 ../shortcodes/testimonials.php:247
+#: ../shortcodes/timeline_item.php:80
+msgid "No"
+msgstr ""
+
+#: ../contact_form.php:133
+msgid "Email label"
+msgstr ""
+
+#: ../contact_form.php:140
+msgid "Email field required"
+msgstr ""
+
+#: ../contact_form.php:147
+msgid "Phone label"
+msgstr ""
+
+#: ../contact_form.php:154
+msgid "Phone field required"
+msgstr ""
+
+#: ../contact_form.php:162
+msgid "Message label"
+msgstr ""
+
+#: ../contact_form.php:169
+msgid "Message field required"
+msgstr ""
+
+#: ../contact_form.php:176
+msgid "Description"
+msgstr ""
+
+#: ../contact_form.php:183 ../shortcodes/comments.php:59
+msgid "Terms and conditions checkbox"
+msgstr ""
+
+#: ../contact_form.php:191 ../shortcodes/comments.php:68
+msgid "Terms and conditions message"
+msgstr ""
+
+#: ../contact_form.php:199 ../shortcodes/comments.php:76
+msgid "reCaptcha"
+msgstr ""
+
+#: ../contact_form.php:202 ../shortcodes/comments.php:79
+#, php-format
+msgid ""
+"You can change this setting under <a href='%s' title='Theme Options'>Theme "
+"Options</a>"
+msgstr ""
+
+#: ../contact_form.php:207 ../shortcodes/announcement_box.php:77
+#: ../shortcodes/blog.php:331 ../shortcodes/blog_2_columns.php:371
+#: ../shortcodes/blog_3_columns.php:374 ../shortcodes/blog_small.php:267
+#: ../shortcodes/call_to_action_box.php:173 ../shortcodes/comments.php:92
+#: ../shortcodes/featured_item.php:205 ../shortcodes/items_list.php:70
+#: ../shortcodes/map.php:226 ../shortcodes/our_clients_carousel.php:168
+#: ../shortcodes/post_carousel.php:342 ../shortcodes/pricing_table.php:36
+#: ../shortcodes/shortcodes.php:91 ../shortcodes/shortcodes.php:137
+#: ../shortcodes/shortcodes.php:172 ../shortcodes/shortcodes.php:399
+#: ../shortcodes/shortcodes.php:555 ../shortcodes/shortcodes.php:749
+#: ../shortcodes/shortcodes.php:855 ../shortcodes/single-gallery.php:30
+#: ../shortcodes/single-service.php:30 ../shortcodes/single-team.php:30
+#: ../shortcodes/team_member_box.php:147 ../shortcodes/testimonials.php:337
+#: ../shortcodes/timeline_item.php:85 ../widgets/widget-recent.php:232
+msgid "Top margin"
+msgstr ""
+
+#: ../contact_form.php:209 ../shortcodes/announcement_box.php:79
+#: ../shortcodes/blog.php:333 ../shortcodes/blog_2_columns.php:373
+#: ../shortcodes/blog_3_columns.php:376 ../shortcodes/blog_small.php:269
+#: ../shortcodes/call_to_action_box.php:175 ../shortcodes/comments.php:94
+#: ../shortcodes/featured_item.php:207 ../shortcodes/items_list.php:72
+#: ../shortcodes/map.php:228 ../shortcodes/our_clients_carousel.php:170
+#: ../shortcodes/post_carousel.php:344 ../shortcodes/pricing_table.php:38
+#: ../shortcodes/shortcodes.php:93 ../shortcodes/shortcodes.php:139
+#: ../shortcodes/shortcodes.php:174 ../shortcodes/shortcodes.php:401
+#: ../shortcodes/shortcodes.php:557 ../shortcodes/shortcodes.php:751
+#: ../shortcodes/shortcodes.php:857 ../shortcodes/single-gallery.php:32
+#: ../shortcodes/single-service.php:32 ../shortcodes/single-team.php:32
+#: ../shortcodes/team_member_box.php:149 ../shortcodes/testimonials.php:339
+#: ../shortcodes/timeline_item.php:87 ../widgets/widget-recent.php:235
+msgid "Page (small)"
+msgstr ""
+
+#: ../contact_form.php:209 ../shortcodes/announcement_box.php:79
+#: ../shortcodes/blog.php:333 ../shortcodes/blog_2_columns.php:373
+#: ../shortcodes/blog_3_columns.php:376 ../shortcodes/blog_small.php:269
+#: ../shortcodes/call_to_action_box.php:175 ../shortcodes/comments.php:94
+#: ../shortcodes/featured_item.php:207 ../shortcodes/items_list.php:72
+#: ../shortcodes/map.php:228 ../shortcodes/our_clients_carousel.php:170
+#: ../shortcodes/post_carousel.php:344 ../shortcodes/pricing_table.php:38
+#: ../shortcodes/shortcodes.php:93 ../shortcodes/shortcodes.php:139
+#: ../shortcodes/shortcodes.php:174 ../shortcodes/shortcodes.php:401
+#: ../shortcodes/shortcodes.php:557 ../shortcodes/shortcodes.php:751
+#: ../shortcodes/shortcodes.php:857 ../shortcodes/single-gallery.php:32
+#: ../shortcodes/single-service.php:32 ../shortcodes/single-team.php:32
+#: ../shortcodes/team_member_box.php:149 ../shortcodes/testimonials.php:339
+#: ../shortcodes/timeline_item.php:87 ../widgets/widget-recent.php:236
+msgid "Section (large)"
+msgstr ""
+
+#: ../contact_form.php:213 ../shortcodes/blog.php:337
+#: ../shortcodes/blog_2_columns.php:377 ../shortcodes/blog_3_columns.php:380
+#: ../shortcodes/blog_small.php:273 ../shortcodes/items_list.php:77
+#: ../shortcodes/our_clients_carousel.php:174 ../shortcodes/shortcodes.php:351
+#: ../shortcodes/shortcodes.php:495 ../shortcodes/shortcodes.php:548
+#: ../shortcodes/shortcodes.php:742 ../shortcodes/shortcodes.php:863
+#: ../shortcodes/testimonials.php:343 ../shortcodes/timeline_item.php:91
+msgid "Extra class name"
+msgstr ""
+
+#: ../contact_form.php:215 ../shortcodes/blog.php:339
+#: ../shortcodes/blog_2_columns.php:379 ../shortcodes/blog_3_columns.php:382
+#: ../shortcodes/blog_small.php:275 ../shortcodes/our_clients_carousel.php:176
+#: ../shortcodes/testimonials.php:345 ../shortcodes/timeline_item.php:93
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: ../contact_form.php:273 ../functions.php:115
+msgid "Thank you for contacting us"
+msgstr ""
+
+#: ../contact_form.php:278 ../functions.php:116
+msgid "Sorry, we can't send this message"
+msgstr ""
+
+#: ../contact_form.php:295 ../functions.php:111
+msgid "Please enter your phone number."
+msgstr ""
+
+#: ../footer.php:48
+msgid "Scroll to top"
+msgstr ""
+
+#: ../functions.php:71
+#, php-format
+msgid ""
+"© Copyright 2024 <a target=\"_blank\" title=\"%s\" href=\"%s\" rel=\"nofollow"
+"\">Car Service Theme</a> by <a target=\"_blank\" title=\"%s\" href=\"%s"
+"\">QuanticaLabs</a>"
+msgstr ""
+
+#: ../functions.php:71
+msgid "Car Service Theme"
+msgstr ""
+
+#: ../functions.php:71 ../theme-options.php:178 ../theme-options.php:185
+msgid "https://1.envato.market/car-service-mechanic-auto-shop-wordpress-theme"
+msgstr ""
+
+#: ../functions.php:71 ../theme-options.php:169 ../theme-options.php:170
+#: ../theme-options.php:187
+msgid "QuanticaLabs"
+msgstr ""
+
+#: ../functions.php:71
+msgid "https://quanticalabs.com"
+msgstr ""
+
+#: ../functions.php:225
+msgid "carservice blue"
+msgstr ""
+
+#: ../functions.php:230
+msgid "carservice turquoise"
+msgstr ""
+
+#: ../functions.php:235
+msgid "carservice orange"
+msgstr ""
+
+#: ../functions.php:240
+msgid "carservice green"
+msgstr ""
+
+#: ../functions.php:245
+msgid "carservice light blue"
+msgstr ""
+
+#: ../functions.php:366
+msgid "Single Post Template"
+msgstr ""
+
+#: ../functions.php:376
+msgid "Blog Template"
+msgstr ""
+
+#: ../functions.php:386
+msgid "Search Page Template"
+msgstr ""
+
+#: ../functions.php:396
+msgid "Single Gallery Template"
+msgstr ""
+
+#: ../functions.php:406
+msgid "Single Service Template"
+msgstr ""
+
+#: ../functions.php:416
+msgid "Single Team Member Template"
+msgstr ""
+
+#: ../functions.php:426
+msgid "Team Member Page Layout"
+msgstr ""
+
+#: ../functions.php:450
+msgid "Blog post thumbnail"
+msgstr ""
+
+#: ../functions.php:451
+msgid "Gallery thumbnail"
+msgstr ""
+
+#: ../functions.php:452
+msgid "Large thumbnail"
+msgstr ""
+
+#: ../functions.php:453
+msgid "Big thumbnail"
+msgstr ""
+
+#: ../functions.php:454
+msgid "Medium thumbnail"
+msgstr ""
+
+#: ../functions.php:455
+msgid "Small thumbnail"
+msgstr ""
+
+#: ../functions.php:456
+msgid "Tiny thumbnail"
+msgstr ""
+
+#: ../functions.php:522 ../meta-box.php:8
+msgid "Options"
+msgstr ""
+
+#: ../functions.php:547 ../shortcodes/call_to_action_box.php:52
+#: ../shortcodes/featured_item.php:47 ../shortcodes/shortcodes.php:31
+#: ../shortcodes/shortcodes.php:585 ../shortcodes/shortcodes.php:797
+#: ../shortcodes/testimonials.php:115 ../shortcodes/testimonials.php:265
+#: ../theme-options.php:759 ../widgets/widget-contact-info.php:53
+msgid "none"
+msgstr ""
+
+#: ../functions.php:548 ../shortcodes/call_to_action_box.php:53
+#: ../shortcodes/featured_item.php:48 ../shortcodes/shortcodes.php:586
+#: ../shortcodes/testimonials.php:116 ../widgets/widget-contact-info.php:54
+msgid "air-conditioning"
+msgstr ""
+
+#: ../functions.php:549 ../shortcodes/call_to_action_box.php:54
+#: ../shortcodes/featured_item.php:49 ../shortcodes/shortcodes.php:587
+#: ../shortcodes/testimonials.php:117 ../widgets/widget-contact-info.php:55
+msgid "alarm"
+msgstr ""
+
+#: ../functions.php:550 ../shortcodes/call_to_action_box.php:55
+#: ../shortcodes/featured_item.php:50 ../shortcodes/shortcodes.php:588
+#: ../shortcodes/testimonials.php:118 ../widgets/widget-contact-info.php:56
+msgid "camper"
+msgstr ""
+
+#: ../functions.php:551 ../shortcodes/call_to_action_box.php:56
+#: ../shortcodes/featured_item.php:51 ../shortcodes/shortcodes.php:589
+#: ../shortcodes/testimonials.php:119 ../widgets/widget-contact-info.php:57
+msgid "car"
+msgstr ""
+
+#: ../functions.php:552 ../shortcodes/call_to_action_box.php:57
+#: ../shortcodes/featured_item.php:52 ../shortcodes/shortcodes.php:590
+#: ../shortcodes/testimonials.php:120 ../widgets/widget-contact-info.php:58
+msgid "car-2"
+msgstr ""
+
+#: ../functions.php:553 ../shortcodes/call_to_action_box.php:58
+#: ../shortcodes/featured_item.php:53 ../shortcodes/shortcodes.php:591
+#: ../shortcodes/testimonials.php:121 ../widgets/widget-contact-info.php:59
+msgid "car-3"
+msgstr ""
+
+#: ../functions.php:554 ../shortcodes/call_to_action_box.php:59
+#: ../shortcodes/featured_item.php:54 ../shortcodes/shortcodes.php:592
+#: ../shortcodes/testimonials.php:122 ../widgets/widget-contact-info.php:60
+msgid "car-audio"
+msgstr ""
+
+#: ../functions.php:555 ../shortcodes/call_to_action_box.php:60
+#: ../shortcodes/featured_item.php:55 ../shortcodes/shortcodes.php:593
+#: ../shortcodes/testimonials.php:123 ../widgets/widget-contact-info.php:61
+msgid "car-battery"
+msgstr ""
+
+#: ../functions.php:556 ../shortcodes/call_to_action_box.php:61
+#: ../shortcodes/featured_item.php:56 ../shortcodes/shortcodes.php:594
+#: ../shortcodes/testimonials.php:124 ../widgets/widget-contact-info.php:62
+msgid "car-check"
+msgstr ""
+
+#: ../functions.php:557 ../shortcodes/call_to_action_box.php:62
+#: ../shortcodes/featured_item.php:57 ../shortcodes/shortcodes.php:595
+#: ../shortcodes/testimonials.php:125 ../widgets/widget-contact-info.php:63
+msgid "car-checklist"
+msgstr ""
+
+#: ../functions.php:558 ../shortcodes/call_to_action_box.php:63
+#: ../shortcodes/featured_item.php:58 ../shortcodes/shortcodes.php:597
+#: ../shortcodes/testimonials.php:126 ../widgets/widget-contact-info.php:64
+msgid "car-fire"
+msgstr ""
+
+#: ../functions.php:559 ../shortcodes/call_to_action_box.php:64
+#: ../shortcodes/featured_item.php:59 ../shortcodes/shortcodes.php:596
+#: ../shortcodes/testimonials.php:127 ../widgets/widget-contact-info.php:65
+msgid "car-fix"
+msgstr ""
+
+#: ../functions.php:560 ../shortcodes/call_to_action_box.php:65
+#: ../shortcodes/featured_item.php:60 ../shortcodes/shortcodes.php:598
+#: ../shortcodes/testimonials.php:128 ../widgets/widget-contact-info.php:66
+msgid "car-key"
+msgstr ""
+
+#: ../functions.php:561 ../shortcodes/call_to_action_box.php:66
+#: ../shortcodes/featured_item.php:61 ../shortcodes/shortcodes.php:599
+#: ../shortcodes/testimonials.php:129 ../widgets/widget-contact-info.php:67
+msgid "car-lock"
+msgstr ""
+
+#: ../functions.php:562 ../shortcodes/call_to_action_box.php:67
+#: ../shortcodes/featured_item.php:62 ../shortcodes/shortcodes.php:600
+#: ../shortcodes/testimonials.php:130 ../widgets/widget-contact-info.php:68
+msgid "car-music"
+msgstr ""
+
+#: ../functions.php:563 ../shortcodes/call_to_action_box.php:68
+#: ../shortcodes/featured_item.php:63 ../shortcodes/shortcodes.php:601
+#: ../shortcodes/testimonials.php:131 ../widgets/widget-contact-info.php:69
+msgid "car-oil"
+msgstr ""
+
+#: ../functions.php:564 ../shortcodes/call_to_action_box.php:69
+#: ../shortcodes/featured_item.php:64 ../shortcodes/shortcodes.php:602
+#: ../shortcodes/testimonials.php:132 ../widgets/widget-contact-info.php:70
+msgid "car-setting"
+msgstr ""
+
+#: ../functions.php:565 ../shortcodes/call_to_action_box.php:70
+#: ../shortcodes/featured_item.php:65 ../shortcodes/shortcodes.php:603
+#: ../shortcodes/testimonials.php:133 ../widgets/widget-contact-info.php:71
+msgid "car-wash"
+msgstr ""
+
+#: ../functions.php:566 ../shortcodes/call_to_action_box.php:71
+#: ../shortcodes/featured_item.php:66 ../shortcodes/shortcodes.php:604
+#: ../shortcodes/testimonials.php:134 ../widgets/widget-contact-info.php:72
+msgid "car-wheel"
+msgstr ""
+
+#: ../functions.php:567 ../shortcodes/call_to_action_box.php:72
+#: ../shortcodes/featured_item.php:67 ../shortcodes/shortcodes.php:605
+#: ../shortcodes/testimonials.php:135 ../widgets/widget-contact-info.php:73
+msgid "caution-fence"
+msgstr ""
+
+#: ../functions.php:568 ../shortcodes/call_to_action_box.php:73
+#: ../shortcodes/featured_item.php:68 ../shortcodes/shortcodes.php:606
+#: ../shortcodes/testimonials.php:136 ../widgets/widget-contact-info.php:74
+msgid "certificate"
+msgstr ""
+
+#: ../functions.php:569 ../shortcodes/call_to_action_box.php:74
+#: ../shortcodes/featured_item.php:69 ../shortcodes/shortcodes.php:607
+#: ../shortcodes/testimonials.php:137 ../widgets/widget-contact-info.php:75
+msgid "check"
+msgstr ""
+
+#: ../functions.php:570 ../shortcodes/call_to_action_box.php:75
+#: ../shortcodes/featured_item.php:70 ../shortcodes/shortcodes.php:608
+#: ../shortcodes/testimonials.php:138 ../widgets/widget-contact-info.php:76
+msgid "check-2"
+msgstr ""
+
+#: ../functions.php:571 ../shortcodes/call_to_action_box.php:76
+#: ../shortcodes/featured_item.php:71 ../shortcodes/shortcodes.php:609
+#: ../shortcodes/testimonials.php:139 ../widgets/widget-contact-info.php:77
+msgid "check-shield"
+msgstr ""
+
+#: ../functions.php:572 ../shortcodes/call_to_action_box.php:77
+#: ../shortcodes/featured_item.php:72 ../shortcodes/shortcodes.php:610
+#: ../shortcodes/testimonials.php:140 ../widgets/widget-contact-info.php:78
+msgid "checklist"
+msgstr ""
+
+#: ../functions.php:573 ../shortcodes/call_to_action_box.php:78
+#: ../shortcodes/featured_item.php:73 ../shortcodes/shortcodes.php:611
+#: ../shortcodes/shortcodes.php:810 ../shortcodes/testimonials.php:141
+#: ../widgets/widget-contact-info.php:79
+msgid "clock"
+msgstr ""
+
+#: ../functions.php:574 ../shortcodes/call_to_action_box.php:79
+#: ../shortcodes/featured_item.php:74 ../shortcodes/shortcodes.php:612
+#: ../shortcodes/testimonials.php:142 ../widgets/widget-contact-info.php:80
+msgid "coffee"
+msgstr ""
+
+#: ../functions.php:575 ../shortcodes/call_to_action_box.php:80
+#: ../shortcodes/featured_item.php:75 ../shortcodes/shortcodes.php:613
+#: ../shortcodes/testimonials.php:143 ../widgets/widget-contact-info.php:81
+msgid "cog-double"
+msgstr ""
+
+#: ../functions.php:576 ../shortcodes/call_to_action_box.php:81
+#: ../shortcodes/featured_item.php:76 ../shortcodes/shortcodes.php:614
+#: ../shortcodes/testimonials.php:144 ../widgets/widget-contact-info.php:82
+msgid "eco-car"
+msgstr ""
+
+#: ../functions.php:577 ../shortcodes/call_to_action_box.php:82
+#: ../shortcodes/featured_item.php:77 ../shortcodes/shortcodes.php:615
+#: ../shortcodes/testimonials.php:145 ../widgets/widget-contact-info.php:83
+msgid "eco-fuel"
+msgstr ""
+
+#: ../functions.php:578 ../shortcodes/call_to_action_box.php:83
+#: ../shortcodes/featured_item.php:78 ../shortcodes/shortcodes.php:616
+#: ../shortcodes/testimonials.php:146 ../widgets/widget-contact-info.php:84
+msgid "eco-fuel-barrel"
+msgstr ""
+
+#: ../functions.php:579 ../shortcodes/call_to_action_box.php:84
+#: ../shortcodes/featured_item.php:79 ../shortcodes/shortcodes.php:617
+#: ../shortcodes/testimonials.php:147 ../widgets/widget-contact-info.php:85
+msgid "eco-globe"
+msgstr ""
+
+#: ../functions.php:580 ../shortcodes/call_to_action_box.php:85
+#: ../shortcodes/featured_item.php:80 ../shortcodes/shortcodes.php:618
+#: ../shortcodes/testimonials.php:148 ../widgets/widget-contact-info.php:86
+msgid "eco-nature"
+msgstr ""
+
+#: ../functions.php:581 ../shortcodes/call_to_action_box.php:86
+#: ../shortcodes/featured_item.php:81 ../shortcodes/shortcodes.php:619
+#: ../shortcodes/testimonials.php:149 ../widgets/widget-contact-info.php:87
+msgid "electric-wrench"
+msgstr ""
+
+#: ../functions.php:582 ../shortcodes/call_to_action_box.php:87
+#: ../shortcodes/featured_item.php:82 ../shortcodes/shortcodes.php:620
+#: ../shortcodes/testimonials.php:150 ../widgets/widget-contact-info.php:88
+msgid "email"
+msgstr ""
+
+#: ../functions.php:583 ../shortcodes/call_to_action_box.php:88
+#: ../shortcodes/featured_item.php:83 ../shortcodes/shortcodes.php:621
+#: ../shortcodes/testimonials.php:151 ../widgets/widget-contact-info.php:89
+msgid "engine-belt"
+msgstr ""
+
+#: ../functions.php:584 ../shortcodes/call_to_action_box.php:89
+#: ../shortcodes/featured_item.php:84 ../shortcodes/shortcodes.php:622
+#: ../shortcodes/testimonials.php:152 ../widgets/widget-contact-info.php:90
+msgid "engine-belt-2"
+msgstr ""
+
+#: ../functions.php:585 ../shortcodes/call_to_action_box.php:90
+#: ../shortcodes/featured_item.php:85 ../shortcodes/shortcodes.php:623
+#: ../shortcodes/testimonials.php:153 ../widgets/widget-contact-info.php:91
+msgid "facebook"
+msgstr ""
+
+#: ../functions.php:586 ../shortcodes/call_to_action_box.php:91
+#: ../shortcodes/featured_item.php:86 ../shortcodes/shortcodes.php:624
+#: ../shortcodes/testimonials.php:154 ../widgets/widget-contact-info.php:92
+msgid "faq"
+msgstr ""
+
+#: ../functions.php:587 ../shortcodes/call_to_action_box.php:92
+#: ../shortcodes/featured_item.php:87 ../shortcodes/shortcodes.php:625
+#: ../shortcodes/testimonials.php:155 ../widgets/widget-contact-info.php:93
+msgid "fax"
+msgstr ""
+
+#: ../functions.php:588 ../shortcodes/call_to_action_box.php:93
+#: ../shortcodes/featured_item.php:88 ../shortcodes/shortcodes.php:626
+#: ../shortcodes/testimonials.php:156 ../widgets/widget-contact-info.php:94
+msgid "fax-2"
+msgstr ""
+
+#: ../functions.php:589 ../shortcodes/call_to_action_box.php:94
+#: ../shortcodes/featured_item.php:89 ../shortcodes/shortcodes.php:627
+#: ../shortcodes/testimonials.php:157 ../widgets/widget-contact-info.php:95
+msgid "garage"
+msgstr ""
+
+#: ../functions.php:590 ../shortcodes/call_to_action_box.php:95
+#: ../shortcodes/featured_item.php:90 ../shortcodes/shortcodes.php:628
+#: ../shortcodes/testimonials.php:158 ../widgets/widget-contact-info.php:96
+msgid "gauge"
+msgstr ""
+
+#: ../functions.php:591 ../shortcodes/call_to_action_box.php:96
+#: ../shortcodes/featured_item.php:91 ../shortcodes/shortcodes.php:629
+#: ../shortcodes/testimonials.php:159 ../widgets/widget-contact-info.php:97
+msgid "gearbox"
+msgstr ""
+
+#: ../functions.php:592 ../shortcodes/call_to_action_box.php:97
+#: ../shortcodes/featured_item.php:92 ../shortcodes/shortcodes.php:630
+#: ../shortcodes/testimonials.php:160 ../widgets/widget-contact-info.php:98
+msgid "google-plus"
+msgstr ""
+
+#: ../functions.php:593 ../shortcodes/call_to_action_box.php:98
+#: ../shortcodes/featured_item.php:93 ../shortcodes/shortcodes.php:631
+#: ../shortcodes/testimonials.php:161 ../widgets/widget-contact-info.php:99
+msgid "gps"
+msgstr ""
+
+#: ../functions.php:594 ../shortcodes/call_to_action_box.php:99
+#: ../shortcodes/featured_item.php:94 ../shortcodes/shortcodes.php:632
+#: ../shortcodes/testimonials.php:162 ../widgets/widget-contact-info.php:100
+msgid "headlight"
+msgstr ""
+
+#: ../functions.php:595 ../shortcodes/call_to_action_box.php:100
+#: ../shortcodes/featured_item.php:95 ../shortcodes/shortcodes.php:633
+#: ../shortcodes/testimonials.php:163 ../widgets/widget-contact-info.php:101
+msgid "heating"
+msgstr ""
+
+#: ../functions.php:596 ../shortcodes/call_to_action_box.php:101
+#: ../shortcodes/featured_item.php:96 ../shortcodes/shortcodes.php:634
+#: ../shortcodes/testimonials.php:164 ../widgets/widget-contact-info.php:102
+msgid "image"
+msgstr ""
+
+#: ../functions.php:597 ../shortcodes/call_to_action_box.php:102
+#: ../shortcodes/featured_item.php:97 ../shortcodes/shortcodes.php:635
+#: ../shortcodes/testimonials.php:165 ../widgets/widget-contact-info.php:103
+msgid "images"
+msgstr ""
+
+#: ../functions.php:598 ../shortcodes/call_to_action_box.php:103
+#: ../shortcodes/featured_item.php:98 ../shortcodes/shortcodes.php:636
+#: ../shortcodes/testimonials.php:166 ../widgets/widget-contact-info.php:104
+msgid "inflator-pump"
+msgstr ""
+
+#: ../functions.php:599 ../shortcodes/call_to_action_box.php:104
+#: ../shortcodes/featured_item.php:99 ../shortcodes/shortcodes.php:637
+#: ../shortcodes/testimonials.php:167 ../widgets/widget-contact-info.php:105
+msgid "lightbulb"
+msgstr ""
+
+#: ../functions.php:600 ../shortcodes/call_to_action_box.php:105
+#: ../shortcodes/featured_item.php:100 ../shortcodes/shortcodes.php:638
+#: ../shortcodes/testimonials.php:168 ../widgets/widget-contact-info.php:106
+msgid "location-map"
+msgstr ""
+
+#: ../functions.php:601 ../shortcodes/call_to_action_box.php:106
+#: ../shortcodes/featured_item.php:101 ../shortcodes/shortcodes.php:639
+#: ../shortcodes/testimonials.php:169 ../widgets/widget-contact-info.php:107
+msgid "oil-can"
+msgstr ""
+
+#: ../functions.php:602 ../shortcodes/call_to_action_box.php:107
+#: ../shortcodes/featured_item.php:102 ../shortcodes/shortcodes.php:640
+#: ../shortcodes/testimonials.php:170 ../widgets/widget-contact-info.php:108
+msgid "oil-gauge"
+msgstr ""
+
+#: ../functions.php:603 ../shortcodes/call_to_action_box.php:108
+#: ../shortcodes/featured_item.php:103 ../shortcodes/shortcodes.php:641
+#: ../shortcodes/testimonials.php:171 ../widgets/widget-contact-info.php:109
+msgid "oil-station"
+msgstr ""
+
+#: ../functions.php:604 ../shortcodes/call_to_action_box.php:109
+#: ../shortcodes/featured_item.php:104 ../shortcodes/shortcodes.php:642
+#: ../shortcodes/testimonials.php:172 ../widgets/widget-contact-info.php:110
+msgid "parking-sensor"
+msgstr ""
+
+#: ../functions.php:605 ../shortcodes/call_to_action_box.php:110
+#: ../shortcodes/featured_item.php:105 ../shortcodes/shortcodes.php:643
+#: ../shortcodes/testimonials.php:173 ../widgets/widget-contact-info.php:111
+msgid "payment"
+msgstr ""
+
+#: ../functions.php:606 ../shortcodes/call_to_action_box.php:111
+#: ../shortcodes/featured_item.php:106 ../shortcodes/shortcodes.php:644
+#: ../shortcodes/testimonials.php:174 ../widgets/widget-contact-info.php:112
+msgid "pen"
+msgstr ""
+
+#: ../functions.php:607 ../shortcodes/call_to_action_box.php:112
+#: ../shortcodes/featured_item.php:107 ../shortcodes/shortcodes.php:645
+#: ../shortcodes/testimonials.php:175 ../widgets/widget-contact-info.php:113
+msgid "percent"
+msgstr ""
+
+#: ../functions.php:608 ../shortcodes/call_to_action_box.php:113
+#: ../shortcodes/featured_item.php:108 ../shortcodes/shortcodes.php:646
+#: ../shortcodes/testimonials.php:176 ../widgets/widget-contact-info.php:114
+msgid "person"
+msgstr ""
+
+#: ../functions.php:609 ../shortcodes/call_to_action_box.php:114
+#: ../shortcodes/featured_item.php:109 ../shortcodes/shortcodes.php:647
+#: ../shortcodes/shortcodes.php:815 ../shortcodes/testimonials.php:177
+#: ../widgets/widget-contact-info.php:115
+msgid "phone"
+msgstr ""
+
+#: ../functions.php:610 ../shortcodes/call_to_action_box.php:115
+#: ../shortcodes/featured_item.php:110 ../shortcodes/shortcodes.php:648
+#: ../shortcodes/testimonials.php:178 ../widgets/widget-contact-info.php:116
+msgid "phone-call"
+msgstr ""
+
+#: ../functions.php:611 ../shortcodes/call_to_action_box.php:116
+#: ../shortcodes/featured_item.php:111 ../shortcodes/shortcodes.php:649
+#: ../shortcodes/testimonials.php:179 ../widgets/widget-contact-info.php:117
+msgid "phone-call-24h"
+msgstr ""
+
+#: ../functions.php:612 ../shortcodes/call_to_action_box.php:117
+#: ../shortcodes/featured_item.php:112 ../shortcodes/shortcodes.php:650
+#: ../shortcodes/testimonials.php:180 ../widgets/widget-contact-info.php:118
+msgid "phone-circle"
+msgstr ""
+
+#: ../functions.php:613 ../shortcodes/call_to_action_box.php:118
+#: ../shortcodes/featured_item.php:113 ../shortcodes/shortcodes.php:651
+#: ../shortcodes/testimonials.php:181 ../widgets/widget-contact-info.php:119
+msgid "piggy-bank"
+msgstr ""
+
+#: ../functions.php:614 ../shortcodes/call_to_action_box.php:119
+#: ../shortcodes/featured_item.php:114 ../shortcodes/shortcodes.php:652
+#: ../shortcodes/testimonials.php:182 ../widgets/widget-contact-info.php:120
+msgid "quote"
+msgstr ""
+
+#: ../functions.php:615 ../shortcodes/call_to_action_box.php:120
+#: ../shortcodes/featured_item.php:115 ../shortcodes/shortcodes.php:653
+#: ../shortcodes/testimonials.php:183 ../widgets/widget-contact-info.php:121
+msgid "road"
+msgstr ""
+
+#: ../functions.php:616 ../shortcodes/call_to_action_box.php:121
+#: ../shortcodes/featured_item.php:116 ../shortcodes/shortcodes.php:654
+#: ../shortcodes/testimonials.php:184 ../widgets/widget-contact-info.php:122
+msgid "screwdriver"
+msgstr ""
+
+#: ../functions.php:617 ../shortcodes/call_to_action_box.php:122
+#: ../shortcodes/featured_item.php:117 ../shortcodes/shortcodes.php:655
+#: ../shortcodes/testimonials.php:185 ../widgets/widget-contact-info.php:123
+msgid "seatbelt-lock"
+msgstr ""
+
+#: ../functions.php:618 ../shortcodes/call_to_action_box.php:123
+#: ../shortcodes/featured_item.php:118 ../shortcodes/shortcodes.php:656
+#: ../shortcodes/testimonials.php:186 ../widgets/widget-contact-info.php:124
+msgid "service-24h"
+msgstr ""
+
+#: ../functions.php:619 ../shortcodes/call_to_action_box.php:124
+#: ../shortcodes/featured_item.php:119 ../shortcodes/shortcodes.php:657
+#: ../shortcodes/testimonials.php:187 ../widgets/widget-contact-info.php:125
+msgid "share-time"
+msgstr ""
+
+#: ../functions.php:620 ../shortcodes/call_to_action_box.php:125
+#: ../shortcodes/featured_item.php:120 ../shortcodes/shortcodes.php:658
+#: ../shortcodes/shortcodes.php:817 ../shortcodes/testimonials.php:188
+#: ../widgets/widget-contact-info.php:126
+msgid "shopping-cart"
+msgstr ""
+
+#: ../functions.php:621 ../shortcodes/call_to_action_box.php:126
+#: ../shortcodes/featured_item.php:121 ../shortcodes/shortcodes.php:659
+#: ../shortcodes/testimonials.php:189 ../widgets/widget-contact-info.php:127
+msgid "signal-warning"
+msgstr ""
+
+#: ../functions.php:622 ../shortcodes/call_to_action_box.php:127
+#: ../shortcodes/featured_item.php:122 ../shortcodes/shortcodes.php:660
+#: ../shortcodes/testimonials.php:190 ../widgets/widget-contact-info.php:128
+msgid "sign-zigzag"
+msgstr ""
+
+#: ../functions.php:623 ../shortcodes/call_to_action_box.php:128
+#: ../shortcodes/featured_item.php:123 ../shortcodes/shortcodes.php:661
+#: ../shortcodes/testimonials.php:191 ../widgets/widget-contact-info.php:129
+msgid "snow-crystal"
+msgstr ""
+
+#: ../functions.php:624 ../shortcodes/call_to_action_box.php:129
+#: ../shortcodes/featured_item.php:124 ../shortcodes/shortcodes.php:662
+#: ../shortcodes/testimonials.php:192 ../widgets/widget-contact-info.php:130
+msgid "speed-gauge"
+msgstr ""
+
+#: ../functions.php:625 ../shortcodes/call_to_action_box.php:130
+#: ../shortcodes/featured_item.php:125 ../shortcodes/shortcodes.php:663
+#: ../shortcodes/testimonials.php:193 ../widgets/widget-contact-info.php:131
+msgid "steering-wheel"
+msgstr ""
+
+#: ../functions.php:626 ../shortcodes/call_to_action_box.php:132
+#: ../shortcodes/featured_item.php:127 ../shortcodes/shortcodes.php:665
+#: ../shortcodes/testimonials.php:195 ../widgets/widget-contact-info.php:133
+msgid "testimonials"
+msgstr ""
+
+#: ../functions.php:627 ../shortcodes/call_to_action_box.php:133
+#: ../shortcodes/featured_item.php:128 ../shortcodes/shortcodes.php:666
+#: ../shortcodes/testimonials.php:196 ../widgets/widget-contact-info.php:134
+msgid "toolbox"
+msgstr ""
+
+#: ../functions.php:628 ../shortcodes/call_to_action_box.php:134
+#: ../shortcodes/featured_item.php:129 ../shortcodes/shortcodes.php:667
+#: ../shortcodes/testimonials.php:197 ../widgets/widget-contact-info.php:135
+msgid "toolbox-2"
+msgstr ""
+
+#: ../functions.php:629 ../shortcodes/call_to_action_box.php:135
+#: ../shortcodes/featured_item.php:130 ../shortcodes/shortcodes.php:668
+#: ../shortcodes/testimonials.php:198 ../widgets/widget-contact-info.php:136
+msgid "truck"
+msgstr ""
+
+#: ../functions.php:630 ../shortcodes/call_to_action_box.php:136
+#: ../shortcodes/featured_item.php:131 ../shortcodes/shortcodes.php:669
+#: ../shortcodes/testimonials.php:199 ../widgets/widget-contact-info.php:137
+msgid "truck-tow"
+msgstr ""
+
+#: ../functions.php:631 ../shortcodes/call_to_action_box.php:137
+#: ../shortcodes/featured_item.php:132 ../shortcodes/shortcodes.php:670
+#: ../shortcodes/testimonials.php:200 ../widgets/widget-contact-info.php:138
+msgid "tunning"
+msgstr ""
+
+#: ../functions.php:632 ../shortcodes/call_to_action_box.php:138
+#: ../shortcodes/featured_item.php:133 ../shortcodes/shortcodes.php:671
+#: ../shortcodes/testimonials.php:201 ../widgets/widget-contact-info.php:139
+msgid "twitter"
+msgstr ""
+
+#: ../functions.php:633 ../shortcodes/call_to_action_box.php:139
+#: ../shortcodes/featured_item.php:134 ../shortcodes/shortcodes.php:672
+#: ../shortcodes/testimonials.php:202 ../widgets/widget-contact-info.php:140
+msgid "user-chat"
+msgstr ""
+
+#: ../functions.php:634 ../shortcodes/call_to_action_box.php:140
+#: ../shortcodes/featured_item.php:135 ../shortcodes/shortcodes.php:673
+#: ../shortcodes/testimonials.php:203 ../widgets/widget-contact-info.php:141
+msgid "video"
+msgstr ""
+
+#: ../functions.php:635 ../shortcodes/call_to_action_box.php:141
+#: ../shortcodes/featured_item.php:136 ../shortcodes/shortcodes.php:674
+#: ../shortcodes/testimonials.php:204 ../widgets/widget-contact-info.php:142
+msgid "wallet"
+msgstr ""
+
+#: ../functions.php:636 ../shortcodes/call_to_action_box.php:142
+#: ../shortcodes/featured_item.php:137 ../shortcodes/shortcodes.php:675
+#: ../shortcodes/testimonials.php:205 ../widgets/widget-contact-info.php:143
+msgid "wedding-car"
+msgstr ""
+
+#: ../functions.php:637 ../shortcodes/call_to_action_box.php:143
+#: ../shortcodes/featured_item.php:138 ../shortcodes/shortcodes.php:676
+#: ../shortcodes/testimonials.php:206 ../widgets/widget-contact-info.php:144
+msgid "windshield"
+msgstr ""
+
+#: ../functions.php:638 ../shortcodes/call_to_action_box.php:144
+#: ../shortcodes/featured_item.php:139 ../shortcodes/shortcodes.php:677
+#: ../shortcodes/testimonials.php:207 ../widgets/widget-contact-info.php:145
+msgid "wrench"
+msgstr ""
+
+#: ../functions.php:639 ../shortcodes/call_to_action_box.php:145
+#: ../shortcodes/featured_item.php:140 ../shortcodes/shortcodes.php:678
+#: ../shortcodes/testimonials.php:208 ../widgets/widget-contact-info.php:146
+msgid "wrench-double"
+msgstr ""
+
+#: ../functions.php:640 ../shortcodes/call_to_action_box.php:146
+#: ../shortcodes/featured_item.php:141 ../shortcodes/shortcodes.php:679
+#: ../shortcodes/testimonials.php:209 ../widgets/widget-contact-info.php:147
+msgid "wrench-screwdriver"
+msgstr ""
+
+#: ../functions.php:641 ../shortcodes/call_to_action_box.php:147
+#: ../shortcodes/featured_item.php:142 ../shortcodes/shortcodes.php:680
+#: ../shortcodes/testimonials.php:210 ../widgets/widget-contact-info.php:148
+msgid "youtube"
+msgstr ""
+
+#: ../functions.php:647
+msgid "Custom url:"
+msgstr ""
+
+#: ../functions.php:683
+msgid "&lsaquo;"
+msgstr ""
+
+#: ../functions.php:684
+msgid "&rsaquo;"
+msgstr ""
+
+#: ../functions.php:689
+msgid "ADD TO CART"
+msgstr ""
+
+#: ../functions.php:712
+msgid "First Name"
+msgstr ""
+
+#: ../functions.php:713
+msgid "Last Name"
+msgstr ""
+
+#: ../functions.php:714
+msgid "Company Name"
+msgstr ""
+
+#: ../functions.php:715
+msgid "Email Address"
+msgstr ""
+
+#: ../functions.php:716
+msgid "Phone"
+msgstr ""
+
+#: ../header.php:12
+msgid "RSS 2.0"
+msgstr ""
+
+#: ../index.php:6 ../index.php:21
+msgid "Latest Posts"
+msgstr ""
+
+#: ../index.php:10 ../page.php:12 ../search.php:15
+#: ../single-ql_galleries.php:32 ../single-ql_services.php:32
+#: ../single-ql_team.php:32 ../single.php:75 ../template-blog.php:30
+#: ../woocommerce.php:15
+msgid "YOU ARE HERE:"
+msgstr ""
+
+#: ../index.php:13 ../page.php:15 ../search.php:18
+#: ../single-ql_galleries.php:35 ../single-ql_services.php:35
+#: ../single-ql_team.php:35 ../template-blog.php:33 ../woocommerce.php:18
+msgid "Home"
+msgstr ""
+
+#: ../index.php:14 ../page.php:16 ../search.php:19
+#: ../single-ql_galleries.php:36 ../single-ql_services.php:36
+#: ../single-ql_team.php:36 ../single.php:78 ../single.php:79
+#: ../template-blog.php:34 ../woocommerce.php:19
+msgid "HOME"
+msgstr ""
+
+#: ../plugins_activator.php:8
+msgid "Theme Dummy Content Importer"
+msgstr ""
+
+#: ../plugins_activator.php:18
+msgid "Car Service Theme Shortcodes"
+msgstr ""
+
+#: ../plugins_activator.php:28
+msgid "WPBakery Page Builder"
+msgstr ""
+
+#: ../plugins_activator.php:38
+msgid "Revolution Slider"
+msgstr ""
+
+#: ../plugins_activator.php:48
+msgid "Cost Calculator"
+msgstr ""
+
+#: ../plugins_activator.php:58
+msgid "Theme Sidebars"
+msgstr ""
+
+#: ../plugins_activator.php:68
+msgid "Theme Galleries"
+msgstr ""
+
+#: ../plugins_activator.php:78
+msgid "Theme Services"
+msgstr ""
+
+#: ../plugins_activator.php:88
+msgid "Theme Team"
+msgstr ""
+
+#: ../plugins_activator.php:130
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgstr ""
+
+#: ../plugins_activator.php:133
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgstr ""
+
+#: ../plugins_activator.php:134
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s. Please check update "
+"instructions <a href=\"https://support.quanticalabs.com/forum/topic/16082/"
+"faq-frequently-asked-questions#question_12\">here</a>."
+msgstr ""
+
+#: ../plugins_activator.php:135
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgstr ""
+
+#: ../plugins_activator.php:137
+msgid "Activate installed plugin"
+msgstr ""
+
+#: ../plugins_activator.php:140
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../search.php:11
+msgid "SEARCH RESULTS FOR:"
+msgstr ""
+
+#: ../search.php:26
+msgid "SEARCH RESULTS"
+msgstr ""
+
+#: ../shortcodes/announcement_box.php:36
+msgid "Announcement box"
+msgstr ""
+
+#: ../shortcodes/announcement_box.php:48 ../shortcodes/team_member_box.php:90
+#: ../theme-options.php:215 ../theme-options.php:718
+msgid "Header"
+msgstr ""
+
+#: ../shortcodes/announcement_box.php:56
+msgid "Header expose"
+msgstr ""
+
+#: ../shortcodes/announcement_box.php:63
+#: ../shortcodes/call_to_action_box.php:152
+msgid "Button label"
+msgstr ""
+
+#: ../shortcodes/announcement_box.php:70
+#: ../shortcodes/call_to_action_box.php:159
+msgid "Button url"
+msgstr ""
+
+#: ../shortcodes/blog.php:112 ../shortcodes/blog_2_columns.php:135
+#: ../shortcodes/blog_3_columns.php:138 ../shortcodes/post_carousel.php:104
+#: ../shortcodes/shortcodes.php:763 ../shortcodes/shortcodes.php:827
+msgid "READ MORE"
+msgstr ""
+
+#: ../shortcodes/blog.php:122 ../shortcodes/blog_2_columns.php:145
+#: ../shortcodes/blog_3_columns.php:148 ../shortcodes/blog_small.php:106
+#, php-format
+msgid "No results found for %s"
+msgstr ""
+
+#: ../shortcodes/blog.php:143 ../shortcodes/blog.php:159
+#: ../shortcodes/blog_2_columns.php:166 ../shortcodes/blog_2_columns.php:182
+#: ../shortcodes/blog_3_columns.php:169 ../shortcodes/blog_3_columns.php:185
+#: ../shortcodes/blog_small.php:128 ../shortcodes/blog_small.php:144
+#: ../shortcodes/post_carousel.php:130 ../shortcodes/post_carousel.php:146
+#: ../shortcodes/shortcodes.php:14 ../widgets/widget-recent.php:169
+#: ../widgets/widget-recent.php:190
+msgid "All"
+msgstr ""
+
+#: ../shortcodes/blog.php:160 ../shortcodes/blog_2_columns.php:183
+#: ../shortcodes/blog_3_columns.php:186 ../shortcodes/blog_small.php:145
+#: ../shortcodes/post_carousel.php:147
+msgid "Current author (applies on author single page)"
+msgstr ""
+
+#: ../shortcodes/blog.php:166 ../shortcodes/blog_2_columns.php:189
+#: ../shortcodes/blog_3_columns.php:192 ../shortcodes/blog_small.php:151
+#: ../shortcodes/featured_item.php:150 ../shortcodes/post_carousel.php:153
+#: ../shortcodes/shortcodes.php:101 ../shortcodes/shortcodes.php:125
+#: ../shortcodes/shortcodes.php:160 ../shortcodes/shortcodes.php:182
+#: ../shortcodes/shortcodes.php:245 ../shortcodes/shortcodes.php:393
+#: ../shortcodes/single-post.php:140 ../style_selector/style_selector.php:16
+#: ../theme-options.php:436 ../widgets/widget-recent.php:140
+msgid "Default"
+msgstr ""
+
+#: ../shortcodes/blog.php:183
+msgid "Blog"
+msgstr ""
+
+#: ../shortcodes/blog.php:194 ../shortcodes/blog_2_columns.php:225
+#: ../shortcodes/blog_3_columns.php:228 ../shortcodes/blog_small.php:179
+msgid "Pagination"
+msgstr ""
+
+#: ../shortcodes/blog.php:201 ../shortcodes/blog_2_columns.php:232
+#: ../shortcodes/blog_3_columns.php:235 ../shortcodes/blog_small.php:186
+msgid "Items per page/Post count"
+msgstr ""
+
+#: ../shortcodes/blog.php:204 ../shortcodes/blog_2_columns.php:235
+#: ../shortcodes/blog_3_columns.php:238 ../shortcodes/blog_small.php:189
+msgid ""
+"Items per page if pagination is set to 'yes' or post count otherwise. Set -1 "
+"to display all."
+msgstr ""
+
+#: ../shortcodes/blog.php:209 ../shortcodes/blog_2_columns.php:240
+#: ../shortcodes/blog_3_columns.php:243 ../shortcodes/blog_small.php:194
+#: ../shortcodes/post_carousel.php:181
+msgid "Offset"
+msgstr ""
+
+#: ../shortcodes/blog.php:212 ../shortcodes/blog_2_columns.php:243
+#: ../shortcodes/blog_3_columns.php:246 ../shortcodes/blog_small.php:197
+#: ../shortcodes/post_carousel.php:184
+msgid "Number of post to displace or pass over."
+msgstr ""
+
+#: ../shortcodes/blog.php:218 ../shortcodes/blog_2_columns.php:249
+#: ../shortcodes/blog_3_columns.php:252 ../shortcodes/blog_small.php:203
+#: ../shortcodes/post_carousel.php:189 ../shortcodes/single-post.php:160
+#: ../widgets/widget-recent.php:219
+msgid "Featured image size"
+msgstr ""
+
+#: ../shortcodes/blog.php:225 ../shortcodes/blog_2_columns.php:256
+#: ../shortcodes/blog_3_columns.php:259 ../shortcodes/blog_small.php:210
+#: ../shortcodes/post_carousel.php:196 ../widgets/widget-recent.php:167
+#: ../widgets/widget-recent.php:182
+msgid "Display selected"
+msgstr ""
+
+#: ../shortcodes/blog.php:228 ../shortcodes/blog_2_columns.php:259
+#: ../shortcodes/blog_3_columns.php:262 ../shortcodes/blog_small.php:213
+#: ../shortcodes/post_carousel.php:199
+msgid ""
+"Please provide post ids separated with commas, to display only selected posts"
+msgstr ""
+
+#: ../shortcodes/blog.php:233 ../shortcodes/blog_2_columns.php:264
+#: ../shortcodes/blog_3_columns.php:267 ../shortcodes/blog_small.php:218
+#: ../shortcodes/post_carousel.php:204 ../widgets/widget-recent.php:188
+msgid "Display from Category"
+msgstr ""
+
+#: ../shortcodes/blog.php:240 ../shortcodes/blog_2_columns.php:271
+#: ../shortcodes/blog_3_columns.php:274 ../shortcodes/blog_small.php:225
+#: ../shortcodes/post_carousel.php:211
+msgid "Display by author"
+msgstr ""
+
+#: ../shortcodes/blog.php:247 ../shortcodes/blog_2_columns.php:278
+#: ../shortcodes/blog_3_columns.php:281 ../shortcodes/blog_small.php:232
+#: ../shortcodes/post_carousel.php:218 ../widgets/widget-recent.php:202
+msgid "Order by"
+msgstr ""
+
+#: ../shortcodes/blog.php:249 ../shortcodes/blog_2_columns.php:280
+#: ../shortcodes/blog_3_columns.php:283 ../shortcodes/blog_small.php:234
+#: ../shortcodes/post_carousel.php:220 ../widgets/widget-recent.php:204
+msgid "Date"
+msgstr ""
+
+#: ../shortcodes/blog.php:249 ../shortcodes/blog_2_columns.php:280
+#: ../shortcodes/blog_3_columns.php:283 ../shortcodes/blog_small.php:234
+#: ../shortcodes/post_carousel.php:220 ../widgets/widget-recent.php:205
+msgid "Title, menu order"
+msgstr ""
+
+#: ../shortcodes/blog.php:249 ../shortcodes/blog_2_columns.php:280
+#: ../shortcodes/blog_3_columns.php:283 ../shortcodes/blog_small.php:234
+#: ../shortcodes/post_carousel.php:220 ../widgets/widget-recent.php:206
+msgid "Menu order"
+msgstr ""
+
+#: ../shortcodes/blog.php:249 ../shortcodes/blog_2_columns.php:280
+#: ../shortcodes/blog_3_columns.php:283 ../shortcodes/blog_small.php:234
+#: ../shortcodes/post_carousel.php:220 ../widgets/widget-recent.php:207
+msgid "Post views"
+msgstr ""
+
+#: ../shortcodes/blog.php:249 ../shortcodes/blog_2_columns.php:280
+#: ../shortcodes/blog_3_columns.php:283 ../shortcodes/blog_small.php:234
+#: ../shortcodes/post_carousel.php:220 ../widgets/widget-recent.php:208
+msgid "Comment count"
+msgstr ""
+
+#: ../shortcodes/blog.php:249 ../shortcodes/blog_2_columns.php:280
+#: ../shortcodes/blog_3_columns.php:283 ../shortcodes/blog_small.php:234
+#: ../shortcodes/post_carousel.php:220
+msgid "Random"
+msgstr ""
+
+#: ../shortcodes/blog.php:254 ../shortcodes/blog_2_columns.php:285
+#: ../shortcodes/blog_3_columns.php:288 ../shortcodes/blog_small.php:239
+#: ../shortcodes/post_carousel.php:225 ../widgets/widget-recent.php:212
+msgid "Order"
+msgstr ""
+
+#: ../shortcodes/blog.php:256 ../shortcodes/blog_2_columns.php:287
+#: ../shortcodes/blog_3_columns.php:290 ../shortcodes/blog_small.php:241
+#: ../shortcodes/post_carousel.php:227 ../widgets/widget-recent.php:214
+msgid "descending"
+msgstr ""
+
+#: ../shortcodes/blog.php:256 ../shortcodes/blog_2_columns.php:287
+#: ../shortcodes/blog_3_columns.php:290 ../shortcodes/blog_small.php:241
+#: ../shortcodes/post_carousel.php:227 ../widgets/widget-recent.php:215
+msgid "ascending"
+msgstr ""
+
+#: ../shortcodes/blog.php:261 ../shortcodes/blog_2_columns.php:292
+#: ../shortcodes/blog_3_columns.php:295 ../shortcodes/blog_small.php:246
+#: ../shortcodes/post_carousel.php:240 ../shortcodes/single-post.php:167
+msgid "Show post title"
+msgstr ""
+
+#: ../shortcodes/blog.php:268 ../shortcodes/blog_2_columns.php:299
+#: ../shortcodes/blog_3_columns.php:302 ../shortcodes/post_carousel.php:247
+#: ../shortcodes/single-post.php:181
+msgid "Show post excerpt"
+msgstr ""
+
+#: ../shortcodes/blog.php:275 ../shortcodes/blog_2_columns.php:315
+#: ../shortcodes/blog_3_columns.php:318 ../shortcodes/post_carousel.php:263
+#: ../shortcodes/shortcodes.php:789
+msgid "Read more button"
+msgstr ""
+
+#: ../shortcodes/blog.php:282 ../shortcodes/blog_2_columns.php:322
+#: ../shortcodes/blog_3_columns.php:325 ../shortcodes/post_carousel.php:270
+#: ../shortcodes/single-post.php:216
+msgid "Show post categories"
+msgstr ""
+
+#: ../shortcodes/blog.php:289 ../shortcodes/blog_2_columns.php:329
+#: ../shortcodes/blog_3_columns.php:332 ../shortcodes/post_carousel.php:277
+#: ../shortcodes/single-post.php:223
+msgid "Show post tags"
+msgstr ""
+
+#: ../shortcodes/blog.php:296 ../shortcodes/blog_2_columns.php:336
+#: ../shortcodes/blog_3_columns.php:339 ../shortcodes/post_carousel.php:284
+#: ../shortcodes/single-post.php:209
+msgid "Show post author"
+msgstr ""
+
+#: ../shortcodes/blog.php:303 ../shortcodes/blog_2_columns.php:343
+#: ../shortcodes/blog_3_columns.php:346 ../shortcodes/blog_small.php:253
+#: ../shortcodes/post_carousel.php:291 ../shortcodes/single-post.php:188
+msgid "Show post date"
+msgstr ""
+
+#: ../shortcodes/blog.php:310 ../shortcodes/blog_2_columns.php:350
+#: ../shortcodes/blog_3_columns.php:353 ../shortcodes/blog_small.php:260
+#: ../shortcodes/post_carousel.php:298
+msgid "Show post views"
+msgstr ""
+
+#: ../shortcodes/blog.php:317 ../shortcodes/blog_2_columns.php:357
+#: ../shortcodes/blog_3_columns.php:360 ../shortcodes/post_carousel.php:305
+#: ../shortcodes/single-post.php:202
+msgid "Show comments number"
+msgstr ""
+
+#: ../shortcodes/blog.php:324 ../shortcodes/blog_2_columns.php:364
+#: ../shortcodes/blog_3_columns.php:367
+msgid "Is search results component"
+msgstr ""
+
+#: ../shortcodes/blog_2_columns.php:206
+msgid "Blog 2 Columns"
+msgstr ""
+
+#: ../shortcodes/blog_2_columns.php:217 ../shortcodes/blog_3_columns.php:220
+msgid "Layout type"
+msgstr ""
+
+#: ../shortcodes/blog_2_columns.php:219 ../shortcodes/blog_3_columns.php:222
+msgid "Rows layout"
+msgstr ""
+
+#: ../shortcodes/blog_2_columns.php:219 ../shortcodes/blog_3_columns.php:222
+msgid "Columns layout"
+msgstr ""
+
+#: ../shortcodes/blog_2_columns.php:220 ../shortcodes/blog_3_columns.php:223
+msgid "How posts should be displayed: row by row or column by column"
+msgstr ""
+
+#: ../shortcodes/blog_2_columns.php:306 ../shortcodes/blog_3_columns.php:309
+#: ../shortcodes/post_carousel.php:254
+msgid "Excerpt length"
+msgstr ""
+
+#: ../shortcodes/blog_2_columns.php:309 ../shortcodes/blog_3_columns.php:312
+#: ../shortcodes/post_carousel.php:257
+msgid "The excerpt length. Set 0 to use default WordPress excerpt length."
+msgstr ""
+
+#: ../shortcodes/blog_3_columns.php:209
+msgid "Blog 3 Columns"
+msgstr ""
+
+#: ../shortcodes/blog_small.php:168
+msgid "Blog Small"
+msgstr ""
+
+#: ../shortcodes/call_to_action_box.php:34 ../shortcodes/featured_item.php:155
+#: ../shortcodes/shortcodes.php:575 ../shortcodes/shortcodes.php:720
+#: ../shortcodes/shortcodes.php:825 ../shortcodes/timeline_item.php:56
+#: ../widgets/widget-contact-details.php:123
+#: ../widgets/widget-contact-info.php:152 ../widgets/widget-list.php:84
+#: ../widgets/widget-recent.php:158
+msgid "Title"
+msgstr ""
+
+#: ../shortcodes/call_to_action_box.php:131
+#: ../shortcodes/featured_item.php:126 ../shortcodes/shortcodes.php:664
+#: ../shortcodes/testimonials.php:194 ../widgets/widget-contact-info.php:132
+msgid "team"
+msgstr ""
+
+#: ../shortcodes/call_to_action_box.php:166 ../shortcodes/shortcodes.php:848
+msgid "Button target"
+msgstr ""
+
+#: ../shortcodes/call_to_action_box.php:168
+#: ../shortcodes/our_clients_carousel.php:91 ../shortcodes/shortcodes.php:850
+msgid "Same window"
+msgstr ""
+
+#: ../shortcodes/call_to_action_box.php:168
+#: ../shortcodes/our_clients_carousel.php:92 ../shortcodes/shortcodes.php:850
+msgid "New window"
+msgstr ""
+
+#: ../shortcodes/call_to_action_box.php:180
+msgid "Call To Action Box"
+msgstr ""
+
+#: ../shortcodes/class/Post.php:45 ../shortcodes/single-post.php:51
+msgid "By "
+msgstr ""
+
+#: ../shortcodes/class/Post.php:50 ../shortcodes/single-post.php:56
+msgid "In "
+msgstr ""
+
+#: ../shortcodes/class/Post.php:55 ../shortcodes/class/Post.php:72
+#: ../shortcodes/single-post.php:61 ../shortcodes/single-post.php:78
+#, php-format
+msgid "View all posts filed under %s"
+msgstr ""
+
+#: ../shortcodes/class/Post.php:67 ../shortcodes/single-post.php:73
+msgid "Tags "
+msgstr ""
+
+#: ../shortcodes/class/Post.php:88
+msgid "view"
+msgstr ""
+
+#: ../shortcodes/class/Post.php:88
+msgid "views"
+msgstr ""
+
+#: ../shortcodes/class/Post.php:93 ../shortcodes/single-post.php:98
+msgid "comment"
+msgstr ""
+
+#: ../shortcodes/class/Post.php:93 ../shortcodes/single-post.php:98
+msgid "comments"
+msgstr ""
+
+#: ../shortcodes/comments.php:41
+msgid "Comments"
+msgstr ""
+
+#: ../shortcodes/comments.php:52
+msgid "Show comments form"
+msgstr ""
+
+#: ../shortcodes/comments.php:85
+msgid "Show comments list"
+msgstr ""
+
+#: ../shortcodes/featured_item.php:150 ../shortcodes/testimonials.php:89
+msgid "Big"
+msgstr ""
+
+#: ../shortcodes/featured_item.php:177
+msgid "Title link"
+msgstr ""
+
+#: ../shortcodes/featured_item.php:184
+msgid "Icon link"
+msgstr ""
+
+#: ../shortcodes/featured_item.php:191
+msgid "Counter value"
+msgstr ""
+
+#: ../shortcodes/featured_item.php:198
+msgid "Counter value sign"
+msgstr ""
+
+#: ../shortcodes/featured_item.php:212
+msgid "Featured Item"
+msgstr ""
+
+#: ../shortcodes/items_list.php:32
+msgid "Items list"
+msgstr ""
+
+#: ../shortcodes/items_list.php:51 ../shortcodes/shortcodes.php:151
+#: ../widgets/widget-contact-details.php:127
+#: ../widgets/widget-contact-info.php:168
+msgid "Content"
+msgstr ""
+
+#: ../shortcodes/map.php:77
+msgid "Google map"
+msgstr ""
+
+#: ../shortcodes/map.php:88
+msgid "Google API Key"
+msgstr ""
+
+#: ../shortcodes/map.php:91
+#, php-format
+msgid ""
+"Please provide valid Google API Key under <a href='%s' title='Theme "
+"Options'>Theme Options</a>"
+msgstr ""
+
+#: ../shortcodes/map.php:99
+msgid "Please provide unique id for each map on the same page/post"
+msgstr ""
+
+#: ../shortcodes/map.php:104 ../shortcodes/shortcodes.php:507
+msgid "Width"
+msgstr ""
+
+#: ../shortcodes/map.php:111
+msgid "Height"
+msgstr ""
+
+#: ../shortcodes/map.php:118
+msgid "Map type"
+msgstr ""
+
+#: ../shortcodes/map.php:120
+msgid "Roadmap"
+msgstr ""
+
+#: ../shortcodes/map.php:120
+msgid "Satellite"
+msgstr ""
+
+#: ../shortcodes/map.php:120
+msgid "Hybrid"
+msgstr ""
+
+#: ../shortcodes/map.php:120
+msgid "Terrain"
+msgstr ""
+
+#: ../shortcodes/map.php:125
+msgid "Latitude"
+msgstr ""
+
+#: ../shortcodes/map.php:128 ../shortcodes/map.php:136
+#: ../shortcodes/map.php:144 ../shortcodes/map.php:152
+#, php-format
+msgid ""
+"You can use this <a href='%s' target='_blank'>http://www.birdtheme.org/"
+"useful/v3tool.html</a> tool to designate coordinates"
+msgstr ""
+
+#: ../shortcodes/map.php:133
+msgid "Longitude"
+msgstr ""
+
+#: ../shortcodes/map.php:141
+msgid "Marker/Point Latitude"
+msgstr ""
+
+#: ../shortcodes/map.php:149
+msgid "Marker/point Longitude"
+msgstr ""
+
+#: ../shortcodes/map.php:156
+msgid "Map Zoom"
+msgstr ""
+
+#: ../shortcodes/map.php:163
+msgid "Street view control"
+msgstr ""
+
+#: ../shortcodes/map.php:165 ../shortcodes/map.php:172
+#: ../shortcodes/map.php:214 ../shortcodes/map.php:221
+#: ../shortcodes/shortcodes.php:736 ../theme-options.php:295
+#: ../theme-options.php:305 ../theme-options.php:314 ../theme-options.php:427
+#: ../theme-options.php:447 ../theme-options.php:455 ../theme-options.php:464
+#: ../widgets/widget-cart-icon.php:55
+msgid "no"
+msgstr ""
+
+#: ../shortcodes/map.php:165 ../shortcodes/map.php:172
+#: ../shortcodes/map.php:214 ../shortcodes/map.php:221
+#: ../shortcodes/shortcodes.php:736 ../theme-options.php:296
+#: ../theme-options.php:304 ../theme-options.php:313 ../theme-options.php:428
+#: ../theme-options.php:446 ../theme-options.php:456 ../theme-options.php:465
+#: ../widgets/widget-cart-icon.php:54
+msgid "yes"
+msgstr ""
+
+#: ../shortcodes/map.php:170
+msgid "Map type control"
+msgstr ""
+
+#: ../shortcodes/map.php:177
+msgid "Marker/Point icon url"
+msgstr ""
+
+#: ../shortcodes/map.php:184
+msgid "Icon width"
+msgstr ""
+
+#: ../shortcodes/map.php:191
+msgid "Icon height"
+msgstr ""
+
+#: ../shortcodes/map.php:198
+msgid "Icon anchor x"
+msgstr ""
+
+#: ../shortcodes/map.php:205
+msgid "Icon anchor y"
+msgstr ""
+
+#: ../shortcodes/map.php:212
+msgid "Mouse scroll wheel"
+msgstr ""
+
+#: ../shortcodes/map.php:219
+msgid "Draggable"
+msgstr ""
+
+#: ../shortcodes/our_clients_carousel.php:81
+msgid "Add images"
+msgstr ""
+
+#: ../shortcodes/our_clients_carousel.php:97
+msgid "Images"
+msgstr ""
+
+#: ../shortcodes/our_clients_carousel.php:100
+msgid "Select images from media library."
+msgstr ""
+
+#: ../shortcodes/our_clients_carousel.php:107
+msgid "Carousel"
+msgstr ""
+
+#: ../shortcodes/our_clients_carousel.php:108
+msgid "List"
+msgstr ""
+
+#: ../shortcodes/our_clients_carousel.php:113
+msgid "On click action"
+msgstr ""
+
+#: ../shortcodes/our_clients_carousel.php:116
+msgid "Open prettyPhoto"
+msgstr ""
+
+#: ../shortcodes/our_clients_carousel.php:118
+msgid "Open custom links"
+msgstr ""
+
+#: ../shortcodes/our_clients_carousel.php:120
+msgid "Select action for click event."
+msgstr ""
+
+#: ../shortcodes/our_clients_carousel.php:124
+msgid "Custom links"
+msgstr ""
+
+#: ../shortcodes/our_clients_carousel.php:126
+msgid ""
+"Enter links for each slide (Note: divide links with linebreaks (Enter))."
+msgstr ""
+
+#: ../shortcodes/our_clients_carousel.php:134
+msgid "Custom link target"
+msgstr ""
+
+#: ../shortcodes/our_clients_carousel.php:136
+msgid "Select how to open custom links."
+msgstr ""
+
+#: ../shortcodes/our_clients_carousel.php:145
+msgid "Slider autoplay"
+msgstr ""
+
+#: ../shortcodes/our_clients_carousel.php:147
+msgid "Enable autoplay mode."
+msgstr ""
+
+#: ../shortcodes/our_clients_carousel.php:156
+msgid "Hide pagination control"
+msgstr ""
+
+#: ../shortcodes/our_clients_carousel.php:158
+msgid "If checked, pagination controls will be hidden."
+msgstr ""
+
+#: ../shortcodes/our_clients_carousel.php:181
+msgid "Our Clients List"
+msgstr ""
+
+#: ../shortcodes/post_carousel.php:173
+msgid "Post count"
+msgstr ""
+
+#: ../shortcodes/post_carousel.php:176
+msgid "Set -1 to display all."
+msgstr ""
+
+#: ../shortcodes/post_carousel.php:312 ../shortcodes/testimonials.php:238
+msgid "Autoplay"
+msgstr ""
+
+#: ../shortcodes/post_carousel.php:319 ../shortcodes/testimonials.php:245
+msgid "Pause on hover"
+msgstr ""
+
+#: ../shortcodes/post_carousel.php:327
+msgid "Scroll"
+msgstr ""
+
+#: ../shortcodes/post_carousel.php:330
+msgid "Number of items to scroll in one step (max: 3)"
+msgstr ""
+
+#: ../shortcodes/post_carousel.php:335
+msgid "Scroll control (pagination)"
+msgstr ""
+
+#: ../shortcodes/post_carousel.php:348
+msgid "Post Carousel"
+msgstr ""
+
+#: ../shortcodes/pricing_table.php:18
+msgid "Pricing table"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:94 ../shortcodes/shortcodes.php:140
+#: ../shortcodes/shortcodes.php:175
+msgid "Select top margin value for your row"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:98
+msgid "Color"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:102
+msgid "Classic Grey"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:103
+msgid "Classic Blue"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:104
+msgid "Classic Turquoise"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:105
+msgid "Classic Green"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:106
+msgid "Classic Orange"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:107
+msgid "Classic Red"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:108
+msgid "Classic Black"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:110
+msgid "Custom Color"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:112
+msgid "Select bar background color."
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:125 ../shortcodes/shortcodes.php:160
+#: ../style_selector/style_selector.php:23
+msgid "Full width"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:125 ../shortcodes/shortcodes.php:160
+msgid "Paralax background"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:125 ../shortcodes/shortcodes.php:160
+msgid "Cost calculator form"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:126 ../shortcodes/shortcodes.php:161
+msgid "Select row type"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:130 ../shortcodes/shortcodes.php:165
+msgid "Form action url"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:146
+msgid "Row"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:153
+msgid "Place content elements inside the row"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:179
+msgid "Row stretch"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:183
+msgid "Stretch row"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:184
+msgid "Stretch row and content"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:185
+msgid "Stretch row and content (no paddings)"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:187
+msgid ""
+"Select stretching options for row and content (Note: stretched may not work "
+"properly if parent container has \"overflow: hidden\" CSS property)."
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:191
+msgid "Columns gap"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:208
+msgid "Select gap between columns in row."
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:212
+msgid "Full height row?"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:214
+msgid "If checked row will be set to full height."
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:219
+msgid "Columns position"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:222 ../shortcodes/shortcodes.php:247
+msgid "Middle"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:223 ../shortcodes/shortcodes.php:246
+msgid "Top"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:224 ../shortcodes/shortcodes.php:248
+msgid "Bottom"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:225
+msgid "Stretch"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:227
+msgid "Select columns position within row."
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:235
+msgid "Equal height"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:237
+msgid "If checked columns will be set to equal height."
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:242
+msgid "Content position"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:250
+msgid "Select content position within columns."
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:254 ../shortcodes/shortcodes.php:406
+msgid "Use video background?"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:256 ../shortcodes/shortcodes.php:408
+msgid "If checked, video will be used as row background."
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:261 ../shortcodes/shortcodes.php:413
+msgid "YouTube link"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:265 ../shortcodes/shortcodes.php:417
+msgid "Add YouTube link."
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:273 ../shortcodes/shortcodes.php:288
+#: ../shortcodes/shortcodes.php:425 ../shortcodes/shortcodes.php:440
+msgid "Parallax"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:277 ../shortcodes/shortcodes.php:292
+#: ../shortcodes/shortcodes.php:429 ../shortcodes/shortcodes.php:444
+msgid "Simple"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:278 ../shortcodes/shortcodes.php:293
+#: ../shortcodes/shortcodes.php:430 ../shortcodes/shortcodes.php:445
+msgid "With fade"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:280 ../shortcodes/shortcodes.php:432
+msgid "Add parallax type background for row."
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:295 ../shortcodes/shortcodes.php:447
+msgid ""
+"Add parallax type background for row (Note: If no image is specified, "
+"parallax will use background image from Design Options)."
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:303 ../shortcodes/shortcodes.php:455
+msgid "Image"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:306 ../shortcodes/shortcodes.php:458
+msgid "Select image from media library."
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:314 ../shortcodes/shortcodes.php:325
+#: ../shortcodes/shortcodes.php:466 ../shortcodes/shortcodes.php:477
+msgid "Parallax speed"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:317 ../shortcodes/shortcodes.php:328
+#: ../shortcodes/shortcodes.php:469 ../shortcodes/shortcodes.php:480
+msgid "Enter parallax speed ratio (Note: Default value is 1.5, min value is 1)"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:337
+msgid "Row ID"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:339
+#, php-format
+msgid ""
+"Enter row ID (Note: make sure it is unique and valid according to <a href="
+"\"%s\" target=\"_blank\">w3c specification</a>)."
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:343
+msgid "Disable row"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:346
+msgid ""
+"If checked the row won't be visible on the public side of your website. You "
+"can switch it back any time."
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:353 ../shortcodes/shortcodes.php:497
+#: ../shortcodes/shortcodes.php:550
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:357 ../shortcodes/shortcodes.php:501
+msgid "CSS box"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:359 ../shortcodes/shortcodes.php:503
+msgid "Design Options"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:367
+msgid "1 column - 1/12"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:368
+msgid "2 columns - 1/6"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:369
+msgid "3 columns - 1/4"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:370
+msgid "4 columns - 1/3"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:371
+msgid "5 columns - 5/12"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:372
+msgid "6 columns - 1/2"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:373
+msgid "7 columns - 7/12"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:374
+msgid "8 columns - 2/3"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:375
+msgid "9 columns - 3/4"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:376
+msgid "10 columns - 5/6"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:377
+msgid "11 columns - 11/12"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:378
+msgid "12 columns - 1/1"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:381
+msgid "Column"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:386
+msgid "Place content elements inside the column"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:391
+msgid "Column type"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:393
+msgid "Smart (sticky)"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:402
+msgid "Select top margin value for your column"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:489
+msgid "Element ID"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:491
+#, php-format
+msgid ""
+"Enter element ID (Note: make sure it is unique and valid according to <a "
+"href=\"%s\" target=\"_blank\">w3c specification</a>)."
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:510 ../shortcodes/shortcodes.php:518
+msgid "Responsive Options"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:511
+msgid "Select column width."
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:516
+msgid "Responsiveness"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:519
+msgid ""
+"Adjust column for different screen sizes. Control width, offset and "
+"visibility settings."
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:527
+msgid "Widgetised Sidebar"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:531
+msgid "Structure"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:532
+msgid "WordPress widgetised sidebar"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:536
+msgid "Widget title"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:538
+msgid "Enter text used as widget title (Note: located above content element)."
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:544
+msgid "Select widget area to display."
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:558
+msgid "Select top margin value for your sidebar"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:566
+msgid "Tab"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:577
+msgid "Tab title."
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:685
+msgid "Tab ID"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:708
+msgid "Box header"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:729
+msgid "H4"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:729
+msgid "H1"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:729
+msgid "H2"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:729
+msgid "H3"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:729
+msgid "H5"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:729
+msgid "H6"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:729 ../shortcodes/shortcodes.php:833
+#: ../shortcodes/timeline_item.php:41
+msgid "Label"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:734
+msgid "Bottom border"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:776
+msgid "Button"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:789
+msgid "Action button"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:798
+msgid "arrow-circle-down"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:799
+msgid "arrow-circle-right"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:800
+msgid "arrow-dropdown"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:801
+msgid "arrow-left-1"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:802
+msgid "arrow-left-2"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:803
+msgid "arrow-right-1"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:804
+msgid "arrow-right-2"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:805
+msgid "arrow-menu"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:806
+msgid "arrow-up"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:807
+msgid "bubble"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:808
+msgid "bullet"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:809
+msgid "calendar"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:811
+msgid "location"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:812
+msgid "eye"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:813
+msgid "mail"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:814
+msgid "map-marker"
+msgstr ""
+
+#: ../shortcodes/shortcodes.php:816
+msgid "search"
+msgstr ""
+
+#: ../shortcodes/single-gallery.php:37
+msgid "Gallery"
+msgstr ""
+
+#: ../shortcodes/single-post.php:121
+msgid "LEAVE A REPLY"
+msgstr ""
+
+#: ../shortcodes/single-post.php:174
+msgid "Show post featured image"
+msgstr ""
+
+#: ../shortcodes/single-post.php:195
+msgid "Show post views number"
+msgstr ""
+
+#: ../shortcodes/single-post.php:230
+msgid "Show leave reply button"
+msgstr ""
+
+#: ../shortcodes/single-post.php:236
+msgid "Post"
+msgstr ""
+
+#: ../shortcodes/single-service.php:37
+msgid "Service"
+msgstr ""
+
+#: ../shortcodes/single-team.php:37
+msgid "Team Member"
+msgstr ""
+
+#: ../shortcodes/team_member_box.php:83
+msgid "Alternative featured image"
+msgstr ""
+
+#: ../shortcodes/team_member_box.php:97
+msgid "Header link"
+msgstr ""
+
+#: ../shortcodes/team_member_box.php:104
+msgid "Header border"
+msgstr ""
+
+#: ../shortcodes/team_member_box.php:111
+msgid "Show subtitle"
+msgstr ""
+
+#: ../shortcodes/team_member_box.php:118
+msgid "Show excerpt"
+msgstr ""
+
+#: ../shortcodes/team_member_box.php:125
+msgid "Show social icons"
+msgstr ""
+
+#: ../shortcodes/team_member_box.php:132
+msgid "Show featured image"
+msgstr ""
+
+#: ../shortcodes/team_member_box.php:139
+msgid "Featured image link"
+msgstr ""
+
+#: ../shortcodes/team_member_box.php:154
+msgid "Team Member Box"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:89
+msgid "Small"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:94
+msgid "Display pagination"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:102
+msgid "Number of testimonials"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:222
+msgid "Author"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:229
+msgid "Author subtitle"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:261
+msgid "Effect"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:264
+msgid "scroll"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:266
+msgid "directscroll"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:267
+msgid "fade"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:268
+msgid "crossfade"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:269
+msgid "cover"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:270
+msgid "uncover"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:276
+msgid "Sliding easing"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:279
+msgid "easeInOutQuint"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:280
+msgid "swing"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:281
+msgid "linear"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:282
+msgid "easeInQuad"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:283
+msgid "easeOutQuad"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:284
+msgid "easeInOutQuad"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:285
+msgid "easeInCubic"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:286
+msgid "easeOutCubic"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:287
+msgid "easeInOutCubic"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:288
+msgid "easeInQuart"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:289
+msgid "easeOutQuart"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:290
+msgid "easeInOutQuart"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:291
+msgid "easeInSine"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:292
+msgid "easeOutSine"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:293
+msgid "easeInOutSine"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:294
+msgid "easeInExpo"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:295
+msgid "easeOutExpo"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:296
+msgid "easeInOutExpo"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:297
+msgid "easeInQuint"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:298
+msgid "easeOutQuint"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:299
+msgid "easeInCirc"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:300
+msgid "easeOutCirc"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:301
+msgid "easeInOutCirc"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:302
+msgid "easeInElastic"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:303
+msgid "easeOutElastic"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:304
+msgid "easeInOutElastic"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:305
+msgid "easeInBack"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:306
+msgid "easeOutBack"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:307
+msgid "easeInOutBack"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:308
+msgid "easeInBounce"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:309
+msgid "easeOutBounce"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:310
+msgid "easeInOutBounce"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:316
+msgid "Sliding transition speed (ms)"
+msgstr ""
+
+#: ../shortcodes/testimonials.php:349
+msgid "Testimonials"
+msgstr ""
+
+#: ../shortcodes/timeline_item.php:48
+msgid "Label position"
+msgstr ""
+
+#: ../shortcodes/timeline_item.php:63
+msgid "Subtitle"
+msgstr ""
+
+#: ../shortcodes/timeline_item.php:78
+msgid "Animations"
+msgstr ""
+
+#: ../shortcodes/timeline_item.php:98
+msgid "Timeline Item"
+msgstr ""
+
+#: ../single.php:69 ../single.php:98
+msgid "BLOG"
+msgstr ""
+
+#: ../style_selector/style_selector.php:11
+msgid "Style Selector"
+msgstr ""
+
+#: ../style_selector/style_selector.php:14
+msgid "Menu Type:"
+msgstr ""
+
+#: ../style_selector/style_selector.php:17
+msgid "Sticky"
+msgstr ""
+
+#: ../style_selector/style_selector.php:21
+msgid "Layout Style:"
+msgstr ""
+
+#: ../style_selector/style_selector.php:24
+msgid "Boxed"
+msgstr ""
+
+#: ../style_selector/style_selector.php:28
+msgid "Direction:"
+msgstr ""
+
+#: ../style_selector/style_selector.php:30 ../theme-options.php:437
+msgid "LTR"
+msgstr ""
+
+#: ../style_selector/style_selector.php:31 ../theme-options.php:438
+msgid "RTL"
+msgstr ""
+
+#: ../style_selector/style_selector.php:35
+msgid "Main Color (examples)"
+msgstr ""
+
+#: ../style_selector/style_selector.php:65 ../theme-options.php:336
+msgid "Boxed Layout Pattern"
+msgstr ""
+
+#: ../style_selector/style_selector.php:120 ../theme-options.php:389
+msgid "Boxed Layout Image"
+msgstr ""
+
+#: ../style_selector/style_selector.php:148
+msgid "Overlay"
+msgstr ""
+
+#: ../template-blog.php:15
+msgid "Daily archives: "
+msgstr ""
+
+#: ../template-blog.php:17
+msgid "Monthly archives: "
+msgstr ""
+
+#: ../template-blog.php:19
+msgid "Yearly archives: "
+msgstr ""
+
+#: ../theme-options.php:6 ../theme-options.php:173
+msgid "Theme Options"
+msgstr ""
+
+#: ../theme-options.php:156
+msgid "Options saved"
+msgstr ""
+
+#: ../theme-options.php:169 ../theme-options.php:187
+msgid "https://1.envato.market/quanticalabs-portfolio-themeforest"
+msgstr ""
+
+#: ../theme-options.php:178
+msgid "Car Service - Auto Mechanic &amp; Car Repair WordPress Theme"
+msgstr ""
+
+#: ../theme-options.php:179
+msgid "Car Service - Auto Mechanic &amp; Car Repair Theme"
+msgstr ""
+
+#: ../theme-options.php:182
+msgid "Version 7.4"
+msgstr ""
+
+#: ../theme-options.php:183
+msgid "Documentation"
+msgstr ""
+
+#: ../theme-options.php:184
+msgid "https://support.quanticalabs.com"
+msgstr ""
+
+#: ../theme-options.php:184
+msgid "Support Forum"
+msgstr ""
+
+#: ../theme-options.php:185
+msgid "Theme site"
+msgstr ""
+
+#: ../theme-options.php:197 ../theme-options.php:226
+msgid "Main"
+msgstr ""
+
+#: ../theme-options.php:203
+msgid "Email Config"
+msgstr ""
+
+#: ../theme-options.php:209 ../theme-options.php:688
+msgid "Colors"
+msgstr ""
+
+#: ../theme-options.php:221 ../theme-options.php:793
+msgid "Fonts"
+msgstr ""
+
+#: ../theme-options.php:233 ../theme-options.php:259
+msgid "DUMMY CONTENT IMPORT"
+msgstr ""
+
+#: ../theme-options.php:234
+msgid "Import dummy content"
+msgstr ""
+
+#: ../theme-options.php:238
+msgid "Import only template pages and sidebars"
+msgstr ""
+
+#: ../theme-options.php:246
+msgid "DUMMY SHOP CONTENT IMPORT"
+msgstr ""
+
+#: ../theme-options.php:247
+msgid "Import shop dummy content"
+msgstr ""
+
+#: ../theme-options.php:260
+#, php-format
+msgid ""
+"Please <a href=\"%s\" title=\"Install Plugins\">install and activate</a> "
+"Theme Dummy Content Importer plugin to enable dummy content import option."
+msgstr ""
+
+#: ../theme-options.php:266
+msgid "FAVICON URL"
+msgstr ""
+
+#: ../theme-options.php:269
+msgid "Insert favicon"
+msgstr ""
+
+#: ../theme-options.php:273
+msgid "LOGO URL"
+msgstr ""
+
+#: ../theme-options.php:276
+msgid "Insert logo"
+msgstr ""
+
+#: ../theme-options.php:280
+msgid "LOGO TEXT"
+msgstr ""
+
+#: ../theme-options.php:286
+msgid "FOOTER TEXT"
+msgstr ""
+
+#: ../theme-options.php:292
+msgid "STICKY MENU"
+msgstr ""
+
+#: ../theme-options.php:301
+msgid "RESPONSIVE"
+msgstr ""
+
+#: ../theme-options.php:310
+msgid "SCROLL TO TOP ICON"
+msgstr ""
+
+#: ../theme-options.php:319
+msgid "LAYOUT"
+msgstr ""
+
+#: ../theme-options.php:322
+msgid "full width"
+msgstr ""
+
+#: ../theme-options.php:323
+msgid "boxed"
+msgstr ""
+
+#: ../theme-options.php:328
+msgid "BOXED LAYOUT BACKGROUND"
+msgstr ""
+
+#: ../theme-options.php:330
+msgid "Boxed Layout Background Color"
+msgstr ""
+
+#: ../theme-options.php:417
+msgid "overlay"
+msgstr ""
+
+#: ../theme-options.php:424
+msgid "SHOW STYLE SELECTOR"
+msgstr ""
+
+#: ../theme-options.php:433
+msgid "Direction"
+msgstr ""
+
+#: ../theme-options.php:443
+msgid "Collapsible mobile submenus"
+msgstr ""
+
+#: ../theme-options.php:452
+msgid "Use reCaptcha in contact forms"
+msgstr ""
+
+#: ../theme-options.php:461
+msgid "Use reCaptcha in comment forms"
+msgstr ""
+
+#: ../theme-options.php:470
+msgid "Google reCaptcha Site key"
+msgstr ""
+
+#: ../theme-options.php:473 ../theme-options.php:480
+#, php-format
+msgid ""
+"You can generate reCaptcha keys <a href=\"%s\" target=\"_blank\" title=\"Get "
+"reCaptcha keys\">here</a>"
+msgstr ""
+
+#: ../theme-options.php:477
+msgid "Google reCaptcha Secret key"
+msgstr ""
+
+#: ../theme-options.php:484
+msgid "Google Maps API Key"
+msgstr ""
+
+#: ../theme-options.php:487
+#, php-format
+msgid ""
+"You can generate API Key <a href=\"%s\" target=\"_blank\" title=\"Generate "
+"API Key\">here</a>"
+msgstr ""
+
+#: ../theme-options.php:491
+msgid "Google Analytics tracking id"
+msgstr ""
+
+#: ../theme-options.php:494
+msgid "Tracking id format: UA-XXXXXXXX-XX"
+msgstr ""
+
+#: ../theme-options.php:498
+msgid "Google Analytics tracking code"
+msgstr ""
+
+#: ../theme-options.php:501
+msgid ""
+"Optional. If tracking id has been provided, tracking code is not required."
+msgstr ""
+
+#: ../theme-options.php:507
+msgid "Contact Form"
+msgstr ""
+
+#: ../theme-options.php:508
+msgid "ADMIN EMAIL CONFIG"
+msgstr ""
+
+#: ../theme-options.php:511
+msgid "NAME (SEND TO)"
+msgstr ""
+
+#: ../theme-options.php:517
+msgid "EMAIL (SEND TO)"
+msgstr ""
+
+#: ../theme-options.php:523
+msgid "NAME (SEND FROM) - OPTIONAL"
+msgstr ""
+
+#: ../theme-options.php:526
+msgid "If not set, 'NAME (SEND TO)' will be used"
+msgstr ""
+
+#: ../theme-options.php:530
+msgid "EMAIL (SEND FROM) - OPTIONAL"
+msgstr ""
+
+#: ../theme-options.php:533
+msgid "If not set, 'EMAIL (SEND TO)' will be used"
+msgstr ""
+
+#: ../theme-options.php:537
+msgid "ADMIN SMTP CONFIG (OPTIONAL)"
+msgstr ""
+
+#: ../theme-options.php:540
+msgid "HOST"
+msgstr ""
+
+#: ../theme-options.php:546
+msgid "USERNAME"
+msgstr ""
+
+#: ../theme-options.php:552
+msgid "PASSWORD"
+msgstr ""
+
+#: ../theme-options.php:558
+msgid "PORT"
+msgstr ""
+
+#: ../theme-options.php:564
+msgid "SMTP SECURE"
+msgstr ""
+
+#: ../theme-options.php:568
+msgid "ssl"
+msgstr ""
+
+#: ../theme-options.php:569
+msgid "tls"
+msgstr ""
+
+#: ../theme-options.php:574
+msgid "EMAIL CONFIG"
+msgstr ""
+
+#: ../theme-options.php:577
+msgid "EMAIL SUBJECT"
+msgstr ""
+
+#: ../theme-options.php:583
+msgid "TEMPLATE"
+msgstr ""
+
+#: ../theme-options.php:585
+msgid "Available shortcodes:"
+msgstr ""
+
+#: ../theme-options.php:590
+msgid "CONTACT FORM MESSAGES"
+msgstr ""
+
+#: ../theme-options.php:593 ../theme-options.php:644
+msgid "Name field required message"
+msgstr ""
+
+#: ../theme-options.php:599 ../theme-options.php:650
+msgid "Email field required message"
+msgstr ""
+
+#: ../theme-options.php:605
+msgid "Phone field required message"
+msgstr ""
+
+#: ../theme-options.php:611
+msgid "Message field required message"
+msgstr ""
+
+#: ../theme-options.php:617 ../theme-options.php:662
+msgid "reCaptcha required message"
+msgstr ""
+
+#: ../theme-options.php:623 ../theme-options.php:668
+msgid "Terms and conditions checkbox required message"
+msgstr ""
+
+#: ../theme-options.php:629 ../theme-options.php:674
+msgid "Form thank you message"
+msgstr ""
+
+#: ../theme-options.php:635 ../theme-options.php:680
+msgid "Form error message"
+msgstr ""
+
+#: ../theme-options.php:641
+msgid "COMMENTS FORM MESSAGES"
+msgstr ""
+
+#: ../theme-options.php:656
+msgid "Comment field required message"
+msgstr ""
+
+#: ../theme-options.php:691
+msgid "Main color"
+msgstr ""
+
+#: ../theme-options.php:698
+msgid "Choose from predefined colors"
+msgstr ""
+
+#: ../theme-options.php:739
+msgid "Header top sidebar"
+msgstr ""
+
+#: ../theme-options.php:796
+msgid "Primary font"
+msgstr ""
+
+#: ../theme-options.php:798
+msgid "Enter font name"
+msgstr ""
+
+#: ../theme-options.php:800
+msgid "or choose Google font"
+msgstr ""
+
+#: ../theme-options.php:802
+msgid "Default (Open Sans)"
+msgstr ""
+
+#: ../theme-options.php:833
+msgid "Google font subset:"
+msgstr ""
+
+#: ../theme-options.php:853
+msgid "https://www.facebook.com/QuanticaLabs/"
+msgstr ""
+
+#: ../theme-options.php:853
+msgid "Facebook"
+msgstr ""
+
+#: ../theme-options.php:854
+msgid "https://twitter.com/quanticalabs"
+msgstr ""
+
+#: ../theme-options.php:854
+msgid "Twitter"
+msgstr ""
+
+#: ../theme-options.php:855
+msgid "https://www.pinterest.com/quanticalabs/"
+msgstr ""
+
+#: ../theme-options.php:855
+msgid "Pinterest"
+msgstr ""
+
+#: ../theme-options.php:856
+msgid "https://1.envato.market/quanticalabs"
+msgstr ""
+
+#: ../theme-options.php:856
+msgid "Envato"
+msgstr ""
+
+#: ../theme-options.php:857
+msgid "https://www.behance.net/quanticalabs"
+msgstr ""
+
+#: ../theme-options.php:857
+msgid "Behance"
+msgstr ""
+
+#: ../theme-options.php:858
+msgid "https://dribbble.com/QuanticaLabs"
+msgstr ""
+
+#: ../theme-options.php:858
+msgid "Dribbble"
+msgstr ""
+
+#: ../theme-options.php:863
+msgid "Save Options"
+msgstr ""
+
+#: ../vc_templates/vc_accordion_tab.php:6
+#: ../vc_templates/vc_nested_accordion_tab.php:6
+msgid "Section"
+msgstr ""
+
+#: ../vc_templates/vc_accordion_tab.php:20
+#: ../vc_templates/vc_nested_accordion_tab.php:20
+#: ../vc_templates/vc_nested_tab.php:16 ../vc_templates/vc_tab.php:12
+msgid "Empty section. Edit page to add content here."
+msgstr ""
+
+#: ../widgets/widget-cart-icon.php:12
+msgid "Woocommerce Shop Cart Icon"
+msgstr ""
+
+#: ../widgets/widget-cart-icon.php:52
+msgid "Show cart items number"
+msgstr ""
+
+#: ../widgets/widget-cart-icon.php:59
+msgid "Icon target"
+msgstr ""
+
+#: ../widgets/widget-contact-details-list.php:12
+msgid "Contact Details List"
+msgstr ""
+
+#: ../widgets/widget-contact-details-list.php:137
+#: ../widgets/widget-list.php:106
+msgid "Add item"
+msgstr ""
+
+#: ../widgets/widget-contact-details.php:12
+msgid "Contact Details Box"
+msgstr ""
+
+#: ../widgets/widget-contact-details.php:135
+#: ../widgets/widget-social-icons.php:121
+msgid "Icon type"
+msgstr ""
+
+#: ../widgets/widget-contact-details.php:156
+#: ../widgets/widget-social-icons.php:142
+msgid "Add icon"
+msgstr ""
+
+#: ../widgets/widget-contact-info.php:11
+msgid "Contact Informations Box"
+msgstr ""
+
+#: ../widgets/widget-list.php:12
+msgid "Bulleted List"
+msgstr ""
+
+#: ../widgets/widget-list.php:92
+msgid "List item text"
+msgstr ""
+
+#: ../widgets/widget-list.php:94
+msgid "List item url"
+msgstr ""
+
+#: ../widgets/widget-list.php:96
+msgid "List item url target"
+msgstr ""
+
+#: ../widgets/widget-recent.php:12
+msgid "Carservice Recent Posts"
+msgstr ""
+
+#: ../widgets/widget-recent.php:162
+msgid "Count"
+msgstr ""
+
+#: ../widgets/widget-recent.php:184
+msgid "Selected posts ids separated with commas"
+msgstr ""
+
+#: ../widgets/widget-social-icons.php:12
+msgid "Social Icons"
+msgstr ""
+
+#: ../woocommerce.php:69
+msgid "No products found"
+msgstr ""
+
+#: ../woocommerce/cart/cart-empty.php:39
+msgid "Return To Shop"
+msgstr ""
+
+#: ../woocommerce/cart/cart-shipping.php:51
+#, php-format
+msgid "Shipping to %s."
+msgstr ""
+
+#: ../woocommerce/cart/cart-shipping.php:52
+msgid "Change address"
+msgstr ""
+
+#: ../woocommerce/cart/cart-shipping.php:54
+msgid "Shipping options will be updated during checkout."
+msgstr ""
+
+#: ../woocommerce/cart/cart-shipping.php:62
+msgid "Shipping costs are calculated during checkout."
+msgstr ""
+
+#: ../woocommerce/cart/cart-shipping.php:64
+msgid "Enter your address to view shipping options."
+msgstr ""
+
+#: ../woocommerce/cart/cart-shipping.php:67
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+
+#: ../woocommerce/cart/cart-shipping.php:81
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr ""
+
+#: ../woocommerce/cart/cart-shipping.php:85
+msgid "Enter a different address"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:28
+msgid "Cart Totals"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:34
+#: ../woocommerce/cart/cart-totals.php:35 ../woocommerce/cart/cart.php:36
+#: ../woocommerce/cart/cart.php:147
+msgid "Subtotal"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:55
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: ../woocommerce/cart/cart-totals.php:76
+#: ../woocommerce/cart/cart-totals.php:77
+#: ../woocommerce/order/order-details.php:53
+msgid "Total"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:31
+msgid "Remove item"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:32
+msgid "Thumbnail image"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:33 ../woocommerce/cart/cart.php:90
+#: ../woocommerce/order/order-details.php:52
+msgid "Product"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:34 ../woocommerce/cart/cart.php:115
+msgid "Price"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:35 ../woocommerce/cart/cart.php:121
+#: ../woocommerce/global/quantity-input.php:24
+msgid "Quantity"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:69
+#, php-format
+msgid "Remove %s from cart"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:110
+msgid "Available on backorder"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:165
+msgid "Coupon:"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:165
+msgid "Coupon code"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:165
+msgid "Apply coupon"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:170
+msgid "Update cart"
+msgstr ""
+
+#: ../woocommerce/cart/cart.php:189
+msgid "Calculate Shipping"
+msgstr ""
+
+#: ../woocommerce/cart/cross-sells.php:25
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: ../woocommerce/checkout/form-billing.php:24
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: ../woocommerce/checkout/form-billing.php:28
+msgid "Billing details"
+msgstr ""
+
+#: ../woocommerce/checkout/form-billing.php:53
+msgid "Create an account?"
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout.php:30
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: ../woocommerce/checkout/form-checkout.php:56
+msgid "Your order"
+msgstr ""
+
+#: ../woocommerce/checkout/form-shipping.php:26
+msgid "Ship to a different address?"
+msgstr ""
+
+#: ../woocommerce/checkout/form-shipping.php:57
+msgid "Additional Information"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:35
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:38
+msgid "Pay"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:40
+msgid "My account"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:45
+msgid "Order Received"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:51
+msgid "Order number:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:56
+msgid "Date:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:62
+msgid "Email:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:68
+msgid "Total:"
+msgstr ""
+
+#: ../woocommerce/checkout/thankyou.php:74
+msgid "Payment method:"
+msgstr ""
+
+#: ../woocommerce/global/quantity-input.php:24
+#, php-format
+msgid "%s quantity"
+msgstr ""
+
+#: ../woocommerce/global/quantity-input.php:44
+msgid "Product quantity"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:26
+msgid "Account Details"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:28
+msgid "First name"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:32
+msgid "Last name"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:38
+msgid "Display name"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:39
+msgid ""
+"This will be how your name will be displayed in the account section and in "
+"reviews"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:44
+#: ../woocommerce/myaccount/form-login.php:91
+msgid "Email address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:49
+msgid "Password Change"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:52
+msgid "Current Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:56
+msgid "New Password (leave blank to leave unchanged)"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:60
+msgid "Confirm New Password"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-account.php:70
+msgid "Save changes"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-address.php:20
+msgid "Billing Address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-address.php:20
+msgid "Shipping Address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-edit-address.php:46
+msgid "Save Address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:37
+msgid "Login"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:44
+msgid "Username or email address"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:48
+#: ../woocommerce/myaccount/form-login.php:98
+msgid "Password"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:56
+msgid "Log in"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:58
+msgid "Remember me"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:62
+msgid "Lost your password?"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:75
+#: ../woocommerce/myaccount/form-login.php:112
+msgid "Register"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:84
+msgid "Username"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-login.php:104
+msgid "A link to set a new password will be sent to your email address."
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:28
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:31
+msgid "Username or email"
+msgstr ""
+
+#: ../woocommerce/myaccount/form-lost-password.php:41
+msgid "Reset Password"
+msgstr ""
+
+#: ../woocommerce/order/order-details-customer.php:31
+msgid "Billing address"
+msgstr ""
+
+#: ../woocommerce/order/order-details-customer.php:34
+#: ../woocommerce/order/order-details-customer.php:52
+msgid "N/A"
+msgstr ""
+
+#: ../woocommerce/order/order-details-customer.php:50
+msgid "Shipping address"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:46
+msgid "Order details"
+msgstr ""
+
+#: ../woocommerce/order/order-details.php:94
+msgid "Note:"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:36
+msgid "Reviews"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:53
+msgid "&larr;"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:54
+msgid "&rarr;"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:63
+msgid "There are no reviews yet."
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:74
+msgid "Add a review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:74
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:76
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:80
+msgid "Submit"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:88
+msgid "Name"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:94
+msgid "Email"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:119
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:123
+msgid "Your rating"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:124
+msgid "Rate&hellip;"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:125
+msgid "Perfect"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:126
+msgid "Good"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:127
+msgid "Average"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:128
+msgid "Not that bad"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:129
+msgid "Very poor"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:133
+msgid "Your review"
+msgstr ""
+
+#: ../woocommerce/single-product-reviews.php:140
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: ../woocommerce/single-product/related.php:27
+msgid "Related products"
+msgstr ""
+
+#: ../woocommerce/single-product/up-sells.php:27
+msgid "You may also like&hellip;"
+msgstr ""

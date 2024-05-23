@@ -1,0 +1,124 @@
+/* --- Theme options --- */
+.theme_options .header_left,
+.theme_options .header_right
+{
+	float: right;
+}
+.theme_options .header_right
+{
+	padding: 0 40px 0 0;
+}
+.theme_options .header_right .description
+{
+	float: right;
+}
+.theme_options .header_right .description a.description_link
+{
+	float: right;
+	margin-right: 15px;
+	margin-left: 0;
+}
+.theme_options .header_right .logo
+{
+	float: left;
+	margin: 20px 0 20px 20px;
+}
+.theme_options .header_right h5
+{	
+	float: right;
+}
+.theme_options .settings
+{
+	float: left;
+	padding: 20px 40px 20px 20px;
+}
+.theme_options .form_field_list
+{
+	margin: 20px 0;
+}
+.theme_options .settings .color_preview,
+.widget-content .color_preview,
+.metabox-holder .color_preview,
+.form-field .color_preview
+{
+	float: right;
+	margin: 1px 1px 1px 5px;
+}
+.theme_options .menu
+{
+	float: right;
+}
+.theme_options .menu a span
+{
+	margin-left: 3px;
+	margin-right: 0;
+}
+.theme_options .submenu a
+{
+	padding: 12px 37px 12px 10px;
+}
+.theme_options #theme_options_preloader,
+.theme_options #theme_options_tick
+{
+	float: left;
+}
+.theme_options .footer_left
+{
+	float: right;
+}
+.theme_options .footer_right
+{
+	float: left;
+}
+.theme_options input[type='submit']
+{
+    float: left;
+}
+.theme_options ul.social-list
+{
+	margin-right: 20px;
+	margin-left: 0;
+}
+.theme_options ul.social-list li
+{
+	float: right;
+}
+.boxed_bg_image ul.layout_chooser li
+{
+	float: right;
+	margin-left: 0;
+	margin-right: 5px;
+}
+.boxed_bg_image ul.layout_chooser li:first-child,
+.boxed_bg_image ul.layout_chooser li.first
+{
+	margin-right: 0;
+	margin-left: 0;
+}
+.boxed_bg_image ul.layout_chooser li a,
+.theme_options .boxed_bg_image .color_preview
+{
+	padding-right: 7px;
+	padding-left: 0;
+}
+.boxed_bg_image ul.layout_chooser #overlay
+{
+	margin: 5px 0 0;
+}
+.boxed_bg_image ul.layout_chooser .overlay_label
+{
+	float: left;
+	margin-right: 5px;
+	margin-left: 0;
+}
+/* --- visual composer --- */
+.vc_elements-list-filter 
+{
+	padding: 4px 30px 3px 3px;
+	left: 44px;
+	right: auto;
+}
+.vc_modal-header .vc_close 
+{
+	float: left;
+}

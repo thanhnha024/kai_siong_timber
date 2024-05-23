@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'cc-template';
+  src:  url('fonts/cc-template.eot');
+  src:  url('fonts/cc-template.eot#iefix') format('embedded-opentype'),
+    url('fonts/cc-template.ttf') format('truetype'),
+    url('fonts/cc-template.woff') format('woff'),
+    url('fonts/cc-template.svg#cc-template') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="cc-template-"]::before, [class*=" cc-template-"]::before,
+[class^="cc-template-"]::after, [class*=" cc-template-"]::after {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'cc-template';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  vertical-align: middle;
+  line-height: 1;
+  direction: ltr;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cost-calculator-container .cc-template-arrow-horizontal-3::before {
+  content: "\61";
+}
+.cost-calculator-container .cc-template-arrow-vertical-3::before {
+  content: "\62";
+}
+.cost-calculator-container .cc-template-bullet::before {
+  content: "\63";
+}
+.cost-calculator-container .cc-template-wallet:before {
+  content: "\64";
+}
+.cost-calculator-container .cc-template-card:before {
+  content: "\65";
+}
+.cost-calculator-container .cc-template-calculation:before {
+  content: "\66";
+}
+

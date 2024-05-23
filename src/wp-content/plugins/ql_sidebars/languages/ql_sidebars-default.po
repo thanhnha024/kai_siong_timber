@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Theme Sidebars\n"
+"POT-Creation-Date: 2020-03-06 13:55+0100\n"
+"PO-Revision-Date: 2020-03-06 13:55+0100\n"
+"Last-Translator: \n"
+"Language-Team: QuanticaLabs\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ql_sidebars.php:27 ql_sidebars.php:33 ql_sidebars.php:39
+msgid "Sidebars"
+msgstr ""
+
+#: ql_sidebars.php:28
+msgid "Sidebar"
+msgstr ""
+
+#: ql_sidebars.php:29
+msgid "Add New"
+msgstr ""
+
+#: ql_sidebars.php:30
+msgid "Add New Sidebar"
+msgstr ""
+
+#: ql_sidebars.php:31
+msgid "Edit Sidebar"
+msgstr ""
+
+#: ql_sidebars.php:32
+msgid "New Sidebar"
+msgstr ""
+
+#: ql_sidebars.php:34
+msgid "View Sidebar"
+msgstr ""
+
+#: ql_sidebars.php:35
+msgid "Search Sidebars"
+msgstr ""
+
+#: ql_sidebars.php:36
+msgid "No sidebars found"
+msgstr ""
+
+#: ql_sidebars.php:37
+msgid "No sidebars found in Trash"
+msgstr ""
+
+#: ql_sidebars.php:64
+msgid "Options"
+msgstr ""
+
+#: ql_sidebars.php:93
+msgid "Before widget"
+msgstr ""
+
+#: ql_sidebars.php:101
+msgid "After widget"
+msgstr ""
+
+#: ql_sidebars.php:109
+msgid "Before title"
+msgstr ""
+
+#: ql_sidebars.php:117
+msgid "After title"
+msgstr ""
+
+#: ql_sidebars.php:125
+msgid "Hidden"
+msgstr ""
+
+#: ql_sidebars.php:129 ql_sidebars.php:140
+msgid "no"
+msgstr ""
+
+#: ql_sidebars.php:130 ql_sidebars.php:141
+msgid "yes"
+msgstr ""
+
+#: ql_sidebars.php:136
+msgid "Hide on mobiles"
+msgstr ""

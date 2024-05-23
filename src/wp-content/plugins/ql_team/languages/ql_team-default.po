@@ -1,0 +1,259 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Theme Team\n"
+"POT-Creation-Date: 2023-04-19 13:45+0100\n"
+"PO-Revision-Date: 2023-04-19 13:45+0100\n"
+"Last-Translator: \n"
+"Language-Team: QuanticaLabs\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;"
+"esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/admin-page-permalink.php:2
+msgid "Permalink settings"
+msgstr ""
+
+#: admin/admin-page-permalink.php:23
+msgid "Slug (permalink)"
+msgstr ""
+
+#: admin/admin-page-permalink.php:33
+msgid "Team label singular"
+msgstr ""
+
+#: admin/admin-page-permalink.php:43
+msgid "Team label plural"
+msgstr ""
+
+#: admin/admin-page-permalink.php:52
+msgid "Save Options"
+msgstr ""
+
+#: ql_team.php:23
+msgid "Permalink"
+msgstr ""
+
+#: ql_team.php:32
+msgid "Options saved!"
+msgstr ""
+
+#: ql_team.php:35 ql_team.php:54 ql_team.php:63
+msgid "Team Member"
+msgstr ""
+
+#: ql_team.php:36 ql_team.php:55 ql_team.php:64
+msgid "Team"
+msgstr ""
+
+#: ql_team.php:76
+msgid "Add New"
+msgstr ""
+
+#: ql_team.php:77
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: ql_team.php:78
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: ql_team.php:79
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: ql_team.php:81
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: ql_team.php:82
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: ql_team.php:83
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: ql_team.php:84
+#, php-format
+msgid "No %s found in Trash"
+msgstr ""
+
+#: ql_team.php:108
+msgid "Options"
+msgstr ""
+
+#: ql_team.php:169
+msgid "Subtitle"
+msgstr ""
+
+#: ql_team.php:177
+msgid "External URL (optional)"
+msgstr ""
+
+#: ql_team.php:185
+msgid "External URL target"
+msgstr ""
+
+#: ql_team.php:189 ql_team.php:236
+msgid "same window"
+msgstr ""
+
+#: ql_team.php:190 ql_team.php:237
+msgid "new window"
+msgstr ""
+
+#: ql_team.php:199
+msgid "Social icons"
+msgstr ""
+
+#: ql_team.php:210
+msgid "Icon type"
+msgstr ""
+
+#: ql_team.php:224
+msgid "Icon url"
+msgstr ""
+
+#: ql_team.php:232
+msgid "Icon target"
+msgstr ""
+
+#: ql_team.php:249
+msgid "Add icon"
+msgstr ""
+
+#: ql_team.php:292
+msgid "Title"
+msgstr ""
+
+#: ql_team.php:293 ql_team.php:499
+msgid "Order"
+msgstr ""
+
+#: ql_team.php:294 ql_team.php:494
+msgid "Date"
+msgstr ""
+
+#: ql_team.php:469
+msgid "All"
+msgstr ""
+
+#: ql_team.php:477
+msgid "Items per page/Post count"
+msgstr ""
+
+#: ql_team.php:480
+msgid "Set -1 to display all."
+msgstr ""
+
+#: ql_team.php:485
+msgid "Display selected"
+msgstr ""
+
+#: ql_team.php:492
+msgid "Order by"
+msgstr ""
+
+#: ql_team.php:494
+msgid "Title, menu order"
+msgstr ""
+
+#: ql_team.php:494
+msgid "Menu order"
+msgstr ""
+
+#: ql_team.php:494
+msgid "Random"
+msgstr ""
+
+#: ql_team.php:501
+msgid "ascending"
+msgstr ""
+
+#: ql_team.php:501
+msgid "descending"
+msgstr ""
+
+#: ql_team.php:506
+msgid "Headers"
+msgstr ""
+
+#: ql_team.php:508 ql_team.php:515 ql_team.php:522 ql_team.php:529
+#: ql_team.php:536 ql_team.php:543 ql_team.php:550 ql_team.php:557
+msgid "Yes"
+msgstr ""
+
+#: ql_team.php:508 ql_team.php:515 ql_team.php:522 ql_team.php:529
+#: ql_team.php:536 ql_team.php:543 ql_team.php:550 ql_team.php:557
+msgid "No"
+msgstr ""
+
+#: ql_team.php:513
+msgid "Headers links"
+msgstr ""
+
+#: ql_team.php:520
+msgid "Headers border"
+msgstr ""
+
+#: ql_team.php:527
+msgid "Show subtitle"
+msgstr ""
+
+#: ql_team.php:534
+msgid "Show excerpt"
+msgstr ""
+
+#: ql_team.php:541
+msgid "Show social icons"
+msgstr ""
+
+#: ql_team.php:548
+msgid "Show featured image"
+msgstr ""
+
+#: ql_team.php:555
+msgid "Featured image links"
+msgstr ""
+
+#: ql_team.php:563
+msgid "Extra class name"
+msgstr ""
+
+#: ql_team.php:570
+msgid "Top margin"
+msgstr ""
+
+#: ql_team.php:572
+msgid "None"
+msgstr ""
+
+#: ql_team.php:572
+msgid "Page (small)"
+msgstr ""
+
+#: ql_team.php:572
+msgid "Section (large)"
+msgstr ""
+
+#: ql_team.php:580
+msgid "Team list"
+msgstr ""
+
+#: ql_team.php:586
+msgid "Plugins"
+msgstr ""

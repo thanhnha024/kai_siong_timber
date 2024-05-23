@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'cc-plugin';
+  src:  url('fonts/cc-plugin.eot');
+  src:  url('fonts/cc-plugin.eot#iefix') format('embedded-opentype'),
+    url('fonts/cc-plugin.ttf') format('truetype'),
+    url('fonts/cc-plugin.woff') format('woff'),
+    url('fonts/cc-plugin.svg#cc-plugin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="cc-plugin-"]::before, [class*=" cc-plugin-"]::before,
+[class^="cc-plugin-"]::after, [class*=" cc-plugin-"]::after {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'cc-plugin';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  vertical-align: middle;
+  line-height: 1;
+  direction: ltr;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.cc-plugin-arrow-move::before {
+  content: "\61";
+}
+.cc-plugin-arrow-horizontal::before {
+  content: "\65";
+}
+.cc-plugin-arrow-select::before {
+  content: "\6a";
+}
+.cc-plugin-arrow-vertical::before {
+  content: "\66";
+}
+.cc-plugin-button-tick::before {
+  content: "\69";
+}
+.cc-plugin-delete::before {
+  content: "\64";
+}
+.cc-plugin-minus::before {
+  content: "\63";
+}
+.cc-plugin-plus::before {
+  content: "\62";
+}
+.cc-plugin-button-plus::before {
+  content: "\67";
+}
+.cc-plugin-edit::before {
+  content: "\68";
+}
