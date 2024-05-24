@@ -65,3 +65,130 @@
     background-color: #ffffff !important;
   }
 }
+
+.woocommerce-breadcrumb {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0 !important;
+  line-height: initial;
+  padding-left: 5px !important;
+  a {
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 0 5px;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .breadcrumb-curent {
+    color: #f4bc16 !important;
+  }
+}
+.woocommerce-loop-product__title {
+  display: block;
+  display: -webkit-box;
+  max-width: 100%;
+  height: 70px;
+  margin: 0 auto;
+  font-size: 14px;
+  line-height: 1;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.yith-wcwl-add-button {
+  > a {
+    i {
+      margin-right: 0 !important;
+    }
+  }
+}
+.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+  display: inline-block;
+  vertical-align: middle;
+}
+form.cart {
+  display: inline-block;
+  vertical-align: middle;
+}
+.yith-wcwl-add-to-wishlist {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-top: 0 !important;
+}
+.add_to_wishlist.single_add_to_wishlist.button.alt {
+  padding: 12px 15px;
+  background: transparent !important;
+  background-color: transparent !important;
+  border-color: #f4bc16 !important;
+  &:hover {
+    background: #f4bc16 !important;
+    background-color: #f4bc16 !important;
+    color: #fff;
+    i {
+      color: #fff !important;
+    }
+  }
+  i {
+    color: #f4bc16;
+  }
+}
+.wp-block-woocommerce-mini-cart-checkout-button-block.wc-block-mini-cart__footer-checkout {
+  text-decoration: none;
+  background-color: #f4bc16;
+  color: #fff;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.woocommerce {
+  ul.products {
+    li.product {
+      .button {
+        margin-top: 0 !important;
+      }
+    }
+  }
+  &:where(body:not(.woocommerce-block-theme-has-button-styles)) {
+    button.button.alt.disabled {
+      background-color: #f4bc16;
+      opacity: 0.5;
+      cursor: not-allowed;
+      &:hover {
+        color: #fff !important;
+        border-color: transparent !important;
+        background-color: #f4bc16 !important;
+        opacity: 0.5 !important;
+      }
+    }
+  }
+}
+.price {
+  margin-bottom: 30px !important;
+}
+.yith-wcwl-wishlistexistsbrowse {
+  padding: 10px 0 !important;
+  a {
+    color: #f4bc16;
+  }
+}
+.feedback {
+  .fa-heart {
+    &:before {
+      color: #f4bc16;
+    }
+  }
+}
+#yith-wcwl-popup-message {
+  display: none !important;
+}
+.single_product {
+  .product.type-product.outofstock {
+    .yith-wcwl-add-to-wishlist {
+      margin-top: 14% !important;
+    }
+  }
+}
