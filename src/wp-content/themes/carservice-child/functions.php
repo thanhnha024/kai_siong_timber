@@ -34,38 +34,42 @@ error_reporting(E_ALL);
 
 
 
-// Remove product cat base
-add_filter('term_link', 'devvn_no_term_parents', 1000, 3);
-function devvn_no_term_parents($url, $term, $taxonomy) {
-    if($taxonomy == 'product_cat'){
-        $term_nicename = $term->slug;
-        $url = trailingslashit(get_option( 'home' )) . user_trailingslashit( $term_nicename, 'category' );
-    }
-    return $url;
-}
-// Add our custom product cat rewrite rules
-function devvn_no_product_cat_parents_rewrite_rules($flash = false) {
-    $terms = get_terms( array(
-        'taxonomy' => 'product_cat',
-        'post_type' => 'product',
+function display_product_categories() {
+    // Define the args for getting top-level product categories
+    $args = array(
+        'taxonomy'   => 'product_cat',
+        'parent'     => 0,
         'hide_empty' => false,
-    ));
-    if($terms && !is_wp_error($terms)){
-        foreach ($terms as $term){
-            $term_slug = $term->slug;
-            add_rewrite_rule($term_slug.'/?$', 'index.php?product_cat='.$term_slug,'top');
-            add_rewrite_rule($term_slug.'/page/([0-9]{1,})/?$', 'index.php?product_cat='.$term_slug.'&paged=$matches[1]','top');
-            add_rewrite_rule($term_slug.'/(?:feed/)?(feed|rdf|rss|rss2|atom)/?$', 'index.php?product_cat='.$term_slug.'&feed=$matches[1]','top');
+        'exclude'    => array(get_term_by('slug', 'uncategorized', 'product_cat')->term_id),
+    );
+
+    // Get the product categories
+    $product_categories = get_terms($args);
+
+    if ($product_categories) {
+        $output = '<ul class="product-categories">';
+
+        foreach ($product_categories as $category) {
+            $thumbnail_id = get_term_meta($category->term_id, 'thumbnail_id', true);
+            $image_url = ($thumbnail_id) ? wp_get_attachment_url($thumbnail_id) : '/wp-content/uploads/woocommerce-placeholder.png';
+
+            $output .= '<li class="product-category">';
+            
+            $output .= '<a href="' . get_term_link($category) . '">';
+            $output .= '<img src="' . $image_url . '" alt="' . $category->name . '">';
+            $output .= '<span class="title-category">' . $category->name . '</span>';
+            $output .= '</a>';
+            $output .= '</li>';
         }
+
+        $output .= '</ul>';
+
+        return $output;
     }
-    if ($flash == true)
-        flush_rewrite_rules(false);
 }
-add_action('init', 'devvn_no_product_cat_parents_rewrite_rules');
-/*Fix creat taxonomy 404*/
-add_action( 'create_term', 'devvn_new_product_cat_edit_success', 10);
-add_action( 'edit_terms', 'devvn_new_product_cat_edit_success', 10);
-add_action( 'delete_term', 'devvn_new_product_cat_edit_success', 10);
-function devvn_new_product_cat_edit_success( ) {
-    devvn_no_product_cat_parents_rewrite_rules(true);
-}
+
+// Register the shortcode
+add_shortcode('product_categories1', 'display_product_categories');
+
+
+
