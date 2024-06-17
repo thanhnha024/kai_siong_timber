@@ -34,42 +34,4 @@ error_reporting(E_ALL);
 
 
 
-function display_product_categories() {
-    // Define the args for getting top-level product categories
-    $args = array(
-        'taxonomy'   => 'product_cat',
-        'parent'     => 0,
-        'hide_empty' => false,
-        'exclude'    => array(get_term_by('slug', 'uncategorized', 'product_cat')->term_id),
-    );
-
-    // Get the product categories
-    $product_categories = get_terms($args);
-
-    if ($product_categories) {
-        $output = '<ul class="product-categories">';
-
-        foreach ($product_categories as $category) {
-            $thumbnail_id = get_term_meta($category->term_id, 'thumbnail_id', true);
-            $image_url = ($thumbnail_id) ? wp_get_attachment_url($thumbnail_id) : '/wp-content/uploads/woocommerce-placeholder.png';
-
-            $output .= '<li class="product-category">';
-            
-            $output .= '<a href="' . get_term_link($category) . '">';
-            $output .= '<img src="' . $image_url . '" alt="' . $category->name . '">';
-            $output .= '<span class="title-category">' . $category->name . '</span>';
-            $output .= '</a>';
-            $output .= '</li>';
-        }
-
-        $output .= '</ul>';
-
-        return $output;
-    }
-}
-
-// Register the shortcode
-add_shortcode('product_categories1', 'display_product_categories');
-
-
 
