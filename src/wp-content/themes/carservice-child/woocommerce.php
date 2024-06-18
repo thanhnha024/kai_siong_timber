@@ -2,18 +2,29 @@
 get_header();
 global $post;
 $post = get_post(get_option("woocommerce_shop_page_id"));
+$current_category = get_queried_object();
 setup_postdata($post);
+$current_url = $_SERVER['REQUEST_URI'];
+$url_path = parse_url($current_url, PHP_URL_PATH); 
+$path_segments = explode('/', trim($url_path, '/')); 
+$slug = end($path_segments);
+$slug = str_replace('-', ' ', $slug); 
+$title = ucwords($slug);
 ?>
 	<div class="theme-page padding-bottom-70">
 		<div class="vc_row wpb_row vc_row-fluid gray full-width page-header vertical-align-table">
 			<div class="vc_row wpb_row vc_inner vc_row-fluid">
 				<div class="page-header-left">
-					<h1><?php the_title(); ?></h1>
+					<?php if ( is_singular( 'product' ) ) : ?>
+						<h1><?php echo $title; ?></h1>
+					<?php else : ?>
+						<h1><?php echo $current_category->name; ?></h1>
+					<?php endif; ?>
 				</div>
 				<div class="page-header-right">
 					<div class="bread-crumb-container">
 						<label><?php _e("YOU ARE HERE:", 'carservice'); ?></label>
-						<?php woocommerce_breadcrumb(); ?>
+						<?php echo get_hansel_and_gretel_breadcrumbs(); ?>
 					</div>
 
 				</div>
@@ -62,7 +73,6 @@ setup_postdata($post);
 
 		</div>
 	</div>
-</div>
 <?php
 global $post;
 $post = get_post(get_option("woocommerce_shop_page_id"));

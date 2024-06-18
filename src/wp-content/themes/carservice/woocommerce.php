@@ -46,6 +46,9 @@ setup_postdata($post);
 						}
 						?>
 					</ul>
+					
+		</div>
+
 				</div>
 			</div>
 		</div>

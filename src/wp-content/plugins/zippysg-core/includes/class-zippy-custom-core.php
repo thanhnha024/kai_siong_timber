@@ -41,7 +41,7 @@ if (defined('ABSPATH') && !class_exists('Custom_Core')) {
       add_filter('the_generator', array($this, 'zippy_remove_version_wp'));
     }
 
-    private function setup_phpmailer_init($phpmailer)
+    public function setup_phpmailer_init($phpmailer)
     {
       $phpmailer->Host = 'smtp.gmail.com'; // for example, smtp.mailtrap.io
       $phpmailer->Port = 587; // set the appropriate port: 465, 2525, etc.

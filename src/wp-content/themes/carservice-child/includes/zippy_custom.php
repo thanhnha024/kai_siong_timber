@@ -2,12 +2,12 @@
 add_action('wp_enqueue_scripts', 'shin_scripts');
 function shin_scripts()
 {
-    $version = '2.3.0';
+  $version = '2.4.0';
 
-    // Load CSS
-    wp_enqueue_style('main-style-css', THEME_URL . '-child' . '/assets/main/main.css', array(), $version, 'all');
-    // Load JS
-    wp_enqueue_script('main-scripts-js', THEME_URL . '-child' . '/assets/main/main.js', array('jquery'), $version, true);
+  // Load CSS
+  wp_enqueue_style('main-style-css', THEME_URL . '-child' . '/assets/main/main.css', array(), $version, 'all');
+  // Load JS
+  wp_enqueue_script('main-scripts-js', THEME_URL . '-child' . '/assets/main/main.js', array('jquery'), $version, true);
 }
 add_action('login_enqueue_scripts', 'add_logo_to_login_page');
 function add_logo_to_login_page()
