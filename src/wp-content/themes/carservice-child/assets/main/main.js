@@ -1,1 +1,1 @@
-const shin=0;
+"use strict";($=jQuery)(document).ready(function(){$(".cat-item a").each(function(t,e){if(window.location.href==$(e).attr("href"))return $(e).addClass("current"),!1})});

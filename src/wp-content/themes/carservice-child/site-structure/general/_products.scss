@@ -1,0 +1,99 @@
+.woocommerce .product-categories {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  .children {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  .current {
+    color: #fff;
+    background: #f4bc16;
+    border-color: #f4bc16;
+  }
+}
+
+.single-product .product.type-product.outofstock .yith-wcwl-add-to-wishlist {
+  margin-top: 14% !important;
+}
+.woocommerce-loop-category__title .count {
+  background: transparent;
+}
+.woocommerce-loop-category__title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: unset;
+}
+.product-category.product img {
+  border: 1px solid #e9e6e6;
+}
+.bread-crumb-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  float: none !important;
+}
+.bread-crumb-container .breadcrumb {
+  padding: 0 5px;
+}
+.bread-crumb-container .breadcrumb a {
+  color: #f4bc16;
+  padding: 0 5px;
+}
+.bread-crumb-container .breadcrumb .current {
+  padding: 0 5px;
+}
+.single-product .woocommerce-variation-add-to-cart {
+  display: flex;
+  align-items: center;
+}
+.single-product .single_add_to_cart_button,
+.single-product .single_add_to_cart_button.disabled {
+  padding: 12px 24px !important;
+  line-height: normal !important;
+}
+.single-product .quantity {
+  margin: 0 10px 0 0 !important;
+}
+
+.variations th {
+  text-align: left !important;
+}
+.product-type-variable .yith-wcwl-add-to-wishlist {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+.product-type-variable .related.products .yith-wcwl-add-to-wishlist,
+.archive.tax-product_cat .yith-wcwl-add-to-wishlist {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-top: 0 !important;
+  margin-bottom: 0px;
+}
+.woocommerce-variation-price {
+  margin-bottom: 20px;
+}
+.woocommerce ul.products li.product .woocommerce-loop-product__title {
+  line-height: 37px;
+}
+.wpb_wrapper .products {
+  margin-bottom: 80px !important;
+}
+.related.products.page-margin-top-section {
+  display: inline-block;
+}
+
+.single-product {
+  .page-header-right {
+    width: 100%;
+  }
+  .bread-crumb-container {
+    justify-content: flex-start;
+  }
+}
