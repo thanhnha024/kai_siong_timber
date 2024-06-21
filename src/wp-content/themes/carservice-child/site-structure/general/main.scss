@@ -1,52 +1,6 @@
 @import "mixins";
-.header-container {
-  @include desktop {
-    .vertical-align-table {
-      .header {
-        display: flex;
-        flex-wrap: wrap;
-
-        .logo {
-          width: 30%;
-        }
-        .header-middle-bar-container {
-          width: 70%;
-          margin-bottom: 20px;
-        }
-      }
-    }
-    .menu-container {
-      width: 100%;
-    }
-  }
-  .vertical-align-table {
-    .header {
-      .header-middle-bar-container {
-        width: 100%;
-        margin-top: 20px;
-      }
-    }
-  }
-  .button-login.more {
-    padding: 0;
-    border-radius: 9999px;
-  }
-  .wp-block-button__link {
-    background: #f4bc16 !important;
-    text-decoration: none;
-  }
-  .menu-container {
-    width: 100%;
-  }
-  .container-button {
-    @include tablet {
-      justify-content: flex-end;
-    }
-    .wp-block-column {
-      flex-basis: auto !important;
-    }
-  }
-}
+@import "header";
+@import "products";
 
 // Cart
 

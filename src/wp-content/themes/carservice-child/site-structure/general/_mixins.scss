@@ -145,3 +145,9 @@ flexbox
     @content;
   }
 }
+
+@mixin only-mobile {
+  @media (max-width: 576px) {
+    @content;
+  }
+}

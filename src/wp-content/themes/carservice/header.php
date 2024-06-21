@@ -57,67 +57,76 @@ $layout_style_class = (isset($_COOKIE['cs_layout']) && $_COOKIE['cs_layout'] == 
 		<div class="header-container<?php echo !empty($menu_type) ? esc_attr($menu_type) : ''; ?>">
 			<div class="vertical-align-table">
 				<div class="header clearfix">
-					<div class="logo vertical-align-cell">
-						<h1><a href="<?php echo esc_url(get_home_url()); ?>" title="<?php echo esc_attr(get_bloginfo("name")); ?>">
-								<?php if ($theme_options["logo_url"] != "") : ?>
-									<img src="<?php echo esc_url($theme_options["logo_url"]); ?>" alt="logo">
-								<?php endif; ?>
-								<?php if ($theme_options["logo_text"] != "") : ?>
-									<?php echo $theme_options["logo_text"]; ?>
-								<?php
-								endif;
-								?>
-							</a></h1>
-					</div>
-					<?php
-					//Get menu object
-					$locations = get_nav_menu_locations();
-					if (isset($locations["main-menu"])) {
-						$main_menu_object = get_term($locations["main-menu"], "nav_menu");
-						if (has_nav_menu("main-menu") && $main_menu_object->count > 0) {
-					?>
-							<a href="#" class="mobile-menu-switch vertical-align-cell">
-								<span class="line"></span>
-								<span class="line"></span>
-								<span class="line"></span>
-							</a>
-							<div class="header-middle-bar-container">
-								<?php
-								$sidebar_search = get_post($theme_options["header_top_right_sidebar"]);
-								if (isset($sidebar_search) && !(int)get_post_meta($sidebar_search->ID, "hidden", true) && is_active_sidebar($sidebar_search->post_name)) :
-								?>
-									<div class="search-container">
-										<?php
-										dynamic_sidebar($sidebar_search->post_name);
-										?>
-									</div>
+					<div class="wrapper-header-logo">
+						<!-- Logo -->
+						<div class="logo vertical-align-cell">
+							<h1><a href="<?php echo esc_url(get_home_url()); ?>" title="<?php echo esc_attr(get_bloginfo("name")); ?>">
+									<?php if ($theme_options["logo_url"] != "") : ?>
+										<img src="<?php echo esc_url($theme_options["logo_url"]); ?>" alt="logo">
+									<?php endif; ?>
+									<?php if ($theme_options["logo_text"] != "") : ?>
+										<?php echo $theme_options["logo_text"]; ?>
+									<?php
+									endif;
+									?>
+								</a></h1>
+						</div>
+						<!-- Menu -->
 
-								<?php endif; ?>
-							</div>
-							<div class="menu-container clearfix vertical-align-cell">
+						<?php
+						//Get menu object
+						$locations = get_nav_menu_locations();
+						if (isset($locations["main-menu"])) : ?>
+							<?php
+							$main_menu_object = get_term($locations["main-menu"], "nav_menu");
+							if (has_nav_menu("main-menu") && $main_menu_object->count > 0) : ?>
+								<a href="#" class="mobile-menu-switch vertical-align-cell">
+									<span class="line"></span>
+									<span class="line"></span>
+									<span class="line"></span>
+								</a>
+								<div class="menu-container clearfix vertical-align-cell">
+									<?php
+									wp_nav_menu(array(
+										"container" => "nav",
+										"theme_location" => "main-menu",
+										"menu_class" => "sf-menu"
+									));
+									?>
+								</div>
+								<div class="mobile-menu-container">
+									<div class="mobile-menu-divider"></div>
+									<?php
+									wp_nav_menu(array(
+										"container" => "nav",
+										"theme_location" => "main-menu",
+										"menu_class" => "mobile-menu" . (!isset($theme_options["collapsible_mobile_submenus"]) || (int)$theme_options["collapsible_mobile_submenus"] ? " collapsible-mobile-submenus" : ""),
+										"walker" => (!isset($theme_options["collapsible_mobile_submenus"]) || (int)$theme_options["collapsible_mobile_submenus"] ? new Mobile_Menu_Walker_Nav_Menu() : '')
+									));
+									?>
+								</div>
+
+						<?php
+							endif;
+						endif;
+						?>
+					</div>
+
+					<!-- Search bar  -->
+
+					<div class="header-middle-bar-container">
+						<?php
+						$sidebar_search = get_post($theme_options["header_top_right_sidebar"]);
+						if (isset($sidebar_search) && !(int)get_post_meta($sidebar_search->ID, "hidden", true) && is_active_sidebar($sidebar_search->post_name)) :
+						?>
+							<div class="search-container">
 								<?php
-								wp_nav_menu(array(
-									"container" => "nav",
-									"theme_location" => "main-menu",
-									"menu_class" => "sf-menu"
-								));
+								dynamic_sidebar($sidebar_search->post_name);
 								?>
 							</div>
-							<div class="mobile-menu-container">
-								<div class="mobile-menu-divider"></div>
-								<?php
-								wp_nav_menu(array(
-									"container" => "nav",
-									"theme_location" => "main-menu",
-									"menu_class" => "mobile-menu" . (!isset($theme_options["collapsible_mobile_submenus"]) || (int)$theme_options["collapsible_mobile_submenus"] ? " collapsible-mobile-submenus" : ""),
-									"walker" => (!isset($theme_options["collapsible_mobile_submenus"]) || (int)$theme_options["collapsible_mobile_submenus"] ? new Mobile_Menu_Walker_Nav_Menu() : '')
-								));
-								?>
-							</div>
-					<?php
-						}
-					}
-					?>
+
+						<?php endif; ?>
+					</div>
 				</div>
 			</div>
 		</div>
