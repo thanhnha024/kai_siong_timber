@@ -1,10 +1,10 @@
 === WooCommerce ===
-Contributors: automattic, mikejolley, jameskoster, claudiosanches, rodrigosprimo, peterfabian1000, vedjain, jamosova, obliviousharmony, konamiman, sadowski, wpmuguru, royho, barryhughes-1
+Contributors: automattic, woocommerce, mikejolley, jameskoster, claudiosanches, rodrigosprimo, peterfabian1000, vedjain, jamosova, obliviousharmony, konamiman, sadowski, wpmuguru, royho, barryhughes-1, claudiulodro, tiagonoronha, ryelle, levinmedia, aljullu, nerrad, joshuawold, assassinateur, haszari, mppfeiffer, nielslange, opr18, ralucastn, tjcafferkey, danielwrobert, patriciahillebrandt, albarin, dinhtungdu, imanish003, karolmanijak, sunyatasattva, alexandrelara, gigitux, danieldudzic, samueljseay, alexflorisca, opr18, tarunvijwani, pauloarromba, saadtarhi, bor0, kloon, coreymckrill, jorgeatorres, leifsinger
 Tags: online store, ecommerce, shop, shopping cart, sell online, storefront, checkout, payments, woo, woo commerce, e-commerce, store
 Requires at least: 6.3
 Tested up to: 6.4
 Requires PHP: 7.4
-Stable tag: 8.3.1
+Stable tag: 8.6.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -12,7 +12,7 @@ Everything you need to launch an online store in days and keep it growing for ye
 
 == Description ==
 
-WooCommerce is [the world’s most popular](https://trends.builtwith.com/shop) open-source eCommerce solution. 
+[WooCommerce](https://woo.com/woocommerce/) is the open-source ecommerce platform for WordPress.
 
 Our core platform is free, flexible, and amplified by a global community. The freedom of open-source means you retain full ownership of your store’s content and data forever.
 
@@ -24,13 +24,7 @@ Whether you’re launching a business, taking brick-and-mortar retail online, or
 - Showcase physical and digital goods, product variations, custom configurations, instant downloads, and affiliate items.
 - Sell [subscriptions](https://woo.com/products/woocommerce-subscriptions/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing), [bookings](https://woo.com/products/woocommerce-bookings/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing), or [memberships](https://woo.com/products/woocommerce-memberships/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing), with our developer-vetted extensions.
 - **Rise to the top of search results** by leveraging [WordPress’ SEO advantage](https://www.searchenginejournal.com/wordpress-best-cms-seo/).
-- **Build on a platform that scales.** Get flexible eCommerce for [high-volume stores](https://woo.com/high-volume-stores/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing). 
-
-= THE EASIEST WAY TO TRY WOOCOMMERCE =
-
-Thinking of trying WooCommerce? Woo Express is a simple, all-in-one package that includes fully managed hosting from WordPress.com, popular extensions, and world-class support from Woo — all for one monthly price.
-
-[Try Woo Express free for 14 days](https://woo.com/express/?utm_source=wordpress.org&utm_medium=referral&utm_campaign=wp_org_repo_listing), then get your first 3 months for just $1. 
+- **Build on a platform that scales.** Get flexible ecommerce for [high-volume stores](https://woo.com/high-volume-stores/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing).
 
 = ALL THE TOOLS YOU NEED TO SELL =
 
@@ -52,15 +46,15 @@ Manage your store from anywhere with the free WooCommerce [mobile app](https://w
 
 = Own and control your store data – forever =
 
-With WooCommerce, your data belongs to you. Always.
+With [WooCommerce](https://woo.com/woocommerce/), your data belongs to you. Always.
 
-If you opt to share [usage data](https://woo.com/usage-tracking/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) with us, you can feel confident knowing that it’s anonymized and kept secure. Choose to opt-out at any time without impacting your store. 
+If you opt to share [usage data](https://woo.com/usage-tracking/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) with us, you can feel confident knowing that it’s anonymized and kept secure. Choose to opt-out at any time without impacting your store.
 
-Unlike hosted eCommerce solutions, WooCommerce store data is future-proof; you’re free to export all your content and take your site to any platform you choose. No restrictions.
+Unlike hosted ecommerce solutions, WooCommerce store data is future-proof; you’re free to export all your content and take your site to any platform you choose. No restrictions.
 
 = Why developers choose (and love) WooCommerce =
 
-Developers can use WooCommerce to create, customize, and scale a store to meet a client’s exact specifications, making enhancements through extensions or custom solutions. 
+Developers can use [WooCommerce](https://woo.com/woocommerce/) to create, customize, and scale a store to meet a client’s exact specifications, making enhancements through extensions or custom solutions.
 
 - Leverage [hooks and filters](https://woo.com/document/introduction-to-hooks-actions-and-filters/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) to modify or create functionality.
 - Integrate virtually any service using a robust [REST API](https://woo.com/document/woocommerce-rest-api/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing) and webhooks.
@@ -114,7 +108,7 @@ We have a detailed guide on [How To Update WooCommerce](https://woo.com/document
 
 = My site broke – what do I do? =
 
-Start by diagnosing the issue using our helpful [troubleshooting guide](https://woo.com/documentation/get-help/troubleshooting-get-help/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing). 
+Start by diagnosing the issue using our helpful [troubleshooting guide](https://woo.com/documentation/get-help/troubleshooting-get-help/?utm_medium=referral&utm_source=wordpress.org&utm_campaign=wp_org_repo_listing).
 
 If you noticed the error after updating a theme or plugin, there might be compatibility issues between it and WooCommerce. If the issue appeared after updating WooCommerce, there could be a conflict between WooCommerce and an outdated theme or plugin.
 
@@ -152,7 +146,7 @@ Visit the [WooCommerce server requirements documentation](https://woo.com/docume
 = Automatic installation =
 
 Automatic installation is the easiest option -- WordPress will handle the file transfer, and you won’t need to leave your web browser. To do an automatic install of WooCommerce, log in to your WordPress dashboard, navigate to the Plugins menu, and click “Add New.”
- 
+
 In the search field type “WooCommerce,” then click “Search Plugins.” Once you’ve found us,  you can view details about it such as the point release, rating, and description. Most importantly of course, you can install it by! Click “Install Now,” and WordPress will take it from there.
 
 = Manual installation =
@@ -171,152 +165,198 @@ WooCommerce comes with some sample data you can use to see how products look; im
 
 == Changelog ==
 
-= 8.4.0 2023-12-12 =
+= 8.7.0 2024-03-18 =
 
 **WooCommerce**
 
-* Fix - Add fullscreen class to body when CYS component is shown [#41056](https://github.com/woocommerce/woocommerce/pull/41056)
-* Fix - Additional improvements to e2e tests to improve reliability [#41345](https://github.com/woocommerce/woocommerce/pull/41345)
-* Fix - Address a problem with searches involving underscore characters in the HPOS. [#41516](https://github.com/woocommerce/woocommerce/pull/41516)
-* Fix - Allow null value in cost field for multichannel campaign. [#41180](https://github.com/woocommerce/woocommerce/pull/41180)
-* Fix - A number of fixes for e2e tests [#41315](https://github.com/woocommerce/woocommerce/pull/41315)
-* Fix - Avoid the PHP error with an undefined property on the WooCommerce > Extensions page. [#41125](https://github.com/woocommerce/woocommerce/pull/41125)
-* Fix - Correct return type of ProductFormTemplateInterface::add_group() method. [#41595](https://github.com/woocommerce/woocommerce/pull/41595)
-* Fix - Ensure some wpdb properties exist before accessing them. [#41269](https://github.com/woocommerce/woocommerce/pull/41269)
-* Fix - Fix "Choose Your Theme" task header [#41293](https://github.com/woocommerce/woocommerce/pull/41293)
-* Fix - Fix blank assember hub (CYS) issue on WP 6.3 + latest Gutenberg. [#41052](https://github.com/woocommerce/woocommerce/pull/41052)
-* Fix - Fix call to undefined function on Marketplace page registration. [#41395](https://github.com/woocommerce/woocommerce/pull/41395)
-* Fix - Fix currency breaking lines when 2 or more characters [#41548](https://github.com/woocommerce/woocommerce/pull/41548)
-* Fix - Fix cys ai api hanging and validation error [#41424](https://github.com/woocommerce/woocommerce/pull/41424)
-* Fix - Fix CYS assembler hub UI issues [#41036](https://github.com/woocommerce/woocommerce/pull/41036)
-* Fix - Fix cys frame overlap the sidebar [#41237](https://github.com/woocommerce/woocommerce/pull/41237)
-* Fix - Fix CYS initial pattern population bug [#41233](https://github.com/woocommerce/woocommerce/pull/41233)
-* Fix - Fix cys intro page button styles [#41118](https://github.com/woocommerce/woocommerce/pull/41118)
-* Fix - Fix cys pattern thumbnail size [#41126](https://github.com/woocommerce/woocommerce/pull/41126)
-* Fix - Fix CYS Spotlight Tour caret is not centered vertically [#41154](https://github.com/woocommerce/woocommerce/pull/41154)
-* Fix - Fix cys ui issues [#41209](https://github.com/woocommerce/woocommerce/pull/41209)
-* Fix - Fix default width for logo [#41080](https://github.com/woocommerce/woocommerce/pull/41080)
-* Fix - Fixed warning on wc_get_product_variation_attributes when product does not exist [#32288](https://github.com/woocommerce/woocommerce/pull/32288)
-* Fix - Fixes daily execution workflow for API and e2e tests [#41113](https://github.com/woocommerce/woocommerce/pull/41113)
-* Fix - Fix for PR tests and daily tests [#41203](https://github.com/woocommerce/woocommerce/pull/41203)
-* Fix - Fix intro warning modal copy and button spacing [#41082](https://github.com/woocommerce/woocommerce/pull/41082)
-* Fix - fix legacy order data PHP 8 compatibility issue [#41094](https://github.com/woocommerce/woocommerce/pull/41094)
-* Fix - Fix marketing campaign link not navigating to the right page. [#41182](https://github.com/woocommerce/woocommerce/pull/41182)
-* Fix - Fix navigation disappears after choosing a homepage template [#41262](https://github.com/woocommerce/woocommerce/pull/41262)
-* Fix - Fix pushstate event in CYS not called in iframe [#41079](https://github.com/woocommerce/woocommerce/pull/41079)
-* Fix - Fix save button is still disabled after updating logo settings [#41208](https://github.com/woocommerce/woocommerce/pull/41208)
-* Fix - Fix snackbar notice icon position. [#41399](https://github.com/woocommerce/woocommerce/pull/41399)
-* Fix - Fix the slides overlapping on the Marketing > Coupon page. [#41155](https://github.com/woocommerce/woocommerce/pull/41155)
-* Fix - Fix the “Preview” on the transnational screen doesn’t represent our custom color palette [#41496](https://github.com/woocommerce/woocommerce/pull/41496)
-* Fix - Fix Undefined array key "queryId" error [#41083](https://github.com/woocommerce/woocommerce/pull/41083)
-* Fix - Fix unintended spacing in CYS transition page's iframe [#41162](https://github.com/woocommerce/woocommerce/pull/41162)
-* Fix - Fix `TypeError` in `WC_Discounts->apply_coupons()` when being called a second time. [#41602](https://github.com/woocommerce/woocommerce/pull/41602)
-* Fix - Ignore '_completed_date' in HPOS verification tool. [#41547](https://github.com/woocommerce/woocommerce/pull/41547)
-* Fix - Import variations count fails when importing more than 30 products [#41187](https://github.com/woocommerce/woocommerce/pull/41187)
-* Fix - Improve compatibility of legacy WooCommerce shortcodes with the block editor. [#40648](https://github.com/woocommerce/woocommerce/pull/40648)
-* Fix - Prevent a fatal error that could occur if you submitted the bulk edit form on the Logs list table without selecting any log files first. [#41201](https://github.com/woocommerce/woocommerce/pull/41201)
-* Fix - Prevent PHP warning when order lock is released during page load. [#41278](https://github.com/woocommerce/woocommerce/pull/41278)
-* Fix - Prevent possible notice during plugin activation. [#41434](https://github.com/woocommerce/woocommerce/pull/41434)
-* Fix - Reduce the possibility of errors if the global `$post` object has been set to an unexpected value.
-* Fix - Removed hardcoded colors from the base stylesheet when a block theme is used [#41366](https://github.com/woocommerce/woocommerce/pull/41366)
-* Fix - Remove iframe scrollbar when viewing CYS intro iframe [#41156](https://github.com/woocommerce/woocommerce/pull/41156)
-* Fix - Render customer filter on HPOS orders on hook execution for backwards compat. [#41328](https://github.com/woocommerce/woocommerce/pull/41328)
-* Fix - Restore screen options functionality on HPOS edit screen. [#41047](https://github.com/woocommerce/woocommerce/pull/41047)
-* Fix - Update state definitions for Liechtenstein and Chile [#41068](https://github.com/woocommerce/woocommerce/pull/41068)
-* Fix - Use consistent sanitization when saving tax classes. [#41220](https://github.com/woocommerce/woocommerce/pull/41220)
-* Add - Add a new single file view to the Logs screen for viewing the contents of a log file. [#41114](https://github.com/woocommerce/woocommerce/pull/41114)
-* Add - Add API to allow adding disable conditions [#41307](https://github.com/woocommerce/woocommerce/pull/41307)
-* Add - Add a unit test to ensure that the payment gateway suggestion cache is refreshed when the base country is updated [#41412](https://github.com/woocommerce/woocommerce/pull/41412)
-* Add - Add a view to the Logs screen for browsing log files. [#40662](https://github.com/woocommerce/woocommerce/pull/40662)
-* Add - Add a `store_id` to WC Tracker snapshots and Tracks events. [#40705](https://github.com/woocommerce/woocommerce/pull/40705)
-* Add - Add cys ai survey [#41234](https://github.com/woocommerce/woocommerce/pull/41234)
-* Add - Add digital products to the new A/B test of the product editor. [#41469](https://github.com/woocommerce/woocommerce/pull/41469)
-* Add - Add documentation on block template lifecycle. [#40980](https://github.com/woocommerce/woocommerce/pull/40980)
-* Add - Added envia plugin slug to shipping task [#41539](https://github.com/woocommerce/woocommerce/pull/41539)
-* Add - Add iframe view for CYS intro screen [#41130](https://github.com/woocommerce/woocommerce/pull/41130)
-* Add - Add more track events for cys [#41321](https://github.com/woocommerce/woocommerce/pull/41321)
-* Add - Add slotfill for cys transitiona page secondary button [#41153](https://github.com/woocommerce/woocommerce/pull/41153)
-* Add - Adds new filters to customize the behavior of the cart shipping calculator. [#41146](https://github.com/woocommerce/woocommerce/pull/41146)
-* Add - Add support for external/affiliate products [#41442](https://github.com/woocommerce/woocommerce/pull/41442)
-* Add - Add support to filter variations by many attribute options [#40978](https://github.com/woocommerce/woocommerce/pull/40978)
-* Add - Add the possibility to remove the logo [#41393](https://github.com/woocommerce/woocommerce/pull/41393)
-* Add - Add tracks for cys [#41284](https://github.com/woocommerce/woocommerce/pull/41284)
-* Add - CYS - Add AI disclaimer copy [#41414](https://github.com/woocommerce/woocommerce/pull/41414)
-* Add - Hide track stock quantity toogle when the product type is external [#41520](https://github.com/woocommerce/woocommerce/pull/41520)
-* Add - Includes the store_id added by #40705 to the system_status REST API. [#41341](https://github.com/woocommerce/woocommerce/pull/41341)
-* Add - Introduce a remote inbox rule for Woo Express sites [#40513](https://github.com/woocommerce/woocommerce/pull/40513)
-* Add - Modified business info placeholder text on CYS AI Wizard [#41532](https://github.com/woocommerce/woocommerce/pull/41532)
-* Add - Removed experimental code for email marketing opt in [#41599](https://github.com/woocommerce/woocommerce/pull/41599)
-* Add - Revert adding Envia slug [#41624](https://github.com/woocommerce/woocommerce/pull/41624)
-* Add - Show notice when clicking this back arrow in CYS assembler-hub [#41259](https://github.com/woocommerce/woocommerce/pull/41259)
-* Add - Show virtual and downloadable features in simple product and variations only [#41331](https://github.com/woocommerce/woocommerce/pull/41331)
-* Add - [Product Blocks editor]: add tooltip help to Organization/Product catalog and Attributes [#41644](https://github.com/woocommerce/woocommerce/pull/41644)
-* Update - Add more loaders to cys loading screen [#41148](https://github.com/woocommerce/woocommerce/pull/41148)
-* Update - Add stalebot schedules to allow processing of all issues [#41198](https://github.com/woocommerce/woocommerce/pull/41198)
-* Update - Add to cart button aria-label text should match or use similar text pattern as the visible text [#41389](https://github.com/woocommerce/woocommerce/pull/41389)
-* Update - bump action/stale version, increase operations per run [#41139](https://github.com/woocommerce/woocommerce/pull/41139)
-* Update - Change the max permited generated variations to 99 [#41008](https://github.com/woocommerce/woocommerce/pull/41008)
-* Update - Hide CYS feedback button when survey has already been completed [#41352](https://github.com/woocommerce/woocommerce/pull/41352)
-* Update - Improve block template API logging. [#41316](https://github.com/woocommerce/woocommerce/pull/41316)
-* Update - Reduce the logo preview to a maximum width of 60px [#41122](https://github.com/woocommerce/woocommerce/pull/41122)
-* Update - Remove AI requests from the CYS business description step [#41497](https://github.com/woocommerce/woocommerce/pull/41497)
-* Update - Remove Codisto from the default free extensions for onboarding wizard and task list. [#41499](https://github.com/woocommerce/woocommerce/pull/41499)
-* Update - Remove Creative Mail for WooCommerce from recommended. [#40991](https://github.com/woocommerce/woocommerce/pull/40991)
-* Update - Remove unused banner image in customize store task. [#41244](https://github.com/woocommerce/woocommerce/pull/41244)
-* Update - Rename the reference to the 'Footer with Simple Menu and Cart' pattern [#41181](https://github.com/woocommerce/woocommerce/pull/41181)
-* Update - Replace the **Just Arrived Full Hero** pattern with the **Hero Product Split** in the CYS flow [#41109](https://github.com/woocommerce/woocommerce/pull/41109)
-* Update - revert stalebot to v8 and single run [#41528](https://github.com/woocommerce/woocommerce/pull/41528)
-* Update - The WooCommerce > Extensions section now includes a rebuilt "My Subscriptions" page with improvements to how subscriptions can be managed and installed. [#40249](https://github.com/woocommerce/woocommerce/pull/40249)
-* Update - Throw exception if order data storage change is attempted while there are orders pending sync, and add the wc_allow_changing_orders_storage_while_sync_is_pending filter to bypass this [#39988](https://github.com/woocommerce/woocommerce/pull/39988)
-* Update - Update Action Scheduler to 3.7.0 [#41576](https://github.com/woocommerce/woocommerce/pull/41576)
-* Update - Update copy for CYS [#41235](https://github.com/woocommerce/woocommerce/pull/41235)
-* Update - Update cys color/font choices [#40989](https://github.com/woocommerce/woocommerce/pull/40989)
-* Update - update list of CSV characters to prepend with a tick when occurring at the beginning of a cell [#41464](https://github.com/woocommerce/woocommerce/pull/41464)
-* Update - Update product editor default block order to 10000 [#41100](https://github.com/woocommerce/woocommerce/pull/41100)
-* Update - update references to woocommerce.com to now reference woo.com [#41241](https://github.com/woocommerce/woocommerce/pull/41241)
-* Update - Update Shipping Settings to new experience. [#40983](https://github.com/woocommerce/woocommerce/pull/40983)
-* Update - Updates the OnboardingThemes->get_recommended_themes() method to check the filtered response to see if any of the themes are active. [#40981](https://github.com/woocommerce/woocommerce/pull/40981)
-* Update - Update the CYS Design with AI loading iframes [#41123](https://github.com/woocommerce/woocommerce/pull/41123)
-* Update - update woocommerce.com email addresses to woo.com [#41245](https://github.com/woocommerce/woocommerce/pull/41245)
-* Update - Update WooCommerce Blocks to 11.4.3 [#41134](https://github.com/woocommerce/woocommerce/pull/41134)
-* Update - Update WooCommerce Blocks to 11.5.3 [#41269](https://github.com/woocommerce/woocommerce/pull/41269)
-* Update - Update WooCommerce Blocks to 11.5.4 [#41403](https://github.com/woocommerce/woocommerce/pull/41403)
-* Update - Update WooCommerce Blocks to 11.6.0 [#41641](https://github.com/woocommerce/woocommerce/pull/41641)
-* Update - use latest commit of stalebot action, tweak configuration accordingly [#41305](https://github.com/woocommerce/woocommerce/pull/41305)
-* Dev - Update WooCommerce Core WP.org product page readme. [#41660](https://github.com/woocommerce/woocommerce/pull/41660)
-* Dev - Add one more scenario to cover taxing [#41064](https://github.com/woocommerce/woocommerce/pull/41064)
-* Dev - Adds e2e tests for a number of Analytics screens [#40504](https://github.com/woocommerce/woocommerce/pull/40504)
-* Dev - Adds e2e tests for tax display in store, cart and checkout [#40178](https://github.com/woocommerce/woocommerce/pull/40178)
-* Dev - Adds tests for shopper cart block flows [#40522](https://github.com/woocommerce/woocommerce/pull/40522)
-* Dev - Fixed all violations of no-use-before-define eslint rule [#41452](https://github.com/woocommerce/woocommerce/pull/41452)
-* Dev - Fixed some i18n related lint rule violations. [#41450](https://github.com/woocommerce/woocommerce/pull/41450)
-* Dev - Update plugin name in testing workflows to "Woo Subscriptions". [#40460](https://github.com/woocommerce/woocommerce/pull/40460)
-* Dev - Update to allow the api-core-tests to execute against the daily test site [#41222](https://github.com/woocommerce/woocommerce/pull/41222)
-* Dev - Update variations message to include missing downloads section #41581 [#41581](https://github.com/woocommerce/woocommerce/pull/41581)
-* Dev - Use iframe to improve assembler hub loading time perception [#40936](https://github.com/woocommerce/woocommerce/pull/40936)
-* Tweak - Add flags to control visibility of  Header, StoreAlerts, Notices, and PluginArea components at the page configuration level. [#41014](https://github.com/woocommerce/woocommerce/pull/41014)
-* Tweak - CYS - Hide theme and default palettes on the assember hub page. [#41103](https://github.com/woocommerce/woocommerce/pull/41103)
-* Tweak - Fix intro page banner style [#41458](https://github.com/woocommerce/woocommerce/pull/41458)
-* Tweak - Fix typographic quotes mistakenly added to HTML attributes [#41320](https://github.com/woocommerce/woocommerce/pull/41320)
-* Tweak - Move Template implementation classes to internal namespace [#41170](https://github.com/woocommerce/woocommerce/pull/41170)
-* Tweak - Remove disproportionate spacing above and below logo [#41151](https://github.com/woocommerce/woocommerce/pull/41151)
-* Tweak - Rename the Centered Header Menu with Search pattern to Centered Header Menu. [#41252](https://github.com/woocommerce/woocommerce/pull/41252)
-* Tweak - Tweak "Drag to resize" styling when spotlight tour is present [#41150](https://github.com/woocommerce/woocommerce/pull/41150)
-* Tweak - Update / tweak a few more links in docs and comments. [#41598](https://github.com/woocommerce/woocommerce/pull/41598)
-* Tweak - Update pattern assembler thumbnail shadow [#41157](https://github.com/woocommerce/woocommerce/pull/41157)
-* Tweak - Update the CYS task API loader smoother [#41279](https://github.com/woocommerce/woocommerce/pull/41279)
-* Tweak - [Product blocks editor]: Add help text to Shipping toggle [#41590](https://github.com/woocommerce/woocommerce/pull/41590)
-* Performance - Avoid expensive DB orders queries in WP admin pages when evaluating incentives eligibility. [#41466](https://github.com/woocommerce/woocommerce/pull/41466)
-* Performance - Improve CYS assembler hub performance [#41453](https://github.com/woocommerce/woocommerce/pull/41453)
-* Performance - Only generate product editor templates on WCA routes. [#41410](https://github.com/woocommerce/woocommerce/pull/41410)
-* Performance - Preload fonts in preview iframe [#41421](https://github.com/woocommerce/woocommerce/pull/41421)
-* Performance - Reduce cys intro page loading time [#41017](https://github.com/woocommerce/woocommerce/pull/41017)
-* Performance - Remove use SQL_CALC_FOUND_ROWS from the query. SQL_CALC_FOUND_ROWS can cause inconsistent performance depending on the # of rows or DB version. [#40289](https://github.com/woocommerce/woocommerce/pull/40289)
-* Performance - use multiple endpoints to improve performance [#41168](https://github.com/woocommerce/woocommerce/pull/41168)
-* Enhancement - - Enhancement: Style `<mark>` tag on order detail page [#41323](https://github.com/woocommerce/woocommerce/pull/41323)
-* Enhancement - Added a new parameter $status_transition to the woocommerce_order_status_$status_transition["to"] hook. [#41051](https://github.com/woocommerce/woocommerce/pull/41051)
-* Enhancement - Adds filter `woocommerce_order_received_verify_known_shoppers` to allow known shoppers to access the order received page without being logged in. [#41347](https://github.com/woocommerce/woocommerce/pull/41347)
-* Enhancement - Check if $data['billing_email'] is set in the create_order function. [#41098](https://github.com/woocommerce/woocommerce/pull/41098)
+* Fix - Product Editor pages do not pass global settings into Editor. Product Editor is responsible for loading settings itself. [#45490](https://github.com/woocommerce/woocommerce/pull/45490)
+* Fix - Fix issue where no text would be displayed if no shipping methods are available in the cart/checkout [#45249](https://github.com/woocommerce/woocommerce/pull/45249)
+* Fix - Products Stock Indicator and Sale Badge: prevent fatal when block were used in a homepage [#45135](https://github.com/woocommerce/woocommerce/pull/45135)
+* Fix - Fix LegacyProxy::get_instance_of throwing an error when trying to get an instance of a non-Woo namespaced class. [#45178](https://github.com/woocommerce/woocommerce/pull/45178)
+* Fix - "Hero product chessboard" pattern: remove placeholder and update margins. [#44553](https://github.com/woocommerce/woocommerce/pull/44553)
+* Fix - Add checks and filters to the product_page shortcode. [#44666](https://github.com/woocommerce/woocommerce/pull/44666)
+* Fix - Adds a nonce check to the HPOS order sync tool. [#44667](https://github.com/woocommerce/woocommerce/pull/44667)
+* Fix - Avoid duplicate templates appearing on the Site Editor when the WooCommerce template and the theme template have been customized by the user [#44000](https://github.com/woocommerce/woocommerce/pull/44000)
+* Fix - Core - CYS: fix fonts not loaded on the font picker iframes [#44586](https://github.com/woocommerce/woocommerce/pull/44586)
+* Fix - Core - CYS: fix Inter font not applied. [#44544](https://github.com/woocommerce/woocommerce/pull/44544)
+* Fix - Corrects references for WC_API_Server. It was all uppercase. [#37054](https://github.com/woocommerce/woocommerce/pull/37054)
+* Fix - CYS - Core: Ensure that the Bodoni font is loaded [#44464](https://github.com/woocommerce/woocommerce/pull/44464)
+* Fix - CYS - Core: ensure that the the default font pair and color pair are selected. [#44309](https://github.com/woocommerce/woocommerce/pull/44309)
+* Fix - CYS - Core: fix fonts not loaded after the setup [#44550](https://github.com/woocommerce/woocommerce/pull/44550)
+* Fix - CYS - Core: install fonts only when the tracking is enabled [#44558](https://github.com/woocommerce/woocommerce/pull/44558)
+* Fix - CYS - Ensure the size of fonts is not affected by a font family change. [#44424](https://github.com/woocommerce/woocommerce/pull/44424)
+* Fix - CYS - Fix button typhography for the "Montserrat + Arvo" and "Commissioner + Crimson Pro" font pairings. [#44458](https://github.com/woocommerce/woocommerce/pull/44458)
+* Fix - CYS - Update pattern image to have a better resolution [#44611](https://github.com/woocommerce/woocommerce/pull/44611)
+* Fix - Ensure a consistent border style is applied to combobox suggestions and the main input. [#44183](https://github.com/woocommerce/woocommerce/pull/44183)
+* Fix - Ensure all customers have a session when visiting the order pay page. [#43858](https://github.com/woocommerce/woocommerce/pull/43858)
+* Fix - Ensure proper handling of product-related taxonomies in the Product Collection block [#44230](https://github.com/woocommerce/woocommerce/pull/44230)
+* Fix - Ensure that no undefined index warnings are thrown while parsing the backtrace to determine a log's source [#44486](https://github.com/woocommerce/woocommerce/pull/44486)
+* Fix - Ensure WC admin functions are defined before attempting to add notices. [#44114](https://github.com/woocommerce/woocommerce/pull/44114)
+* Fix - Fix - Add back the parent machine to the `designWithNoAiStateMachineDefinition` child machine option. [#44397](https://github.com/woocommerce/woocommerce/pull/44397)
+* Fix - Fix a possible fatal exception setting a duplicate asset registry key `needsRefreshForInteractivityAPI` [#44808](https://github.com/woocommerce/woocommerce/pull/44808)
+* Fix - Fix default shipping method selection after rate changes. [#44117](https://github.com/woocommerce/woocommerce/pull/44117)
+* Fix - Fix deprecation notices for legacy order item keys. [#44362](https://github.com/woocommerce/woocommerce/pull/44362)
+* Fix - Fixed a bug affecting registration during checkout that would prevent a new user from logging in. [#43777](https://github.com/woocommerce/woocommerce/pull/43777)
+* Fix - Fixed a bug where express payment methods could not be removed from the wc/store/payment data store. [#44633](https://github.com/woocommerce/woocommerce/pull/44633)
+* Fix - Fixed coupon errors with coupon codes containing apostrophes. [#40998](https://github.com/woocommerce/woocommerce/pull/40998)
+* Fix - fix fatal string to array conversion error in get_full_size_image_dimensions [#40395](https://github.com/woocommerce/woocommerce/pull/40395)
+* Fix - Fix for the dependency injection container resolution by tag [#44496](https://github.com/woocommerce/woocommerce/pull/44496)
+* Fix - Fix orders being attributed to Web Admin incorrectly in certain cases. [#44219](https://github.com/woocommerce/woocommerce/pull/44219)
+* Fix - Fix overlay sizing issue with the Product Gallery Pop-Up. [#44479](https://github.com/woocommerce/woocommerce/pull/44479)
+* Fix - Fix pre-publish modal styles #44562 [#44562](https://github.com/woocommerce/woocommerce/pull/44562)
+* Fix - Fix refund props not updating properly with HPOS [#44214](https://github.com/woocommerce/woocommerce/pull/44214)
+* Fix - Fix regression (and inconsistency) in the way the session handler references its database table. [#44517](https://github.com/woocommerce/woocommerce/pull/44517)
+* Fix - Fix SVG markup in miniCartIcon [#44042](https://github.com/woocommerce/woocommerce/pull/44042)
+* Fix - Fix the missing AI status when reloading the CYS transitional page. [#44121](https://github.com/woocommerce/woocommerce/pull/44121)
+* Fix - Fix the REST API controllers registration [#44833](https://github.com/woocommerce/woocommerce/pull/44833)
+* Fix - Fix the Site Editor showing the template slug instead of the template title when saving a WooCommerce block template customized by the theme. [#44254](https://github.com/woocommerce/woocommerce/pull/44254)
+* Fix - Fix untranslated "Are you already selling somewhere else?" text in the product task [#44763](https://github.com/woocommerce/woocommerce/pull/44763)
+* Fix - Focus return to the trigger element when closing the Product Gallery Pop-Up [#44414](https://github.com/woocommerce/woocommerce/pull/44414)
+* Fix - HPOS: fix handling order meta containing nonexistent class when sync is on. [#43517](https://github.com/woocommerce/woocommerce/pull/43517)
+* Fix - Prevent script caching by using the WC core version to hash Interactivity API assets instead of old WC Blocks version [#44806](https://github.com/woocommerce/woocommerce/pull/44806)
+* Fix - Prevent `wc_get_chosen_shipping_method_ids` from causing fatal errors if chosen methods are not strings. [#43869](https://github.com/woocommerce/woocommerce/pull/43869)
+* Fix - Product Collection: fix incorrect product data being displayed when Product Collection is placed in Single Product block [#44123](https://github.com/woocommerce/woocommerce/pull/44123)
+* Fix - Product Collection: fix minor UI glitches in editor [#44403](https://github.com/woocommerce/woocommerce/pull/44403)
+* Fix - Product Editor loading state now shows until form is displayed. No more blank flash of white. [#43840](https://github.com/woocommerce/woocommerce/pull/43840)
+* Fix - Product Image block: show the setting to control the imageSizing attribute and add the attribute to the Product Catalog and Product Search Results templates. [#44691](https://github.com/woocommerce/woocommerce/pull/44691)
+* Fix - Remove double reporting from daily runs [#44592](https://github.com/woocommerce/woocommerce/pull/44592)
+* Fix - Remove override of /jetpack/v4/connection/data that was added as a workaround to fix issues with the mobile apps. [#44390](https://github.com/woocommerce/woocommerce/pull/44390)
+* Fix - Remove property type hints in TransientFilesEngine and ReceiptRenderingEngine [#44829](https://github.com/woocommerce/woocommerce/pull/44829)
+* Fix - Removes the ability to test if arbitrary files exist on a server through the product editor's downloadable files UI. [#44665](https://github.com/woocommerce/woocommerce/pull/44665)
+* Fix - Restrict the Number of Thumbnails setting from the Product Gallery block to integer values [#44282](https://github.com/woocommerce/woocommerce/pull/44282)
+* Fix - Translations for the new Product Editor are now loaded. [#44520](https://github.com/woocommerce/woocommerce/pull/44520)
+* Fix - Updates REST API V1 (though it generally should no longer be used) to prevent the emission of various deprecation notices. [#44741](https://github.com/woocommerce/woocommerce/pull/44741)
+* Fix - Update `get_shipping_countries` to return an empty list of countries when shipping is disabled. [#44034](https://github.com/woocommerce/woocommerce/pull/44034)
+* Fix - [CYS - Core]: Before installing the fonts, ensure that the font library is available [#44358](https://github.com/woocommerce/woocommerce/pull/44358)
+* Fix - [CYS- Core] Improve the default palette. [#44722](https://github.com/woocommerce/woocommerce/pull/44722)
+* Fix - [Experimental] Fix a bug where the editor for attribute selector would flicker and re-render constantly. [#44147](https://github.com/woocommerce/woocommerce/pull/44147)
+* Fix - [Experimental] Fix the style of chip for new active filter block. [#44682](https://github.com/woocommerce/woocommerce/pull/44682)
+* Add - Add a filter to allow preventing an expired log file from being deleted [#44380](https://github.com/woocommerce/woocommerce/pull/44380)
+* Add - Add a new remote variant for random distribution of cohort assignment. [#44786](https://github.com/woocommerce/woocommerce/pull/44786)
+* Add - Add details about the logging configuration to the System Status Report [#44106](https://github.com/woocommerce/woocommerce/pull/44106)
+* Add - Added the selected collection name in the product collection block context [#43247](https://github.com/woocommerce/woocommerce/pull/43247)
+* Add - Add focus trapping within the Product Gallery Pop-Up to enhance keyboard navigation and accessibility. [#44439](https://github.com/woocommerce/woocommerce/pull/44439)
+* Add - Add functionality to navigate between Product Gallery image thumbnails with the keyboard. [#44236](https://github.com/woocommerce/woocommerce/pull/44236)
+* Add - Add legacy data cleanup process for HPOS. [#43293](https://github.com/woocommerce/woocommerce/pull/43293)
+* Add - Add new "can receive cancelled order email" test [#43985](https://github.com/woocommerce/woocommerce/pull/43985)
+* Add - Adds logic to display notices of promotions from Woo.com on in-app marketplace pages [#44840](https://github.com/woocommerce/woocommerce/pull/44840)
+* Add - Add structured metadata to grouped products. [#42808](https://github.com/woocommerce/woocommerce/pull/42808)
+* Add - Adds `wp wc hpos backfill` tool to backfill from/to either order datastore. [#44281](https://github.com/woocommerce/woocommerce/pull/44281)
+* Add - Add test to check product reviews. [#44077](https://github.com/woocommerce/woocommerce/pull/44077)
+* Add - Add the "Mobile app" order attribution source. [#44519](https://github.com/woocommerce/woocommerce/pull/44519)
+* Add - Add the receipts rendering engine [#43502](https://github.com/woocommerce/woocommerce/pull/43502)
+* Add - Add `source` event props for `marketing_recommended_extension` track events to differentiate recommendations from woo.com API or default fallback data. [#44714](https://github.com/woocommerce/woocommerce/pull/44714)
+* Add - Always show the variation options and variations section [#44001](https://github.com/woocommerce/woocommerce/pull/44001)
+* Add - Announce Pop-Up Opening with Voiceovers [#44332](https://github.com/woocommerce/woocommerce/pull/44332)
+* Add - CYS - Core - Check the Font Library availability. [#44206](https://github.com/woocommerce/woocommerce/pull/44206)
+* Add - CYS - Core: Add async job to install fonts. [#44473](https://github.com/woocommerce/woocommerce/pull/44473)
+* Add - CYS - Core: add integration with the font library. [#44004](https://github.com/woocommerce/woocommerce/pull/44004)
+* Add - Fix styles for our InterfaceSkeleton actions #44331 [#44331](https://github.com/woocommerce/woocommerce/pull/44331)
+* Add - Hide Downloads section under Toggle for product variations [#44152](https://github.com/woocommerce/woocommerce/pull/44152)
+* Add - Improve Accessibility in Product Collection Navigation [#44599](https://github.com/woocommerce/woocommerce/pull/44599)
+* Add - Introduce WooCommerce Admin Notice component [#44620](https://github.com/woocommerce/woocommerce/pull/44620)
+* Add - Product Collection: Add loading indicator for client-side pagination [#44571](https://github.com/woocommerce/woocommerce/pull/44571)
+* Add - Product Collection: recognise the location of block in Editor and pass it with the request [#43997](https://github.com/woocommerce/woocommerce/pull/43997)
+* Add - Product Collection: Return to top after the page change [#43817](https://github.com/woocommerce/woocommerce/pull/43817)
+* Add - Product Editor: Subsection block #43725 [#43725](https://github.com/woocommerce/woocommerce/pull/43725)
+* Add - Use the new text area block in the summary field [#44104](https://github.com/woocommerce/woocommerce/pull/44104)
+* Add - [Product Block Editor]: use text-area block to handle the variation description field [#44151](https://github.com/woocommerce/woocommerce/pull/44151)
+* Update - Add Moroccan regions to states.php [#41769](https://github.com/woocommerce/woocommerce/pull/41769)
+* Update - Change promotions transient name to correspond with WC_Admin_Marketplace_Promotions::TRANSIENT_NAME. [#44857](https://github.com/woocommerce/woocommerce/pull/44857)
+* Update - Comment: This is behind a feature flag [#44615](https://github.com/woocommerce/woocommerce/pull/44615)
+* Update - Create a dedicated survey and tracking events for the CYS flow on core. [#43862](https://github.com/woocommerce/woocommerce/pull/43862)
+* Update - CYS - Move checking if the current active theme has modifications to the assembler-hub step instead of the intro step [#44647](https://github.com/woocommerce/woocommerce/pull/44647)
+* Update - CYS - Reduce the width of the "Design your own" text box on the Intro screen [#44546](https://github.com/woocommerce/woocommerce/pull/44546)
+* Update - CYS - Update "Start customizing your store" task description on Core [#44584](https://github.com/woocommerce/woocommerce/pull/44584)
+* Update - CYS - Update homepage templates intro patterns [#44616](https://github.com/woocommerce/woocommerce/pull/44616)
+* Update - CYS - Update sidebar links copy on the assembled page. [#44762](https://github.com/woocommerce/woocommerce/pull/44762)
+* Update - CYS - Update the "Change your homepage" description on Core [#44579](https://github.com/woocommerce/woocommerce/pull/44579)
+* Update - CYS - Update the subheading copy of the transitional page [#44603](https://github.com/woocommerce/woocommerce/pull/44603)
+* Update - CYS: Proceed with product creation when their images fail to upload. [#44031](https://github.com/woocommerce/woocommerce/pull/44031)
+* Update - Fix condition in Promotions component so marketplace promotions are properly filtered by page. [#44884](https://github.com/woocommerce/woocommerce/pull/44884)
+* Update - Fix type handling and default value for remote API transformers [#44418](https://github.com/woocommerce/woocommerce/pull/44418)
+* Update - Improved the combobox component validation error message [#44229](https://github.com/woocommerce/woocommerce/pull/44229)
+* Update - Improve remote specifications transient handling and error management [#44384](https://github.com/woocommerce/woocommerce/pull/44384)
+* Update - Introduced `woocommerce_my_account_after_my_address`, `woocommerce_order_details_after_customer_address`, and `woocommerce_edit_account_form_fields` hooks. [#43823](https://github.com/woocommerce/woocommerce/pull/43823)
+* Update - Move rendering of Order Attribution inputs to `woocommerce_checkout_after_customer_details`. Expose a method for custom theming. [#44333](https://github.com/woocommerce/woocommerce/pull/44333)
+* Update - Product Collection: improve flaky E2E test when block was nested in Single Product block [#44404](https://github.com/woocommerce/woocommerce/pull/44404)
+* Update - Remove WooCommerce Blocks entry from the WooCommerce status page [#44412](https://github.com/woocommerce/woocommerce/pull/44412)
+* Update - Simplify the applied coupon data that gets stored as line item meta [#44113](https://github.com/woocommerce/woocommerce/pull/44113)
+* Update - This is behind a feature flag. [#44463](https://github.com/woocommerce/woocommerce/pull/44463)
+* Update - This is behind a feature flag. [#44615](https://github.com/woocommerce/woocommerce/pull/44615)
+* Update - Update "Large Footer" and "Large Footer Dark" Twitter icons to X and update the social URLs. [#44807](https://github.com/woocommerce/woocommerce/pull/44807)
+* Update - Update Action Scheduler to 3.7.2 [#44628](https://github.com/woocommerce/woocommerce/pull/44628)
+* Update - Updated example plugin code in activity-panel-inbox.md to include namespacing. [#44504](https://github.com/woocommerce/woocommerce/pull/44504)
+* Update - Update experiment name for enabling new product editor. [#44731](https://github.com/woocommerce/woocommerce/pull/44731)
+* Update - Update Shipping Method creation call to action button with more clear label [#44788](https://github.com/woocommerce/woocommerce/pull/44788)
+* Update - Updates the bundled JS Cookie library to v3.0.5. [#43686](https://github.com/woocommerce/woocommerce/pull/43686)
+* Update - Update the CYS intro modal copy on Core. [#44081](https://github.com/woocommerce/woocommerce/pull/44081)
+* Update - Update the Product gallery pattern title [#44604](https://github.com/woocommerce/woocommerce/pull/44604)
+* Update - [CYS - Core] Handling errors during the setup for the `NoAI` flow [#43810](https://github.com/woocommerce/woocommerce/pull/43810)
+* Update - [Experimental] Add a flag that will force page refresh when combining interactivity filters with classic template or products (beta) blocks. [#44631](https://github.com/woocommerce/woocommerce/pull/44631)
+* Dev - Add base RemoteSpecsEngine class, add logging for errors in all remote specs [#44775](https://github.com/woocommerce/woocommerce/pull/44775)
+* Dev - Add checks and unit tests to rule processors [#44448](https://github.com/woocommerce/woocommerce/pull/44448)
+* Dev - Add checks and unit tests to Transformers [#44634](https://github.com/woocommerce/woocommerce/pull/44634)
+* Dev - Add e2e tests to edit and delete product reviews. [#44411](https://github.com/woocommerce/woocommerce/pull/44411)
+* Dev - Added e2e test to monitor number of JS includes in certain pages [#44046](https://github.com/woocommerce/woocommerce/pull/44046)
+* Dev - Add error handling and tests for ShippingPartnerSuggestions [#44641](https://github.com/woocommerce/woocommerce/pull/44641)
+* Dev - Add extra checks (description, sale-price, SKU, purchase note, attribute color) to the existing add-virtual-product test [#43783](https://github.com/woocommerce/woocommerce/pull/43783)
+* Dev - Add php unit watcher and update unit test docs [#44681](https://github.com/woocommerce/woocommerce/pull/44681)
+* Dev - Adds e2e tests for the creation of all coupon types (merchant) [#44671](https://github.com/woocommerce/woocommerce/pull/44671)
+* Dev - Adds e2e tests for user account email flows [#44622](https://github.com/woocommerce/woocommerce/pull/44622)
+* Dev - Adds logic to get notices of promotions from Woo.com endpoint, and (if necessary) show a bubble next to the WooCommerce "Extensions" menu item. [#44655](https://github.com/woocommerce/woocommerce/pull/44655)
+* Dev - Add some missing core contributors to the contributors list. [#44740](https://github.com/woocommerce/woocommerce/pull/44740)
+* Dev - Adds tests for the creation of restricted coupons [#44716](https://github.com/woocommerce/woocommerce/pull/44716)
+* Dev - Add `queryContextIncludes` attribute to Product Collection block [#44150](https://github.com/woocommerce/woocommerce/pull/44150)
+* Dev - Apply Rector suggestions for PHP 8.1 [#43230](https://github.com/woocommerce/woocommerce/pull/43230)
+* Dev - Apply Rector suggestions for PHP 8.1 [#43233](https://github.com/woocommerce/woocommerce/pull/43233)
+* Dev - Apply type checks and enhancements for PHP 8.1 [#41253](https://github.com/woocommerce/woocommerce/pull/41253)
+* Dev - Apply type checks and enhancements for PHP 8.1 [#41482](https://github.com/woocommerce/woocommerce/pull/41482)
+* Dev - E2E tests: add explicit timeout for action and navigation [#44891](https://github.com/woocommerce/woocommerce/pull/44891)
+* Dev - E2E tests: add test for creating a downloadable product [#44112](https://github.com/woocommerce/woocommerce/pull/44112)
+* Dev - E2E tests: add tests for managing product images in block editor [#44470](https://github.com/woocommerce/woocommerce/pull/44470)
+* Dev - E2E tests: add tests for product edit using blocks editor [#44272](https://github.com/woocommerce/woocommerce/pull/44272)
+* Dev - E2E tests: add tests for product inventory in product block editor [#44699](https://github.com/woocommerce/woocommerce/pull/44699)
+* Dev - E2E tests: add tests for products bulk edit [#44039](https://github.com/woocommerce/woocommerce/pull/44039)
+* Dev - E2E tests: add tests for up-sells and cross-sells [#44154](https://github.com/woocommerce/woocommerce/pull/44154)
+* Dev - E2E tests: fix a flaky product inventory test [#44897](https://github.com/woocommerce/woocommerce/pull/44897)
+* Dev - E2E tests: update product review tests to work with more reviews [#44644](https://github.com/woocommerce/woocommerce/pull/44644)
+* Dev - Fix a couple of flaky e2e tests [#44208](https://github.com/woocommerce/woocommerce/pull/44208)
+* Dev - Fixed the postinstall command failing on macos [#44853](https://github.com/woocommerce/woocommerce/pull/44853)
+* Dev - Improve return value type checks prior to usage [#43227](https://github.com/woocommerce/woocommerce/pull/43227)
+* Dev - Improve the existing E2E test shopper simple product to test description and images [#44365](https://github.com/woocommerce/woocommerce/pull/44365)
+* Dev - Misc e2e test fixes [#44325](https://github.com/woocommerce/woocommerce/pull/44325)
+* Dev - Move the test out of isolation (tax folder) and update it to reflect cart flow [#44115](https://github.com/woocommerce/woocommerce/pull/44115)
+* Dev - Product Collection: minor E2E test optimisation [#44407](https://github.com/woocommerce/woocommerce/pull/44407)
+* Dev - Product Filters: update E2E tests after adding Beta label [#44564](https://github.com/woocommerce/woocommerce/pull/44564)
+* Dev - Revert a workaround updating the mariadb image tag in wp-env [#44881](https://github.com/woocommerce/woocommerce/pull/44881)
+* Dev - Shard Blocks Playwright test execution [#44440](https://github.com/woocommerce/woocommerce/pull/44440)
+* Dev - Stabilize a flaky E2E Add to Cart Form test [#44639](https://github.com/woocommerce/woocommerce/pull/44639)
+* Dev - Stabilize a flaky Price Filter test by addressing the unstable nature of the filter input. [#44690](https://github.com/woocommerce/woocommerce/pull/44690)
+* Dev - Stabilize the 'Products can be filtered based on "on sale" status' E2E test. [#44796](https://github.com/woocommerce/woocommerce/pull/44796)
+* Dev - This aims to add more checks to confirm that a completed order email is received, as well as its content. [#44186](https://github.com/woocommerce/woocommerce/pull/44186)
+* Dev - Update onboarding task documentation and fix example command [#44026](https://github.com/woocommerce/woocommerce/pull/44026)
+* Dev - Updates the test of a virtual product creation functionality with further characteristics [#43783](https://github.com/woocommerce/woocommerce/pull/43783)
+* Dev - Update the daily test workflow to run e2e tests with sharding [#44330](https://github.com/woocommerce/woocommerce/pull/44330)
+* Dev - Update WooCommerce Blocks Playwright End to End Tests readme [#44468](https://github.com/woocommerce/woocommerce/pull/44468)
+* Dev - Workaround for fixing broken wp-env test environment. Force mariadb image tag. [#44841](https://github.com/woocommerce/woocommerce/pull/44841)
+* Dev - Wrangle MarketingRecommendations as RemoteSpecsEngine [#44828](https://github.com/woocommerce/woocommerce/pull/44828)
+* Dev - [Experimental] Add beta suffix to new filter blocks in prep for release. [#44487](https://github.com/woocommerce/woocommerce/pull/44487)
+* Dev - [Experimental] Fix a bug in new attribute filter where we didn't set the attribute from content panel [#44757](https://github.com/woocommerce/woocommerce/pull/44757)
+* Dev - [Experimental] Unify class naming in new interactivity stock filter block. [#44073](https://github.com/woocommerce/woocommerce/pull/44073)
+* Dev - [Experimental] Utilize WP generated class names to style rating filter block. [#44072](https://github.com/woocommerce/woocommerce/pull/44072)
+* Dev - [Experimental] Utilize WP generated class names when styling new active filters block. [#44069](https://github.com/woocommerce/woocommerce/pull/44069)
+* Dev - [Product editor block]: Rename the Add button to Publish #44461 [#44461](https://github.com/woocommerce/woocommerce/pull/44461)
+* Tweak - Adjust spacing in/between elements on the Cart and Checkout block pages. [#44160](https://github.com/woocommerce/woocommerce/pull/44160)
+* Tweak - Improve tasklist performance and add tasklist id track props [#44442](https://github.com/woocommerce/woocommerce/pull/44442)
+* Tweak - Product Collection: fix flaky E2E test [#44687](https://github.com/woocommerce/woocommerce/pull/44687)
+* Tweak - Setup E2E block theme without opening browser and remove obsolete CLI call. [#44702](https://github.com/woocommerce/woocommerce/pull/44702)
+* Tweak - [Experimental] Filter block: replace custom upgrade panel by Transforms API [#44024](https://github.com/woocommerce/woocommerce/pull/44024)
+* Performance - Avoid duplicating requests to the `/onboarding/themes/recommended` and `/onboarding/tasks` endpoints during the CYS flow. [#44179](https://github.com/woocommerce/woocommerce/pull/44179)
+* Enhancement - CYS - Add title to the "Product Gallery" pattern. [#44556](https://github.com/woocommerce/woocommerce/pull/44556)
+* Enhancement - CYS - Core: catch error when font installation fails. [#44559](https://github.com/woocommerce/woocommerce/pull/44559)
+* Enhancement - Prevent prefilling of the billing address with the shipping address in the Checkout block for the Guest Shopper. [#44347](https://github.com/woocommerce/woocommerce/pull/44347)
+* Enhancement - Product Collection: enable "Sync with query" option by default only for the first Product Catalog instance, disable for 2nd and next ones [#44577](https://github.com/woocommerce/woocommerce/pull/44577)
 
 
 [See changelog for all versions](https://raw.githubusercontent.com/woocommerce/woocommerce/trunk/changelog.txt).

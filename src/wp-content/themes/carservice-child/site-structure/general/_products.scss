@@ -97,3 +97,13 @@
     justify-content: flex-start;
   }
 }
+
+.product-attributes-custom {
+  margin-top: 20px;
+  table tbody th {
+    text-align: left;
+  }
+  table tbody p {
+    padding: 8px !important;
+  }
+}

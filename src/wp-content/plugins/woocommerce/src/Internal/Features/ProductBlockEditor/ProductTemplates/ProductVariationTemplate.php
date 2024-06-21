@@ -7,11 +7,14 @@ namespace Automattic\WooCommerce\Internal\Admin\Features\ProductBlockEditor\Prod
 
 use Automattic\WooCommerce\Admin\Features\Features;
 use Automattic\WooCommerce\Admin\Features\ProductBlockEditor\ProductTemplates\ProductFormTemplateInterface;
+use Automattic\WooCommerce\Internal\Admin\Features\ProductBlockEditor\ProductTemplates\DownloadableProductTrait;
 
 /**
- * Simple Product Template.
+ * Product Variation Template.
  */
 class ProductVariationTemplate extends AbstractProductFormTemplate implements ProductFormTemplateInterface {
+	use DownloadableProductTrait;
+
 	/**
 	 * The context name used to identify the editor.
 	 */
@@ -28,7 +31,7 @@ class ProductVariationTemplate extends AbstractProductFormTemplate implements Pr
 	const SINGLE_VARIATION_NOTICE_DISMISSED_OPTION = 'woocommerce_single_variation_notice_dismissed';
 
 	/**
-	 * SimpleProductTemplate constructor.
+	 * ProductVariationTemplate constructor.
 	 */
 	public function __construct() {
 		$this->add_group_blocks();
@@ -133,12 +136,12 @@ class ProductVariationTemplate extends AbstractProductFormTemplate implements Pr
 		$basic_details->add_block(
 			array(
 				'id'         => 'product-variation-note',
-				'blockName'  => 'woocommerce/product-summary-field',
+				'blockName'  => 'woocommerce/product-text-area-field',
 				'order'      => 20,
 				'attributes' => array(
 					'property' => 'description',
-					'label'    => __( 'Note <optional />', 'woocommerce' ),
-					'helpText' => 'Enter an optional note displayed on the product page when customers select this variation.',
+					'label'    => __( 'Note', 'woocommerce' ),
+					'help'     => 'Enter an optional note displayed on the product page when customers select this variation.',
 				),
 			)
 		);
@@ -185,24 +188,7 @@ class ProductVariationTemplate extends AbstractProductFormTemplate implements Pr
 		);
 
 		// Downloads section.
-		if ( Features::is_enabled( 'product-virtual-downloadable' ) ) {
-			$general_group->add_section(
-				array(
-					'id'         => 'product-variation-downloads-section',
-					'order'      => 40,
-					'attributes' => array(
-						'title'       => __( 'Downloads', 'woocommerce' ),
-						'description' => __( "Add any files you'd like to make available for the customer to download after purchasing, such as instructions or warranty info.", 'woocommerce' ),
-					),
-				)
-			)->add_block(
-				array(
-					'id'        => 'product-variation-downloads',
-					'blockName' => 'woocommerce/product-downloads-field',
-					'order'     => 10,
-				)
-			);
-		}
+		$this->add_downloadable_product_blocks( $general_group );
 	}
 
 	/**
@@ -369,7 +355,7 @@ class ProductVariationTemplate extends AbstractProductFormTemplate implements Pr
 				),
 			)
 		);
-		$product_inventory_inner_section = $product_inventory_section->add_section(
+		$product_inventory_inner_section = $product_inventory_section->add_subsection(
 			array(
 				'id'    => 'product-variation-inventory-inner-section',
 				'order' => 10,
@@ -400,43 +386,24 @@ class ProductVariationTemplate extends AbstractProductFormTemplate implements Pr
 				),
 			)
 		);
-		$product_inventory_quantity_conditional = $product_inventory_inner_section->add_block(
+		$product_inventory_inner_section->add_block(
 			array(
-				'id'         => 'product-variation-inventory-quantity-conditional-wrapper',
-				'blockName'  => 'woocommerce/conditional',
-				'order'      => 30,
-				'attributes' => array(
-					'mustMatch' => array(
-						'manage_stock' => array( true ),
+				'id'             => 'product-variation-inventory-quantity',
+				'blockName'      => 'woocommerce/product-inventory-quantity-field',
+				'order'          => 10,
+				'hideConditions' => array(
+					array(
+						'expression' => 'editedProduct.manage_stock === false',
 					),
 				),
 			)
 		);
-		$product_inventory_quantity_conditional->add_block(
+		$product_inventory_section->add_block(
 			array(
-				'id'        => 'product-variation-inventory-quantity',
-				'blockName' => 'woocommerce/product-inventory-quantity-field',
-				'order'     => 10,
-			)
-		);
-		$product_stock_status_conditional = $product_inventory_section->add_block(
-			array(
-				'id'         => 'product-variation-stock-status-conditional-wrapper',
-				'blockName'  => 'woocommerce/conditional',
-				'order'      => 20,
-				'attributes' => array(
-					'mustMatch' => array(
-						'manage_stock' => array( false ),
-					),
-				),
-			)
-		);
-		$product_stock_status_conditional->add_block(
-			array(
-				'id'         => 'product-variation-stock-status',
-				'blockName'  => 'woocommerce/product-radio-field',
-				'order'      => 10,
-				'attributes' => array(
+				'id'             => 'product-variation-stock-status',
+				'blockName'      => 'woocommerce/product-radio-field',
+				'order'          => 10,
+				'attributes'     => array(
 					'title'    => __( 'Stock status', 'woocommerce' ),
 					'property' => 'stock_status',
 					'options'  => array(
@@ -452,6 +419,11 @@ class ProductVariationTemplate extends AbstractProductFormTemplate implements Pr
 							'label' => __( 'On backorder', 'woocommerce' ),
 							'value' => 'onbackorder',
 						),
+					),
+				),
+				'hideConditions' => array(
+					array(
+						'expression' => 'editedProduct.manage_stock === true',
 					),
 				),
 			)
