@@ -1,6 +1,7 @@
 @import "mixins";
 @import "header";
 @import "products";
+@import "enquiry";
 
 // Cart
 
@@ -38,19 +39,6 @@
   .breadcrumb-curent {
     color: #f4bc16 !important;
   }
-}
-.woocommerce-loop-product__title {
-  display: block;
-  display: -webkit-box;
-  max-width: 100%;
-  height: 70px;
-  margin: 0 auto;
-  font-size: 14px;
-  line-height: 1;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 .yith-wcwl-add-button {
   > a {

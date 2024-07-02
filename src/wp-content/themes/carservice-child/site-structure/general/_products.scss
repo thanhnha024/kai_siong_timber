@@ -107,3 +107,30 @@
     padding: 8px !important;
   }
 }
+
+.wrapper-link-voucher {
+  margin-top: -300px;
+}
+.wrapper-link-voucher a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 115px;
+}
+@media (min-width: 768px) {
+  .wrapper-link-voucher {
+    margin-top: -270px;
+  }
+  .wrapper-link-voucher a {
+    padding: 150px;
+  }
+}
+
+@media (min-width: 998px) {
+  .wrapper-link-voucher {
+    margin-top: -150px;
+  }
+  .wrapper-link-voucher a {
+    padding: 70px;
+  }
+}
