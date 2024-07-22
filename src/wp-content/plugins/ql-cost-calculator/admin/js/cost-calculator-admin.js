@@ -277,7 +277,7 @@ function costCalculatorChangeSkin(event)
 	}
 	else if(jQuery(this).val()=="renovate")
 	{
-		jQuery("#main_color").val("F4BC16").keyup().prev().css("background-color", "#" + jQuery("#main_color").val());
+		jQuery("#main_color").val("D5EBD4").keyup().prev().css("background-color", "#" + jQuery("#main_color").val());
 		jQuery("#box_color").val("F5F5F5").keyup().prev().css("background-color", "#" + jQuery("#box_color").val());
 		jQuery("#text_color").val("444444").keyup().prev().css("background-color", "#" + jQuery("#text_color").val());
 		jQuery("#border_color").val("E2E6E7").keyup().prev().css("background-color", "#" + jQuery("#border_color").val());

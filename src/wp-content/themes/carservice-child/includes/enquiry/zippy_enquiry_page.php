@@ -1,7 +1,8 @@
 <?php
 function display_enquiry_cart_page()
 {
-    if (isset(WC()->session)) {
+   if (!is_admin()){ 
+	if (isset(WC()->session)) {
         if (!is_admin() && !WC()->session->has_session()) {
             WC()->session->set_customer_session_cookie(true);
         }
@@ -25,7 +26,8 @@ function display_enquiry_cart_page()
     $enquiry_cart = $merged_cart;
 
     if (empty($enquiry_cart)) {
-        return 'Your enquiry cart is empty.';
+        echo '<div class="row" style="margin-top: 50px">Your enquiry cart is empty.</div>';
+		return;
     }
 
     ob_start();
@@ -180,6 +182,7 @@ function display_enquiry_cart_page()
     }
 
     return ob_get_clean();
+   }
 }
 
 function remove_enquiry_item()

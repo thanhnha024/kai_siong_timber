@@ -224,7 +224,7 @@ function cs_theme_after_setup_theme()
 		array(
 			'name' => __("carservice blue", 'carservice'),
 			'slug' => 'carservice-blue',
-			'color' => '#F4BC16',
+			'color' => '#6b9e69',
 		),
 		array(
 			'name' => __("carservice turquoise", 'carservice' ),
