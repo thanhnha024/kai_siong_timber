@@ -9,3 +9,4 @@ function shin_scripts()
   // Load JS
   wp_enqueue_script('main-scripts-js', THEME_URL . '-child' . '/assets/main/main.js', array('jquery'), $version, true);
 }
+

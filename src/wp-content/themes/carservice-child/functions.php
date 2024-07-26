@@ -28,9 +28,9 @@ foreach (glob(THEME_DIR . '-child' . "/includes/*.php") as $file_name) {
 }
 
 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+// ini_set('display_errors', 1);
+// ini_set('display_startup_errors', 1);
+// error_reporting(E_ALL);
 
 
 
@@ -230,3 +230,131 @@ function get_hansel_and_gretel_breadcrumbs()
 
     return $breadcrumb_output_link;
 }
+function convert_to_webp($upload)
+{
+    $image_path = $upload['file'];
+    // % compression (0-100)
+    $compression_quality = 80;
+    $supported_mime_types = array(
+        'image/jpeg' => 'jpg',
+        'image/png' => 'png',
+    );
+    $image_info = getimagesize($image_path);
+    if ($image_info !== false && array_key_exists($image_info['mime'], $supported_mime_types)) {
+        $image = imagecreatefromstring(file_get_contents($image_path));
+        if ($image) {
+            if (imageistruecolor($image)) {
+                $webp_path = preg_replace('/\.(jpg|jpeg|png)$/','.webp', $image_path);
+                imagewebp($image, $webp_path, $compression_quality);
+                $upload['file'] = $webp_path;
+                $upload['type'] = 'image/webp';
+                // Delete corner image
+                unlink($image_path);
+            } else {
+                // If is image 8-bit, doing uncompress
+                $upload['file'] = $image_path;
+                $upload['type'] = $image_info['mime'];
+            }
+        }
+    }
+    return $upload;
+}
+function convert_to_webp_upload($upload)
+{
+    $upload = convert_to_webp($upload);
+    return $upload;
+}
+add_filter('wp_handle_upload', 'convert_to_webp_upload');
+
+// Hook into the image upload action
+add_action('add_attachment', 'save_uploaded_image_names_and_urls_to_file');
+
+function save_uploaded_image_names_and_urls_to_file($attachment_id) {
+    if (wp_attachment_is_image($attachment_id)) {
+        $image_name = get_the_title($attachment_id);
+        $image_url = wp_get_attachment_url($attachment_id);
+        
+        $file_path = WP_CONTENT_DIR . '/uploads/uploaded_image_urls.txt';
+        
+        if (!file_exists($file_path)) {
+            touch($file_path);
+        }
+        
+        $entry = $image_name . ' : ' . $image_url . PHP_EOL;
+        file_put_contents($file_path, $entry, FILE_APPEND | LOCK_EX);
+    }
+}
+
+add_action('delete_attachment', 'remove_deleted_image_from_file');
+
+function remove_deleted_image_from_file($attachment_id) {
+
+    if (wp_attachment_is_image($attachment_id)) {
+   
+        $image_url = wp_get_attachment_url($attachment_id);
+        $file_path = WP_CONTENT_DIR . '/uploads/uploaded_image_urls.txt';
+        
+        $file_contents = file($file_path, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+        
+        $updated_contents = array_filter($file_contents, function($line) use ($image_url) {
+            return strpos($line, $image_url) === false;
+        });
+        
+        file_put_contents($file_path, implode(PHP_EOL, $updated_contents) . PHP_EOL);
+        
+        if (empty($updated_contents)) {
+            unlink($file_path);
+        }
+    }
+}
+
+// Create an endpoint to download the file and display the list
+add_action('admin_menu', function() {
+    add_menu_page('Uploaded Images', 'Uploaded Images', 'manage_options', 'uploaded-images', function() {
+        $file_path = WP_CONTENT_DIR . '/uploads/uploaded_image_urls.txt';
+        $file_url = content_url('uploads/uploaded_image_urls.txt');
+        
+        // Handle delete request
+        if (isset($_GET['delete_line'])) {
+            $line_to_delete = $_GET['delete_line'];
+            $file_contents = file($file_path, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+            $line = $file_contents[$line_to_delete];
+
+            preg_match('/ : (.*)$/', $line, $matches);
+            $image_url = $matches[1];
+
+            $attachment_id = attachment_url_to_postid($image_url);
+            if ($attachment_id) {
+                wp_delete_attachment($attachment_id, true);
+            }
+
+            // Update the file
+            unset($file_contents[$line_to_delete]);
+            file_put_contents($file_path, implode(PHP_EOL, $file_contents) . PHP_EOL);
+            
+            if (empty($file_contents)) {
+                unlink($file_path);
+            }
+
+            echo '<div class="updated"><p>Deleted successfully.</p></div>';
+        }
+
+        // Handle reset request
+        if (isset($_GET['reset_list'])) {
+            file_put_contents($file_path, '');
+            echo '<div class="updated"><p>List reset successfully.</p></div>';
+        }
+
+        $file_contents = file_exists($file_path) ? file($file_path, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES) : [];
+
+        echo '<h1>Uploaded Images</h1>';
+        echo '<a href="' . esc_url($file_url) . '" download>Download URL List</a> | ';
+        echo '<a href="?page=uploaded-images&reset_list=1" onclick="return confirm(\'Are you sure you want to reset the list?\');">Reset List</a>';
+        echo '<ul>';
+        foreach ($file_contents as $index => $line) {
+            echo '<li>' . esc_html($line) . ' <a href="?page=uploaded-images&delete_line=' . $index . '" onclick="return confirm(\'Are you sure you want to delete this item?\');">Delete</a></li>';
+        }
+        echo '</ul>';
+    });
+});
+

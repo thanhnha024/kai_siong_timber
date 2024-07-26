@@ -11,8 +11,8 @@
   }
   .current {
     color: #fff;
-    background: #f4bc16;
-    border-color: #f4bc16;
+    background: #6b9e69;
+    border-color: #6b9e69;
   }
 }
 
@@ -40,7 +40,7 @@
   padding: 0 5px;
 }
 .bread-crumb-container .breadcrumb a {
-  color: #f4bc16;
+  color: #6b9e69;
   padding: 0 5px;
 }
 .bread-crumb-container .breadcrumb .current {
@@ -95,5 +95,42 @@
   }
   .bread-crumb-container {
     justify-content: flex-start;
+  }
+}
+
+.product-attributes-custom {
+  margin-top: 20px;
+  table tbody th {
+    text-align: left;
+  }
+  table tbody p {
+    padding: 8px !important;
+  }
+}
+
+.wrapper-link-voucher {
+  margin-top: -300px;
+}
+.wrapper-link-voucher a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 115px;
+}
+@media (min-width: 768px) {
+  .wrapper-link-voucher {
+    margin-top: -270px;
+  }
+  .wrapper-link-voucher a {
+    padding: 150px;
+  }
+}
+
+@media (min-width: 998px) {
+  .wrapper-link-voucher {
+    margin-top: -150px;
+  }
+  .wrapper-link-voucher a {
+    padding: 70px;
   }
 }

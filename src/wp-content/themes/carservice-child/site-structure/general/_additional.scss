@@ -1,0 +1,170 @@
+html {
+  scroll-behavior: smooth;
+}
+.summary.entry-summary h1 {
+  display: none !important;
+}
+.summary.entry-summary h1:first-child {
+  display: block !important;
+}
+#ProductVariationTable .product-variation-table thead tr th {
+  color: black;
+}
+#ProductVariationTable table td:first-child,
+#ProductVariationTable table th:first-child {
+  text-align: left;
+}
+#ProductVariationTable table td,
+#ProductVariationTable table th {
+  border: 1px solid #e2e6e7 !important;
+}
+#ProductVariationTable h4 {
+  margin-bottom: 20px;
+}
+
+#ProductVariationTable table {
+  margin-bottom: 30px;
+}
+#enquiry-button,
+.add_to_enquiry_custom,
+.enquiry-button {
+  color: black;
+  background-color: #6b9e69;
+  padding: 15px 50px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  cursor: pointer;
+}
+.enquiry-button-custom {
+  display: block;
+  margin-top: 15px;
+}
+.product_meta {
+  margin-top: 15px;
+}
+.add_to_enquiry_custom:hover {
+  color: black;
+  text-decoration: none;
+}
+.variable-item.selected {
+  background-color: #6b9e69 !important;
+}
+#ProductVariationTable .input-text.qty.text {
+  height: 15px !important;
+}
+.price {
+  margin-bottom: 0px !important;
+}
+.variable-items-wrapper.button-variable-items-wrapper.wvs-style-squared {
+  margin-bottom: 0px !important;
+}
+.cart-button-custom {
+  display: flex;
+  align-items: center;
+  background: #6b9e69 !important;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  line-height: 1.8;
+  border-radius: 300px;
+}
+.cart-button-custom:hover {
+  text-decoration: none;
+}
+.product-variation-table thead tr {
+  background: #6b9e69 !important;
+}
+.product-variation-table thead tr th {
+  font-weight: bolder;
+}
+.enquiry-form {
+  padding: 30px;
+  background: #e7f3f7;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+
+.enquiry-form h2 {
+  text-align: center;
+  font-weight: bolder;
+  color: #6b9e69;
+}
+.enquiry-form p {
+  text-align: center;
+}
+.enquiry-form p input,
+.enquiry-form p button {
+  width: 350px;
+  border: none;
+  border-radius: 45px;
+  padding-left: 20px;
+}
+.enquiry-form p textarea {
+  width: 350px;
+  border: none;
+  border-radius: 15px;
+  padding-left: 20px;
+}
+.enquiry-form p button {
+  background: #6b9e69;
+  padding: 15px;
+  font-size: 16px;
+}
+.enquiry-button-nav a {
+  font-size: 13px;
+}
+.woocommerce.enquiry-table {
+  margin-top: 50px;
+}
+.my-enquiry-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: center;
+}
+.my-enquiry-actions .back-to-shop a {
+  font-size: 20px;
+  color: #6b9e69;
+  text-decoration: underline;
+}
+.update-enquiry-cart-button button {
+  background: #6b9e69;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.enquiry-product-info {
+  margin-left: 0px;
+  margin-top: 5px;
+}
+.product-image img {
+  border: 1px solid #ccc;
+}
+
+@media (max-width: 767px) {
+  .enquiry-form p input,
+  .enquiry-form p button,
+  .enquiry-form p textarea {
+    width: 90%;
+    padding-right: 0px;
+  }
+  .enquiry-form p {
+    width: 100% !important;
+  }
+}
+.feature-item h5 {
+  padding-left: 80px;
+}
+.featured-product .button.product_type_variable,
+.featured-product .button.product_type_simple {
+  display: none !important;
+}
+.featured-product .yith-wcwl-add-button {
+  display: none !important;
+}

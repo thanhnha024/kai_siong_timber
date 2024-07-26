@@ -35,7 +35,7 @@ global $theme_options;
 				<label class="single-label"><?php _e("Main Color (examples)", 'carservice'); ?></label>
 				<ul class="layout-chooser for-main-color clearfix">
 					<li<?php echo ((!isset($_COOKIE['cs_main_color']) && strtoupper($theme_options['main_color'])=='1E69B8') || (isset($_COOKIE['cs_main_color']) && strtoupper($_COOKIE['cs_main_color'])=='1E69B8') || (!isset($_COOKIE['cs_main_color']) && (!isset($theme_options['main_color']) || $theme_options['main_color']=="")) ? ' class="selected"' : '');?>>
-						<a href="#" class="color-preview" style="background-color: #F4BC16;" data-color="1E69B8">	
+						<a href="#" class="color-preview" style="background-color: #6b9e69;" data-color="1E69B8">	
 							<span class="tick"></span>
 						</a>
 					</li>

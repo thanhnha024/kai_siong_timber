@@ -776,7 +776,7 @@ echo (isset($id) ? "#" . $id . " " : ""); ?>.vc_row .wpb_column .cost-calculator
 <?php echo (isset($id) ? "#" . $id . " " : ""); ?>.cost-calculator-box label
 {
 	float: left;
-	border-left: 4px solid #<?php echo($main_color!="" ? $main_color : "F4BC16"); ?>;
+	border-left: 4px solid #<?php echo($main_color!="" ? $main_color : "D5EBD4"); ?>;
 	padding: 14px 0 12px 15px;
 }
 <?php echo (isset($id) ? "#" . $id . " " : ""); ?>.cost-calculator-box label.cost-calculator-switch
@@ -856,7 +856,7 @@ body <?php echo (isset($id) ? "#" . $id . " " : ""); ?>.vc_row .cost-calculator-
 }
 <?php echo (isset($id) ? "#" . $id . " " : ""); ?>.cost-calculator-box input[type="radio"]:checked+.cost-calculator-radio-label::before
 {
-	background: #<?php echo($main_color!="" ? $main_color : "F4BC16"); ?>;
+	background: #<?php echo($main_color!="" ? $main_color : "D5EBD4"); ?>;
 }
 <?php echo (isset($id) ? "#" . $id . " " : ""); ?>.cost-calculator-box input[type="radio"]:checked+.cost-calculator-radio-label .radio-box
 {
@@ -1305,7 +1305,7 @@ if($cost_calculator_is_rtl)
 <?php echo (isset($id) ? "#" . $id . " " : ""); ?>.cost-calculator-box label
 {
 	float: right;
-	border-right: 4px solid #<?php echo($main_color!="" ? $main_color : "F4BC16"); ?>;
+	border-right: 4px solid #<?php echo($main_color!="" ? $main_color : "D5EBD4"); ?>;
 	border-left: none;
 	padding: 14px 15px 12px 0;
 }

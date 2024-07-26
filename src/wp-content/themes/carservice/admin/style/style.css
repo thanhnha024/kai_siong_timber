@@ -536,7 +536,7 @@
 	display: none;
 	width: 16px;
 	height: 16px;
-	background: #F4BC16 url("../../style_selector/images/tick.png") no-repeat center center;
+	background: #6b9e69 url("../../style_selector/images/tick.png") no-repeat center center;
 	border-radius: 50%;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
@@ -732,7 +732,7 @@ div.wp-block-heading h6
 .wp-block-categories a,
 .wp-block-archives a
 {
-	color: #F4BC16;
+	color: #6b9e69;
 	text-decoration: none;
 }
 .wp-block-latest-posts a:hover,

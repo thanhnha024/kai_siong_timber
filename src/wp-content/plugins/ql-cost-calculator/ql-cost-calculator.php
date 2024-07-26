@@ -791,7 +791,7 @@ function cost_calculator_import_dummy()
 	
 	update_option("cost_calculator_advanced_settings_renovate", array(
 		"calculator_skin" => "renovate",
-		"main_color" => "F4BC16",
+		"main_color" => "D5EBD4",
 		"box_color" => "F5F5F5",
 		"text_color" => "444444",
 		"border_color" => "E2E6E7",
