@@ -159,6 +159,58 @@ function wc_category_accordion_styles()
             });
         });
     </script>
+    <style>
+        .accordion-menu .accordion-item {
+            margin: 10px 0;
+        }
+        .accordion-menu .accordion-item .accordion-header {
+            padding: 10px;
+            cursor: pointer;
+            background: #f7f7f7;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid #ddd;
+        }
+        .accordion-menu .accordion-item .accordion-header a {
+            color: #040404;
+        }
+        .accordion-menu .accordion-item .accordion-content {
+            display: none;
+            margin: 10px 5px;
+        }
+       .accordion-menu .accordion-item .accordion-content ul {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 0 15px;
+        }
+        .accordion-menu .accordion-item .accordion-content ul li {
+            padding: 10px;
+			border: 1px solid #ddd;
+			margin: 10px 0;
+        }
+		 .accordion-menu .accordion-item .accordion-content ul li.active a {
+           color: #6b9e69;
+        }
+		 .accordion-menu .accordion-item .accordion-content ul li a {
+            color: #040404;
+        }
+        .accordion-menu .accordion-item .accordion-content ul li a::before {
+            display: none;
+        }
+        .accordion-menu .accordion-item.active .accordion-content {
+            display: block;
+        }
+        .accordion-menu .accordion-item.active .accordion-header a {
+            color: #6b9e69;
+        }
+        .accordion-menu .accordion-item.active .sub-category {
+            margin: 0 20px;
+        }
+        .accordion-menu .accordion-item.active .sub-category.active a {
+            color: #6b9e69;
+        }
+    </style>
 <?php
 }
 add_action('wp_head', 'wc_category_accordion_styles');

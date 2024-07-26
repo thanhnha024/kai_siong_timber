@@ -99,11 +99,10 @@ function add_to_enquiry_cart()
 // Enquiry button shortcode [enquiry_button_cart]
 function enquiry_button_shortcode()
 {
-    if (isset(WC()->session)) {
-        if (!is_admin() && !WC()->session->has_session()) {
-            WC()->session->set_customer_session_cookie(true);
-        }
-    }
+     if (!WC()->session) {
+		WC()->session = new WC_Session_Handler();
+		WC()->session->init();
+  	}
     $enquiry_cart = WC()->session->get('enquiry_cart', array());
     $enquiry_count = 0;
     foreach ($enquiry_cart as $item) {
