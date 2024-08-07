@@ -358,3 +358,56 @@ add_action('admin_menu', function() {
     });
 });
 
+function custom_sidebar() {
+    register_sidebar( array(
+        'name'          => 'Custom Sidebar',
+        'id'            => 'custom_sidebar',
+        'before_widget' => '<div class="widget-content">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2 class="widget-title">',
+        'after_title'   => '</h2>',
+    ));
+}
+add_action( 'widgets_init', 'custom_sidebar' );
+function custom_menu_shortcode() {
+    ob_start();
+
+    // Get menu object
+    $locations = get_nav_menu_locations();
+    if (isset($locations["main-menu"])) :
+        $main_menu_object = get_term($locations["main-menu"], "nav_menu");
+        if (has_nav_menu("main-menu") && $main_menu_object->count > 0) : ?>
+            <a href="#" class="mobile-menu-switch vertical-align-cell">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </a>
+            <div class="menu-container clearfix vertical-align-cell">
+                <?php
+                wp_nav_menu(array(
+                    "container" => "nav",
+                    "theme_location" => "main-menu",
+                    "menu_class" => "sf-menu"
+                ));
+                ?>
+            </div>
+            <div class="mobile-menu-container">
+                <div class="mobile-menu-divider"></div>
+                <?php
+                global $theme_options;
+                wp_nav_menu(array(
+                    "container" => "nav",
+                    "theme_location" => "main-menu",
+                    "menu_class" => "mobile-menu" . (!isset($theme_options["collapsible_mobile_submenus"]) || (int)$theme_options["collapsible_mobile_submenus"] ? " collapsible-mobile-submenus" : ""),
+                    "walker" => (!isset($theme_options["collapsible_mobile_submenus"]) || (int)$theme_options["collapsible_mobile_submenus"] ? new Mobile_Menu_Walker_Nav_Menu() : '')
+                ));
+                ?>
+            </div>
+        <?php
+        endif;
+    endif;
+
+    return ob_get_clean();
+}
+
+add_shortcode('custom_menu', 'custom_menu_shortcode');

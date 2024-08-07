@@ -95,3 +95,28 @@
   text-transform: capitalize;
 }
 
+.w-50 {
+  width: 50% !important;
+}
+.header-middle-bar-container{
+  .sf-menu {
+    li {
+      .sub-menu {
+        padding: 30px;
+        width: 1090px !important;
+        background-color: white;
+        column-count: 4;
+        column-gap: 20px;
+        li{
+          padding: 10px 0;
+          background-color: white;
+          width: 100% !important;
+        }
+        a {
+          border-top: 0 !important;
+          border-left: 0 !important;
+        }
+      }
+    }
+  }
+}
