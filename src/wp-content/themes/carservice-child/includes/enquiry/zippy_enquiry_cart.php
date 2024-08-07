@@ -100,17 +100,10 @@ function product_variation_table_shortcode($atts)
           var variationId = input.getAttribute('data-variation-id');
           var price = input.getAttribute('data-price');
           if (quantity > 0) {
-            if (price > 0) {
-              productsToAdd.cart.push({
+            productsToAdd.enquiry.push({
                 variationId: variationId,
                 quantity: quantity
               });
-            } else {
-              productsToAdd.enquiry.push({
-                variationId: variationId,
-                quantity: quantity
-              });
-            }
           }
         });
 

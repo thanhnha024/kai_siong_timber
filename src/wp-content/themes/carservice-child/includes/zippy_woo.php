@@ -95,19 +95,14 @@ function display_button_enquiry_for_simple_no_price(){
     if ( function_exists('is_product') && is_product() ) {
         global $product;
         if ( $product && $product->is_type('simple') ) {
-            $price = $product->get_price();
-            if ( !empty($price) || $price === '0' ) {
-               return;
-            } else {
-                echo do_shortcode('[product_enquiry_button]');
-				echo "<style>.add_to_enquiry_custom,.enquiry-button-custom{display:block !important}</style>";
-            }
+          echo do_shortcode('[product_enquiry_button]');
         } else {
           return;
         }
     }
 }
-add_action( 'woocommerce_single_product_summary', 'display_button_enquiry_for_simple_no_price', 10 );
+
+add_action( 'woocommerce_after_add_to_cart_form', 'display_button_enquiry_for_simple_no_price', 10 );
 
 add_action('woocommerce_before_shop_loop_item', 'show_stock_status');
 
