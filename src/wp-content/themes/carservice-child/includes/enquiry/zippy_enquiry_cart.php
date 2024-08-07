@@ -18,7 +18,7 @@ function product_variation_table_shortcode($atts)
 
   ob_start();
 ?>
-  <div class="table-responsive" id="ProductVariationTable">
+  <div class="table-responsive" id="ProductVariationTable" style="margin: 30px 0">
 	  <h4>Table Variation</h4>
     <table class="product-variation-table">
       <thead>
@@ -37,7 +37,7 @@ function product_variation_table_shortcode($atts)
           foreach ($variations as $variation_id) {
               $variation_obj = new WC_Product_Variation($variation_id);
               $attributes_price = $variation_obj->get_price();
-              if (empty($attributes_price) && $attributes_price !== '0') {
+              
           ?>
               <tr>
                   <td><?php echo $variation_obj->get_sku(); ?></td>
@@ -56,7 +56,7 @@ function product_variation_table_shortcode($atts)
                   </td>
               </tr>
           <?php
-              }
+              
           }
           ?>
       </tbody>

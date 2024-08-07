@@ -30,7 +30,15 @@ function remove_product_tabs($tabs)
   return $tabs;
 }
 
-add_filter('the_content', 'add_product_attribute_into_description_tab');
+add_filter('woocommerce_product_tabs', 'remove_review_tab', 9999);
+
+function remove_review_tab($tabs)
+{
+  unset($tabs['reviews']);
+  return $tabs;
+}
+
+
 
 function add_product_attribute_into_description_tab($content)
 {
@@ -42,7 +50,6 @@ function add_product_attribute_into_description_tab($content)
     echo $content; ?>
 
     <div class="product-attributes-custom">
-      <h4>TECHNICAL DATA</h4>
       <?php do_action('woocommerce_product_additional_information', $product); ?>
     </div>
 
@@ -84,34 +91,6 @@ function add_to_enquiry_btn(){
 }
 add_action( 'woocommerce_after_add_to_cart_button', 'add_to_enquiry_btn', 30 );
 
-//Check variable product has price?
-function check_variable_product_price() {
-	if ( function_exists('is_product') && is_product()){
-	global $product;
-    $productid = wc_get_product($product);
-
-    if ($productid && $productid->is_type('variable')) {
-        $variations = $productid->get_children();
-
-        foreach ($variations as $variation_id) {
-            $variation = wc_get_product($variation_id);
-
-            if ($variation && (float) $variation->get_price() <= 0) {
-                return 1;
-            }
-        }
-    }
-	return 0;
-	}
-}
-//Display none button enquiry when all attribute has price
-function display_none_enquiry_btn_full_price(){
-	if (check_variable_product_price() == 0) {
-    echo "<style>.add_to_enquiry_custom,.table-responsive,.enquiry-button-custom{display:none!important}</style>";
-	}
-}
-add_action( 'woocommerce_single_product_summary', 'display_none_enquiry_btn_full_price', 10 );
-//Display button enquiry for product type simple but no price
 function display_button_enquiry_for_simple_no_price(){
     if ( function_exists('is_product') && is_product() ) {
         global $product;
@@ -129,3 +108,19 @@ function display_button_enquiry_for_simple_no_price(){
     }
 }
 add_action( 'woocommerce_single_product_summary', 'display_button_enquiry_for_simple_no_price', 10 );
+
+add_action('woocommerce_before_shop_loop_item', 'show_stock_status');
+
+function show_stock_status() {
+    global $product;
+
+    if (!$product instanceof WC_Product) {
+        return;
+    }
+
+    if ($product->is_in_stock()) {
+        echo '<p class="stock-status in-stock">In Stock</p>';
+    } else {
+        echo '<p class="stock-status out-of-stock">Out of Stock</p>';
+    }
+}
